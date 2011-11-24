@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E372ECBC147EB81C008400D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E372ECBB147EB81C008400D3 /* UIKit.framework */; };
+		E372ECBE147EB81C008400D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E372ECBD147EB81C008400D3 /* Foundation.framework */; };
+		E372ECC0147EB81C008400D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E372ECBF147EB81C008400D3 /* CoreGraphics.framework */; };
+		E372ECC2147EB81C008400D3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E372ECC1147EB81C008400D3 /* CoreData.framework */; };
+		E372ECC8147EB81C008400D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E372ECC6147EB81C008400D3 /* InfoPlist.strings */; };
+		E372ECCA147EB81C008400D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E372ECC9147EB81C008400D3 /* main.m */; };
+		E372ECCE147EB81C008400D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E372ECCD147EB81C008400D3 /* AppDelegate.m */; };
+		E372ECD1147EB81C008400D3 /* FPCBReader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E372ECCF147EB81C008400D3 /* FPCBReader.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E372ECB7147EB81C008400D3 /* FPCBReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FPCBReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E372ECBB147EB81C008400D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E372ECBD147EB81C008400D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E372ECBF147EB81C008400D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E372ECC1147EB81C008400D3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E372ECC5147EB81C008400D3 /* FPCBReader-Info.plist */ = {isa = PBXFileReference; path = "FPCBReader-Info.plist"; sourceTree = "<group>"; };
+		E372ECC7147EB81C008400D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E372ECC9147EB81C008400D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E372ECCB147EB81C008400D3 /* FPCBReader-Prefix.pch */ = {isa = PBXFileReference; path = "FPCBReader-Prefix.pch"; sourceTree = "<group>"; };
+		E372ECCC147EB81C008400D3 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E372ECCD147EB81C008400D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E372ECD0147EB81C008400D3 /* FPCBReader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FPCBReader.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E372ECB4147EB81C008400D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E372ECBC147EB81C008400D3 /* UIKit.framework in Frameworks */,
+				E372ECBE147EB81C008400D3 /* Foundation.framework in Frameworks */,
+				E372ECC0147EB81C008400D3 /* CoreGraphics.framework in Frameworks */,
+				E372ECC2147EB81C008400D3 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E372ECAC147EB81C008400D3 = {
+			isa = PBXGroup;
+			children = (
+				E372ECC3147EB81C008400D3 /* FPCBReader */,
+				E372ECBA147EB81C008400D3 /* Frameworks */,
+				E372ECB8147EB81C008400D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E372ECB8147EB81C008400D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E372ECB7147EB81C008400D3 /* FPCBReader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E372ECBA147EB81C008400D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E372ECBB147EB81C008400D3 /* UIKit.framework */,
+				E372ECBD147EB81C008400D3 /* Foundation.framework */,
+				E372ECBF147EB81C008400D3 /* CoreGraphics.framework */,
+				E372ECC1147EB81C008400D3 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E372ECC3147EB81C008400D3 /* FPCBReader */ = {
+			isa = PBXGroup;
+			children = (
+				E372ECCC147EB81C008400D3 /* AppDelegate.h */,
+				E372ECCD147EB81C008400D3 /* AppDelegate.m */,
+				E372ECCF147EB81C008400D3 /* FPCBReader.xcdatamodeld */,
+				E372ECC4147EB81C008400D3 /* Supporting Files */,
+			);
+			path = FPCBReader;
+			sourceTree = "<group>";
+		};
+		E372ECC4147EB81C008400D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E372ECC5147EB81C008400D3 /* FPCBReader-Info.plist */,
+				E372ECC6147EB81C008400D3 /* InfoPlist.strings */,
+				E372ECC9147EB81C008400D3 /* main.m */,
+				E372ECCB147EB81C008400D3 /* FPCBReader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E372ECB6147EB81C008400D3 /* FPCBReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E372ECD4147EB81C008400D3 /* Build configuration list for PBXNativeTarget "FPCBReader" */;
+			buildPhases = (
+				E372ECB3147EB81C008400D3 /* Sources */,
+				E372ECB4147EB81C008400D3 /* Frameworks */,
+				E372ECB5147EB81C008400D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FPCBReader;
+			productName = FPCBReader;
+			productReference = E372ECB7147EB81C008400D3 /* FPCBReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E372ECAE147EB81C008400D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pivotal Labs";
+			};
+			buildConfigurationList = E372ECB1147EB81C008400D3 /* Build configuration list for PBXProject "FPCBReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E372ECAC147EB81C008400D3;
+			productRefGroup = E372ECB8147EB81C008400D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E372ECB6147EB81C008400D3 /* FPCBReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E372ECB5147EB81C008400D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E372ECC8147EB81C008400D3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E372ECB3147EB81C008400D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E372ECCA147EB81C008400D3 /* main.m in Sources */,
+				E372ECCE147EB81C008400D3 /* AppDelegate.m in Sources */,
+				E372ECD1147EB81C008400D3 /* FPCBReader.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E372ECC6147EB81C008400D3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E372ECC7147EB81C008400D3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E372ECD2147EB81C008400D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E372ECD3147EB81C008400D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E372ECD5147EB81C008400D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FPCBReader/FPCBReader-Prefix.pch";
+				INFOPLIST_FILE = "FPCBReader/FPCBReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E372ECD6147EB81C008400D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FPCBReader/FPCBReader-Prefix.pch";
+				INFOPLIST_FILE = "FPCBReader/FPCBReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E372ECB1147EB81C008400D3 /* Build configuration list for PBXProject "FPCBReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E372ECD2147EB81C008400D3 /* Debug */,
+				E372ECD3147EB81C008400D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E372ECD4147EB81C008400D3 /* Build configuration list for PBXNativeTarget "FPCBReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E372ECD5147EB81C008400D3 /* Debug */,
+				E372ECD6147EB81C008400D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E372ECCF147EB81C008400D3 /* FPCBReader.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E372ECD0147EB81C008400D3 /* FPCBReader.xcdatamodel */,
+			);
+			currentVersion = E372ECD0147EB81C008400D3 /* FPCBReader.xcdatamodel */;
+			path = FPCBReader.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E372ECAE147EB81C008400D3 /* Project object */;
+}
