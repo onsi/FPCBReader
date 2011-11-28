@@ -7,11 +7,6 @@
 @property (nonatomic, retain) NSString *content;
 @property (nonatomic, retain) NSString *reference;
 
-+ (CachedPassage *)passageWithReference:(NSString *)reference
-                              content:(NSString *)content;
 + (CachedPassage *)passageForReference:(NSString *)reference;
-+ (CachedPassage *)oldestPassage;
-
-- (void)save;
 
 @end

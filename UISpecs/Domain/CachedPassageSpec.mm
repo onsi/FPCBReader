@@ -1,90 +1,165 @@
 #import <Cedar-iPhone/SpecHelper.h>
 using namespace Cedar::Matchers;
 
-#import "CachedPassage.h"
+#import "CachedPassage+Spec.h"
 #import "Reader.h"
+#import "NotificationObserver.h"
+#import "PivotalSpecHelperKit.h"
 
 SPEC_BEGIN(CachedPassageSpec)
 
-describe(@"CachedPassage", ^{
-    describe(@"creating a new cached passage", ^{
-        context(@"when the reference does not exist yet", ^{
-            it(@"should store off the reference and content and save off the current date", ^{
-                CachedPassage *cachedPassage = [CachedPassage passageWithReference:@"John 1:1"
-                                                                           content:@"In the beginning..."];
-                cachedPassage.reference should equal(@"John 1:1");
-                cachedPassage.content should equal(@"In the beginning...");
-                [[NSDate date] timeIntervalSinceDate:cachedPassage.date] should be_less_than(1);
-            });
-        });
-        
-        context(@"when the reference already exists", ^{
+fdescribe(@"CachedPassage", ^{
+    describe(@"getting a passage", ^{
+        context(@"when the passage is already cached", ^{
             beforeEach(^{
-                CachedPassage *passage = [CachedPassage passageWithReference:@"John 1:1"
-                                                                     content:@"In the..."];
-                passage.date = [NSDate dateWithTimeIntervalSinceNow:-1000];
-                [passage save];
-            });
-            
-            it(@"should update the existing passage", ^{
                 [CachedPassage passageWithReference:@"John 1:1"
-                                            content:@"In the beginning..."];
-                
-                NSFetchRequest *request = [NSFetchRequest fetchRequestWithEntityName:@"CachedPassage"];
-                [request setPredicate:[NSPredicate predicateWithFormat:@"reference = 'John 1:1'"]];
-                NSArray *results = [reader.dataManager.managedObjectContext executeFetchRequest:request error:NULL];
-                
-                results.count should equal(1);
-                [results.lastObject content] should equal(@"In the beginning...");
-                [[NSDate date] timeIntervalSinceDate:[results.lastObject date]] should be_less_than(1);
+                                            content:@"In the beginning..."
+                                               date:[NSDate dateWithTimeIntervalSinceNow:-1000]];
             });
-        });
-    });
-    
-    describe(@"getting the oldest cached passage", ^{
-        __block NSDate *date;
-        beforeEach(^{
-            [CachedPassage passageWithReference:@"John 1:1"
-                                        content:@"In the beginning..."];
             
-            CachedPassage *cachedPassage = [CachedPassage passageWithReference:@"Luke 1:1"
-                                                                       content:@"..."];            
-            date = [NSDate dateWithTimeIntervalSinceNow:-10];
-            cachedPassage.date = date;
-            [cachedPassage save];            
-        });
-        
-        it(@"should return the cached passage with the oldest date", ^{
-            [CachedPassage oldestPassage].reference should equal(@"Luke 1:1");
-            [CachedPassage oldestPassage].date should equal(date);
-        });
-    });
-    
-    describe(@"getting a passage with a given reference", ^{
-        beforeEach(^{
-            CachedPassage *passage = [CachedPassage passageWithReference:@"John 1:1"
-                                                                 content:@"In the beginning..."];
-            passage.date = [NSDate dateWithTimeIntervalSinceNow:-1000];
-            [passage save];
-        });
-
-        context(@"when the passage already exists", ^{
-            it(@"should return the passage, bump the passages date, and save it", ^{
-                NSFetchRequest *request = [NSFetchRequest fetchRequestWithEntityName:@"CachedPassage"];
-                [request setPredicate:[NSPredicate predicateWithFormat:@"reference = 'John 1:1'"]];
-                NSArray *results = [reader.dataManager.managedObjectContext executeFetchRequest:request error:NULL];
-                CachedPassage *passage = results.lastObject;
-                
-                [CachedPassage passageForReference:@"John 1:1"] should equal(passage);
-                [[NSDate date] timeIntervalSinceDate:passage.date] should be_less_than(1);
+            it(@"should return the passage and update it's date", ^{
+                CachedPassage *passage = [CachedPassage passageForReference:@"John 1:1"];
                 passage.reference should equal(@"John 1:1");
                 passage.content should equal(@"In the beginning...");
-            });
+                [[NSDate date] timeIntervalSinceDate:passage.date] should be_less_than(1);
+            }); 
         });
         
-        context(@"when the passage does not exist", ^{
-            it(@"should return nil", ^{
-                [CachedPassage passageForReference:@"Luke 1:1"] should be_nil();
+        context(@"when the passage has not been cached yet", ^{
+            __block NSURL *url;
+            
+            beforeEach(^{
+                NSString *urlString = @"http://www.esvapi.org/v2/rest/passageQuery?key=IP&include-footnotes=false&include-audio-link=false&passage=John 1:1";
+                url = [NSURL URLWithString:[urlString stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];
+                
+                for (int i = 0 ; i < 29 ; i++) {
+                    [CachedPassage passageWithReference:[NSString stringWithFormat:@"Passage %d", i]
+                                                content:[NSString stringWithFormat:@"Content %d", i]
+                                                   date:[NSDate dateWithTimeIntervalSinceNow:10 * (i)*(i - 30)]];
+                }
+            });
+            context(@"and there are 30 passages in the cache", ^{                
+                beforeEach(^{
+                    int i = 30;
+                    [CachedPassage passageWithReference:[NSString stringWithFormat:@"Passage %d", i]
+                                                content:[NSString stringWithFormat:@"Content %d", i]
+                                                   date:[NSDate dateWithTimeIntervalSinceNow:10 * (i)*(i - 30)]];
+                });
+                
+                it(@"should delete the oldest passage", ^{
+                    [CachedPassage passageForReference:@"John 1:1"];
+                    
+                    NSFetchRequest *request = [NSFetchRequest fetchRequestWithEntityName:@"CachedPassage"];
+                    [request setPredicate:[NSPredicate predicateWithFormat:@"reference = 'Passage 15'"]];
+                    NSArray *results = [reader.dataManager.managedObjectContext executeFetchRequest:request error:NULL];
+                    results should be_empty();
+
+                    request = [NSFetchRequest fetchRequestWithEntityName:@"CachedPassage"];
+                    results = [reader.dataManager.managedObjectContext executeFetchRequest:request error:NULL];
+                    results.count should equal(30);
+                });
+            });
+            
+            context(@"and there are fewer than 30 passages in the cache", ^{
+                it(@"should not delete the oldest passage", ^{
+                    [CachedPassage passageForReference:@"John 1:1"];
+                    
+                    NSFetchRequest *request = [NSFetchRequest fetchRequestWithEntityName:@"CachedPassage"];
+                    [request setPredicate:[NSPredicate predicateWithFormat:@"reference = 'Passage 15'"]];
+                    NSArray *results = [reader.dataManager.managedObjectContext executeFetchRequest:request error:NULL];
+                    results should_not be_empty();
+                    
+                    request = [NSFetchRequest fetchRequestWithEntityName:@"CachedPassage"];
+                    results = [reader.dataManager.managedObjectContext executeFetchRequest:request error:NULL];
+                    results.count should equal(30);
+                });
+            });
+            
+            
+            it(@"should return the passage with nil content.", ^{
+                CachedPassage *passage = [CachedPassage passageForReference:@"John 1:1"];
+                passage.reference should equal(@"John 1:1");
+                passage.content should be_nil();
+                [[NSDate date] timeIntervalSinceDate:passage.date] should be_less_than(1);
+            });
+            
+            context(@"when the passage gets downloaded", ^{
+                it(@"should post a notification and update the passage's date", ^{
+                    NotificationObserver *observer = [NotificationObserver observerForNotificationNamed:@"didDownloadPassage"];
+                    CachedPassage *passage = [CachedPassage passageForReference:@"John 1:1"];
+                    passage.date = [NSDate dateWithTimeIntervalSinceNow:-1000];
+                    
+                    [NSURLConnection provideSuccesfulResponse:@"In the beginning..."
+                                                       forURL:url];
+                    
+                    passage.content should equal(@"In the beginning...");
+                    observer.notification.object should equal(passage);
+                    [[NSDate date] timeIntervalSinceDate:passage.date] should be_less_than(1);
+                });
+            });
+            
+            context(@"when the download fails", ^{
+                it(@"should post a notification and stay nil", ^{
+                    NotificationObserver *observer = [NotificationObserver observerForNotificationNamed:@"downloadDidFail"];
+
+                    CachedPassage *passage = [CachedPassage passageForReference:@"John 1:1"];
+                    [NSURLConnection provideFailedResponseForURL:url];
+                    
+                    passage.content should be_nil;
+                    observer.notification.object should equal(passage);
+                });
+            });
+            
+            context(@"when the download has failed at an earlier time", ^{                
+                it(@"should reschedule the download", ^{
+                    NotificationObserver *observer = [NotificationObserver observerForNotificationNamed:@"didDownloadPassage"];
+                    CachedPassage *passage = [CachedPassage passageForReference:@"John 1:1"];
+
+                    [NSURLConnection provideFailedResponseForURL:url];
+                    
+                    passage = [CachedPassage passageForReference:@"John 1:1"];
+
+                    [NSURLConnection provideSuccesfulResponse:@"In the beginning..."
+                                                       forURL:url];
+                    
+                    passage.content should equal(@"In the beginning...");
+                    observer.notification.object should equal(passage);
+                    [[NSDate date] timeIntervalSinceDate:passage.date] should be_less_than(1);
+                });
+            });
+            
+            context(@"when the passage is requested twice", ^{
+                it(@"should not initiate a new download", ^{
+                    NotificationObserver *observer = [NotificationObserver observerForNotificationNamed:@"didDownloadPassage"];
+                    CachedPassage *passage = [CachedPassage passageForReference:@"John 1:1"];
+                    [CachedPassage passageForReference:@"John 1:1"];
+                    
+                    [NSURLConnection provideSuccesfulResponse:@"In the beginning..."
+                                                       forURL:url];
+                    
+                    observer.notificationCount should equal(1);
+                    observer.notification.object should equal(passage);
+                });
+            });
+            
+            context(@"if the passage is deleted before it is downloaded", ^{
+                it(@"should cancel the download", ^{
+                    NotificationObserver *observer = [NotificationObserver observerForNotificationNamed:@"didDownloadPassage"];
+                    CachedPassage *passage = [CachedPassage passageForReference:@"John 1:1"];
+                    [reader.dataManager.managedObjectContext deleteObject:passage];
+                    [reader.dataManager saveContext];
+                    
+                    [NSURLConnection provideSuccesfulResponse:@"In the beginning..."
+                                                       forURL:url];
+                    
+                    observer.notificationCount should equal(0);
+                    observer.notification.object should be_nil();
+                    
+                    NSFetchRequest *request = [NSFetchRequest fetchRequestWithEntityName:@"CachedPassage"];
+                    [request setPredicate:[NSPredicate predicateWithFormat:@"reference = 'John 1:1'"]];
+                    NSArray *results = [reader.dataManager.managedObjectContext executeFetchRequest:request error:NULL];
+                    results should be_empty();
+                });
             });
         });
     });

@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E31CFEEF148046480004377F /* Passages.m in Sources */ = {isa = PBXBuildFile; fileRef = E31CFEEE148046480004377F /* Passages.m */; };
-		E31CFEF0148046480004377F /* Passages.m in Sources */ = {isa = PBXBuildFile; fileRef = E31CFEEE148046480004377F /* Passages.m */; };
 		E31CFEFB14804A2A0004377F /* CachedPassageSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = E31CFEF914804A2A0004377F /* CachedPassageSpec.mm */; };
-		E31CFEFC14804A2A0004377F /* PassagesSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = E31CFEFA14804A2A0004377F /* PassagesSpec.mm */; };
+		E343940814833DA0006343F4 /* CachedPassage+Spec.mm in Sources */ = {isa = PBXBuildFile; fileRef = E343940714833DA0006343F4 /* CachedPassage+Spec.mm */; };
+		E343940B14834177006343F4 /* NotificationObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = E343940A14834177006343F4 /* NotificationObserver.m */; };
+		E343940E14834DAA006343F4 /* libPivotalSpecHelperKit-StaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E343940314833C9C006343F4 /* libPivotalSpecHelperKit-StaticLib.a */; };
 		E372ECBC147EB81C008400D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E372ECBB147EB81C008400D3 /* UIKit.framework */; };
 		E372ECBE147EB81C008400D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E372ECBD147EB81C008400D3 /* Foundation.framework */; };
 		E372ECC0147EB81C008400D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E372ECBF147EB81C008400D3 /* CoreGraphics.framework */; };
@@ -37,6 +37,55 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		E34393FA14833C9C006343F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E34393EA14833C9C006343F4 /* PivotalCoreKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEF15AC511C97E8B005B4F92;
+			remoteInfo = PivotalCoreKit;
+		};
+		E34393FC14833C9C006343F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E34393EA14833C9C006343F4 /* PivotalCoreKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEF15AE011C97F15005B4F92;
+			remoteInfo = PivotalSpecHelperKit;
+		};
+		E34393FE14833C9C006343F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E34393EA14833C9C006343F4 /* PivotalCoreKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AECC4BBA11C6E2280027AB1B;
+			remoteInfo = Spec;
+		};
+		E343940014833C9C006343F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E34393EA14833C9C006343F4 /* PivotalCoreKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AE138E7011E542BF004E825D;
+			remoteInfo = "PivotalCoreKit-StaticLib";
+		};
+		E343940214833C9C006343F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E34393EA14833C9C006343F4 /* PivotalCoreKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AE138F4611E548B5004E825D;
+			remoteInfo = "PivotalSpecHelperKit-StaticLib";
+		};
+		E343940414833C9C006343F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E34393EA14833C9C006343F4 /* PivotalCoreKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6696DFC21266DE6C00111E23;
+			remoteInfo = UISpec;
+		};
+		E343940C14834DA3006343F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E34393EA14833C9C006343F4 /* PivotalCoreKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = AE138F4511E548B5004E825D;
+			remoteInfo = "PivotalSpecHelperKit-StaticLib";
+		};
 		E3E8DB53147EBD74005DC2FE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E3E8DB3F147EBD74005DC2FE /* Cedar.xcodeproj */;
@@ -96,10 +145,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E31CFEED148046480004377F /* Passages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Passages.h; sourceTree = "<group>"; };
-		E31CFEEE148046480004377F /* Passages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Passages.m; sourceTree = "<group>"; };
 		E31CFEF914804A2A0004377F /* CachedPassageSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CachedPassageSpec.mm; sourceTree = "<group>"; };
-		E31CFEFA14804A2A0004377F /* PassagesSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PassagesSpec.mm; sourceTree = "<group>"; };
+		E34393EA14833C9C006343F4 /* PivotalCoreKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PivotalCoreKit.xcodeproj; path = Externals/PivotalCoreKit/PivotalCoreKit.xcodeproj; sourceTree = "<group>"; };
+		E343940614833DA0006343F4 /* CachedPassage+Spec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CachedPassage+Spec.h"; sourceTree = "<group>"; };
+		E343940714833DA0006343F4 /* CachedPassage+Spec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "CachedPassage+Spec.mm"; sourceTree = "<group>"; };
+		E343940914834177006343F4 /* NotificationObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationObserver.h; sourceTree = "<group>"; };
+		E343940A14834177006343F4 /* NotificationObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationObserver.m; sourceTree = "<group>"; };
 		E372ECB7147EB81C008400D3 /* FPCBReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FPCBReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E372ECBB147EB81C008400D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E372ECBD147EB81C008400D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -144,6 +195,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E343940E14834DAA006343F4 /* libPivotalSpecHelperKit-StaticLib.a in Frameworks */,
 				E3E8DB71147ED0A6005DC2FE /* CoreData.framework in Frameworks */,
 				E3E8DB67147EBE5F005DC2FE /* Cedar-iPhone.framework in Frameworks */,
 				E372ECE9147EB92D008400D3 /* UIKit.framework in Frameworks */,
@@ -155,6 +207,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E34393EB14833C9C006343F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E34393FB14833C9C006343F4 /* PivotalCoreKit.framework */,
+				E34393FD14833C9C006343F4 /* PivotalSpecHelperKit.framework */,
+				E34393FF14833C9C006343F4 /* Spec */,
+				E343940114833C9C006343F4 /* libPivotalCoreKit-StaticLib.a */,
+				E343940314833C9C006343F4 /* libPivotalSpecHelperKit-StaticLib.a */,
+				E343940514833C9C006343F4 /* UISpec.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		E372ECAC147EB81C008400D3 = {
 			isa = PBXGroup;
 			children = (
@@ -258,6 +323,7 @@
 		E3E8DB63147EBD79005DC2FE /* Externals */ = {
 			isa = PBXGroup;
 			children = (
+				E34393EA14833C9C006343F4 /* PivotalCoreKit.xcodeproj */,
 				E3E8DB3F147EBD74005DC2FE /* Cedar.xcodeproj */,
 			);
 			name = Externals;
@@ -267,6 +333,10 @@
 			isa = PBXGroup;
 			children = (
 				E3E8DB73147ED119005DC2FE /* SpecEnvironment.m */,
+				E343940614833DA0006343F4 /* CachedPassage+Spec.h */,
+				E343940714833DA0006343F4 /* CachedPassage+Spec.mm */,
+				E343940914834177006343F4 /* NotificationObserver.h */,
+				E343940A14834177006343F4 /* NotificationObserver.m */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -274,8 +344,6 @@
 		E3E8DB7A1480445D005DC2FE /* Domain */ = {
 			isa = PBXGroup;
 			children = (
-				E31CFEED148046480004377F /* Passages.h */,
-				E31CFEEE148046480004377F /* Passages.m */,
 				E3E8DB7C148044CF005DC2FE /* CachedPassage.h */,
 				E3E8DB7D148044CF005DC2FE /* CachedPassage.m */,
 			);
@@ -297,7 +365,6 @@
 			isa = PBXGroup;
 			children = (
 				E31CFEF914804A2A0004377F /* CachedPassageSpec.mm */,
-				E31CFEFA14804A2A0004377F /* PassagesSpec.mm */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -333,6 +400,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				E343940D14834DA3006343F4 /* PBXTargetDependency */,
 			);
 			name = UISpecs;
 			productName = UISpecs;
@@ -363,6 +431,10 @@
 					ProductGroup = E3E8DB40147EBD74005DC2FE /* Products */;
 					ProjectRef = E3E8DB3F147EBD74005DC2FE /* Cedar.xcodeproj */;
 				},
+				{
+					ProductGroup = E34393EB14833C9C006343F4 /* Products */;
+					ProjectRef = E34393EA14833C9C006343F4 /* PivotalCoreKit.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -373,6 +445,48 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		E34393FB14833C9C006343F4 /* PivotalCoreKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = PivotalCoreKit.framework;
+			remoteRef = E34393FA14833C9C006343F4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E34393FD14833C9C006343F4 /* PivotalSpecHelperKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = PivotalSpecHelperKit.framework;
+			remoteRef = E34393FC14833C9C006343F4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E34393FF14833C9C006343F4 /* Spec */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = Spec;
+			remoteRef = E34393FE14833C9C006343F4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E343940114833C9C006343F4 /* libPivotalCoreKit-StaticLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPivotalCoreKit-StaticLib.a";
+			remoteRef = E343940014833C9C006343F4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E343940314833C9C006343F4 /* libPivotalSpecHelperKit-StaticLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPivotalSpecHelperKit-StaticLib.a";
+			remoteRef = E343940214833C9C006343F4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E343940514833C9C006343F4 /* UISpec.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = UISpec.app;
+			remoteRef = E343940414833C9C006343F4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		E3E8DB54147EBD74005DC2FE /* Cedar.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -461,7 +575,6 @@
 				E3E8DB7E148044CF005DC2FE /* CachedPassage.m in Sources */,
 				E3E8DB84148044D9005DC2FE /* DataManager.m in Sources */,
 				E3E8DB86148044D9005DC2FE /* Reader.m in Sources */,
-				E31CFEEF148046480004377F /* Passages.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,13 +588,21 @@
 				E3E8DB7F148044CF005DC2FE /* CachedPassage.m in Sources */,
 				E3E8DB85148044D9005DC2FE /* DataManager.m in Sources */,
 				E3E8DB87148044D9005DC2FE /* Reader.m in Sources */,
-				E31CFEF0148046480004377F /* Passages.m in Sources */,
 				E31CFEFB14804A2A0004377F /* CachedPassageSpec.mm in Sources */,
-				E31CFEFC14804A2A0004377F /* PassagesSpec.mm in Sources */,
+				E343940814833DA0006343F4 /* CachedPassage+Spec.mm in Sources */,
+				E343940B14834177006343F4 /* NotificationObserver.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E343940D14834DA3006343F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PivotalSpecHelperKit-StaticLib";
+			targetProxy = E343940C14834DA3006343F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E372ECC6147EB81C008400D3 /* InfoPlist.strings */ = {
@@ -580,6 +701,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UISpecs/UISpecs-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Externals/PivotalCoreKit/SpecHelperLib/**";
 				INFOPLIST_FILE = "UISpecs/UISpecs-Info.plist";
 				OTHER_LDFLAGS = (
 					"-all_load",
@@ -600,6 +722,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UISpecs/UISpecs-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Externals/PivotalCoreKit/SpecHelperLib/**";
 				INFOPLIST_FILE = "UISpecs/UISpecs-Info.plist";
 				OTHER_LDFLAGS = (
 					"-all_load",
