@@ -1,4 +1,5 @@
 #import "AppDelegate.h"
+#import "ReaderTabBarController.h"
 #import "Reader.h"
 Reader *reader;
 
@@ -24,10 +25,14 @@ Reader *reader;
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.reader = [[[Reader alloc] init] autorelease];
     reader = self.reader;
+    [reader performSetUp];
     
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    self.window.rootViewController = [[[ReaderTabBarController alloc] init] autorelease];
+    
     return YES;
 }
 

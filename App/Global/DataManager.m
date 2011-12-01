@@ -6,7 +6,6 @@
 @property (nonatomic, retain, readwrite) NSManagedObjectContext *managedObjectContext;
 @property (nonatomic, retain, readwrite) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 
-- (NSURL *)applicationDocumentsDirectory;
 - (void)setUpCoreData;
 - (void)addPersistentStore;
 

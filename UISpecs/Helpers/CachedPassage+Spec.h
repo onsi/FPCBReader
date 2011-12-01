@@ -7,3 +7,9 @@
                                    date:(NSDate *)date;
 
 @end
+
+@interface CachedPassage (SpecPublicMethods)
+
+- (NSURL *)url;
+
+@end

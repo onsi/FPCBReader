@@ -11,6 +11,25 @@
 		E343940814833DA0006343F4 /* CachedPassage+Spec.mm in Sources */ = {isa = PBXBuildFile; fileRef = E343940714833DA0006343F4 /* CachedPassage+Spec.mm */; };
 		E343940B14834177006343F4 /* NotificationObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = E343940A14834177006343F4 /* NotificationObserver.m */; };
 		E343940E14834DAA006343F4 /* libPivotalSpecHelperKit-StaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E343940314833C9C006343F4 /* libPivotalSpecHelperKit-StaticLib.a */; };
+		E343943614836338006343F4 /* Reading.m in Sources */ = {isa = PBXBuildFile; fileRef = E343943514836338006343F4 /* Reading.m */; };
+		E343943714836338006343F4 /* Reading.m in Sources */ = {isa = PBXBuildFile; fileRef = E343943514836338006343F4 /* Reading.m */; };
+		E34394391483E38C006343F4 /* ReadingSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = E34394381483E38B006343F4 /* ReadingSpec.mm */; };
+		E343943D1484AE16006343F4 /* NSDate+FPCBReader.m in Sources */ = {isa = PBXBuildFile; fileRef = E343943C1484AE16006343F4 /* NSDate+FPCBReader.m */; };
+		E343943E1484AE16006343F4 /* NSDate+FPCBReader.m in Sources */ = {isa = PBXBuildFile; fileRef = E343943C1484AE16006343F4 /* NSDate+FPCBReader.m */; };
+		E34394451484BB3D006343F4 /* ReaderTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E34394441484BB3D006343F4 /* ReaderTabBarController.m */; };
+		E34394461484BB3D006343F4 /* ReaderTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E34394441484BB3D006343F4 /* ReaderTabBarController.m */; };
+		E34394531484BD6C006343F4 /* ReadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E34394501484BD6C006343F4 /* ReadingViewController.xib */; };
+		E34394541484BD6C006343F4 /* ReadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E34394501484BD6C006343F4 /* ReadingViewController.xib */; };
+		E343945714853F8F006343F4 /* ReadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E343945614853F8F006343F4 /* ReadingViewController.m */; };
+		E343945814853F8F006343F4 /* ReadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E343945614853F8F006343F4 /* ReadingViewController.m */; };
+		E343945B14854359006343F4 /* Todays_ReadingViewControllerSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = E343945A14854359006343F4 /* Todays_ReadingViewControllerSpec.mm */; };
+		E343945E148544BF006343F4 /* TodaysReadingDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E343945D148544BF006343F4 /* TodaysReadingDataSource.m */; };
+		E343945F148544BF006343F4 /* TodaysReadingDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E343945D148544BF006343F4 /* TodaysReadingDataSource.m */; };
+		E343946214860EE3006343F4 /* ReadingPlan.plist in Resources */ = {isa = PBXBuildFile; fileRef = E343946114860EE2006343F4 /* ReadingPlan.plist */; };
+		E34394691486952F006343F4 /* Read.png in Resources */ = {isa = PBXBuildFile; fileRef = E34394671486952F006343F4 /* Read.png */; };
+		E343946A1486952F006343F4 /* Read.png in Resources */ = {isa = PBXBuildFile; fileRef = E34394671486952F006343F4 /* Read.png */; };
+		E343946B1486952F006343F4 /* Unread.png in Resources */ = {isa = PBXBuildFile; fileRef = E34394681486952F006343F4 /* Unread.png */; };
+		E343946C1486952F006343F4 /* Unread.png in Resources */ = {isa = PBXBuildFile; fileRef = E34394681486952F006343F4 /* Unread.png */; };
 		E372ECBC147EB81C008400D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E372ECBB147EB81C008400D3 /* UIKit.framework */; };
 		E372ECBE147EB81C008400D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E372ECBD147EB81C008400D3 /* Foundation.framework */; };
 		E372ECC0147EB81C008400D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E372ECBF147EB81C008400D3 /* CoreGraphics.framework */; };
@@ -24,6 +43,9 @@
 		E372ECEB147EB92E008400D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E372ECBF147EB81C008400D3 /* CoreGraphics.framework */; };
 		E372ECF1147EB92E008400D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E372ECEF147EB92E008400D3 /* InfoPlist.strings */; };
 		E372ECF3147EB92E008400D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E372ECF2147EB92E008400D3 /* main.m */; };
+		E3CB81C6148729B80073AD87 /* NextUnread_ReadingViewControllerSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = E3CB81C5148729B80073AD87 /* NextUnread_ReadingViewControllerSpec.mm */; };
+		E3CB81C9148729F80073AD87 /* NextUnreadReadingDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CB81C8148729F70073AD87 /* NextUnreadReadingDataSource.m */; };
+		E3CB81CA148729F80073AD87 /* NextUnreadReadingDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CB81C8148729F70073AD87 /* NextUnreadReadingDataSource.m */; };
 		E3E8DB67147EBE5F005DC2FE /* Cedar-iPhone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E8DB66147EBE5F005DC2FE /* Cedar-iPhone.framework */; };
 		E3E8DB71147ED0A6005DC2FE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E372ECC1147EB81C008400D3 /* CoreData.framework */; };
 		E3E8DB74147ED119005DC2FE /* SpecEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E8DB73147ED119005DC2FE /* SpecEnvironment.m */; };
@@ -151,6 +173,24 @@
 		E343940714833DA0006343F4 /* CachedPassage+Spec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "CachedPassage+Spec.mm"; sourceTree = "<group>"; };
 		E343940914834177006343F4 /* NotificationObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationObserver.h; sourceTree = "<group>"; };
 		E343940A14834177006343F4 /* NotificationObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationObserver.m; sourceTree = "<group>"; };
+		E343943414836338006343F4 /* Reading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reading.h; sourceTree = "<group>"; };
+		E343943514836338006343F4 /* Reading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reading.m; sourceTree = "<group>"; };
+		E34394381483E38B006343F4 /* ReadingSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ReadingSpec.mm; sourceTree = "<group>"; };
+		E343943A1483EC22006343F4 /* SpecEnvironment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecEnvironment.h; sourceTree = "<group>"; };
+		E343943B1484AE16006343F4 /* NSDate+FPCBReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+FPCBReader.h"; sourceTree = "<group>"; };
+		E343943C1484AE16006343F4 /* NSDate+FPCBReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+FPCBReader.m"; sourceTree = "<group>"; };
+		E34394431484BB3D006343F4 /* ReaderTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReaderTabBarController.h; path = App/UI/ReaderTabBarController.h; sourceTree = SOURCE_ROOT; };
+		E34394441484BB3D006343F4 /* ReaderTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReaderTabBarController.m; path = App/UI/ReaderTabBarController.m; sourceTree = SOURCE_ROOT; };
+		E34394501484BD6C006343F4 /* ReadingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReadingViewController.xib; sourceTree = "<group>"; };
+		E343945514853F8F006343F4 /* ReadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadingViewController.h; sourceTree = "<group>"; };
+		E343945614853F8F006343F4 /* ReadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadingViewController.m; sourceTree = "<group>"; };
+		E343945A14854359006343F4 /* Todays_ReadingViewControllerSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Todays_ReadingViewControllerSpec.mm; sourceTree = "<group>"; };
+		E343945C148544BE006343F4 /* TodaysReadingDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodaysReadingDataSource.h; sourceTree = "<group>"; };
+		E343945D148544BF006343F4 /* TodaysReadingDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodaysReadingDataSource.m; sourceTree = "<group>"; };
+		E34394601485C9E3006343F4 /* ReadingDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadingDataSource.h; sourceTree = "<group>"; };
+		E343946114860EE2006343F4 /* ReadingPlan.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ReadingPlan.plist; sourceTree = "<group>"; };
+		E34394671486952F006343F4 /* Read.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Read.png; sourceTree = "<group>"; };
+		E34394681486952F006343F4 /* Unread.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Unread.png; sourceTree = "<group>"; };
 		E372ECB7147EB81C008400D3 /* FPCBReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FPCBReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E372ECBB147EB81C008400D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E372ECBD147EB81C008400D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -168,6 +208,9 @@
 		E372ECF0147EB92E008400D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E372ECF2147EB92E008400D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E372ECF4147EB92E008400D3 /* UISpecs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UISpecs-Prefix.pch"; sourceTree = "<group>"; };
+		E3CB81C5148729B80073AD87 /* NextUnread_ReadingViewControllerSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NextUnread_ReadingViewControllerSpec.mm; sourceTree = "<group>"; };
+		E3CB81C7148729F70073AD87 /* NextUnreadReadingDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextUnreadReadingDataSource.h; sourceTree = "<group>"; };
+		E3CB81C8148729F70073AD87 /* NextUnreadReadingDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextUnreadReadingDataSource.m; sourceTree = "<group>"; };
 		E3E8DB3F147EBD74005DC2FE /* Cedar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Cedar.xcodeproj; path = Externals/Cedar/Cedar.xcodeproj; sourceTree = "<group>"; };
 		E3E8DB66147EBE5F005DC2FE /* Cedar-iPhone.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Cedar-iPhone.framework"; path = "Externals/Cedar/build/Debug-iphoneuniversal/Cedar-iPhone.framework"; sourceTree = "<group>"; };
 		E3E8DB73147ED119005DC2FE /* SpecEnvironment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecEnvironment.m; sourceTree = "<group>"; };
@@ -220,9 +263,41 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		E343943F1484B6C4006343F4 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E34394431484BB3D006343F4 /* ReaderTabBarController.h */,
+				E34394441484BB3D006343F4 /* ReaderTabBarController.m */,
+				E343945514853F8F006343F4 /* ReadingViewController.h */,
+				E343945614853F8F006343F4 /* ReadingViewController.m */,
+				E34394501484BD6C006343F4 /* ReadingViewController.xib */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		E343945914854330006343F4 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E3CB81C5148729B80073AD87 /* NextUnread_ReadingViewControllerSpec.mm */,
+				E343945A14854359006343F4 /* Todays_ReadingViewControllerSpec.mm */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		E343946614869514006343F4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E34394671486952F006343F4 /* Read.png */,
+				E34394681486952F006343F4 /* Unread.png */,
+			);
+			name = Resources;
+			path = Resources/Production;
+			sourceTree = "<group>";
+		};
 		E372ECAC147EB81C008400D3 = {
 			isa = PBXGroup;
 			children = (
+				E343946614869514006343F4 /* Resources */,
 				E372ECD7147EB879008400D3 /* App */,
 				E372ECC3147EB81C008400D3 /* FPCBReader */,
 				E372ECEC147EB92E008400D3 /* UISpecs */,
@@ -278,8 +353,10 @@
 		E372ECD7147EB879008400D3 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				E343943F1484B6C4006343F4 /* UI */,
 				E3E8DB7B14804479005DC2FE /* Global */,
 				E3E8DB7A1480445D005DC2FE /* Domain */,
+				E343946114860EE2006343F4 /* ReadingPlan.plist */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -287,6 +364,7 @@
 		E372ECEC147EB92E008400D3 /* UISpecs */ = {
 			isa = PBXGroup;
 			children = (
+				E343945914854330006343F4 /* UI */,
 				E3E8DB8C14804531005DC2FE /* Domain */,
 				E3E8DB68147EBEAE005DC2FE /* Helpers */,
 				E372ECED147EB92E008400D3 /* Supporting Files */,
@@ -333,6 +411,7 @@
 			isa = PBXGroup;
 			children = (
 				E3E8DB73147ED119005DC2FE /* SpecEnvironment.m */,
+				E343943A1483EC22006343F4 /* SpecEnvironment.h */,
 				E343940614833DA0006343F4 /* CachedPassage+Spec.h */,
 				E343940714833DA0006343F4 /* CachedPassage+Spec.mm */,
 				E343940914834177006343F4 /* NotificationObserver.h */,
@@ -346,6 +425,15 @@
 			children = (
 				E3E8DB7C148044CF005DC2FE /* CachedPassage.h */,
 				E3E8DB7D148044CF005DC2FE /* CachedPassage.m */,
+				E343943414836338006343F4 /* Reading.h */,
+				E343943514836338006343F4 /* Reading.m */,
+				E343943B1484AE16006343F4 /* NSDate+FPCBReader.h */,
+				E343943C1484AE16006343F4 /* NSDate+FPCBReader.m */,
+				E343945C148544BE006343F4 /* TodaysReadingDataSource.h */,
+				E343945D148544BF006343F4 /* TodaysReadingDataSource.m */,
+				E3CB81C7148729F70073AD87 /* NextUnreadReadingDataSource.h */,
+				E3CB81C8148729F70073AD87 /* NextUnreadReadingDataSource.m */,
+				E34394601485C9E3006343F4 /* ReadingDataSource.h */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -365,6 +453,7 @@
 			isa = PBXGroup;
 			children = (
 				E31CFEF914804A2A0004377F /* CachedPassageSpec.mm */,
+				E34394381483E38B006343F4 /* ReadingSpec.mm */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -551,6 +640,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E372ECC8147EB81C008400D3 /* InfoPlist.strings in Resources */,
+				E34394531484BD6C006343F4 /* ReadingViewController.xib in Resources */,
+				E343946214860EE3006343F4 /* ReadingPlan.plist in Resources */,
+				E34394691486952F006343F4 /* Read.png in Resources */,
+				E343946B1486952F006343F4 /* Unread.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -559,6 +652,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E372ECF1147EB92E008400D3 /* InfoPlist.strings in Resources */,
+				E34394541484BD6C006343F4 /* ReadingViewController.xib in Resources */,
+				E343946A1486952F006343F4 /* Read.png in Resources */,
+				E343946C1486952F006343F4 /* Unread.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -575,6 +671,12 @@
 				E3E8DB7E148044CF005DC2FE /* CachedPassage.m in Sources */,
 				E3E8DB84148044D9005DC2FE /* DataManager.m in Sources */,
 				E3E8DB86148044D9005DC2FE /* Reader.m in Sources */,
+				E343943614836338006343F4 /* Reading.m in Sources */,
+				E343943D1484AE16006343F4 /* NSDate+FPCBReader.m in Sources */,
+				E34394451484BB3D006343F4 /* ReaderTabBarController.m in Sources */,
+				E343945714853F8F006343F4 /* ReadingViewController.m in Sources */,
+				E343945E148544BF006343F4 /* TodaysReadingDataSource.m in Sources */,
+				E3CB81C9148729F80073AD87 /* NextUnreadReadingDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,6 +693,15 @@
 				E31CFEFB14804A2A0004377F /* CachedPassageSpec.mm in Sources */,
 				E343940814833DA0006343F4 /* CachedPassage+Spec.mm in Sources */,
 				E343940B14834177006343F4 /* NotificationObserver.m in Sources */,
+				E343943714836338006343F4 /* Reading.m in Sources */,
+				E34394391483E38C006343F4 /* ReadingSpec.mm in Sources */,
+				E343943E1484AE16006343F4 /* NSDate+FPCBReader.m in Sources */,
+				E34394461484BB3D006343F4 /* ReaderTabBarController.m in Sources */,
+				E343945814853F8F006343F4 /* ReadingViewController.m in Sources */,
+				E343945B14854359006343F4 /* Todays_ReadingViewControllerSpec.mm in Sources */,
+				E343945F148544BF006343F4 /* TodaysReadingDataSource.m in Sources */,
+				E3CB81C6148729B80073AD87 /* NextUnread_ReadingViewControllerSpec.mm in Sources */,
+				E3CB81CA148729F80073AD87 /* NextUnreadReadingDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

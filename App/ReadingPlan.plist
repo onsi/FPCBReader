@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>day</key>
+		<integer>28</integer>
+		<key>month</key>
+		<integer>11</integer>
+		<key>reference</key>
+		<string>John 1</string>
+		<key>year</key>
+		<integer>2011</integer>
+	</dict>
+	<dict>
+		<key>day</key>
+		<integer>30</integer>
+		<key>month</key>
+		<integer>11</integer>
+		<key>reference</key>
+		<string>John 3</string>
+		<key>year</key>
+		<integer>2011</integer>
+	</dict>
+	<dict>
+		<key>day</key>
+		<integer>29</integer>
+		<key>month</key>
+		<integer>11</integer>
+		<key>reference</key>
+		<string>John 2</string>
+		<key>year</key>
+		<integer>2011</integer>
+	</dict>
+	<dict>
+		<key>day</key>
+		<integer>1</integer>
+		<key>month</key>
+		<integer>12</integer>
+		<key>reference</key>
+		<string>John 4</string>
+		<key>year</key>
+		<integer>2011</integer>
+	</dict>
+	<dict>
+		<key>day</key>
+		<integer>2</integer>
+		<key>month</key>
+		<integer>12</integer>
+		<key>reference</key>
+		<string>John 5</string>
+		<key>year</key>
+		<integer>2011</integer>
+	</dict>
+	<dict>
+		<key>day</key>
+		<integer>3</integer>
+		<key>month</key>
+		<integer>12</integer>
+		<key>reference</key>
+		<string>John 6</string>
+		<key>year</key>
+		<integer>2011</integer>
+	</dict>
+</array>
+</plist>

@@ -8,7 +8,7 @@ using namespace Cedar::Matchers;
 
 SPEC_BEGIN(CachedPassageSpec)
 
-fdescribe(@"CachedPassage", ^{
+describe(@"CachedPassage", ^{
     describe(@"getting a passage", ^{
         context(@"when the passage is already cached", ^{
             beforeEach(^{

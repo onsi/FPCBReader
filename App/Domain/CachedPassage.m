@@ -9,6 +9,7 @@
 + (CachedPassage *)_passageForReference:(NSString *)reference;
 + (void)ensureCacheLimit;
 - (void)save;
+- (NSURL *)url;
 - (void)download;
 - (void)cancelDownload;
 
@@ -89,14 +90,18 @@
     self.downloadData = nil;
 }
 
+- (NSURL *)url {
+    NSString *baseURL = @"http://www.esvapi.org/v2/rest/passageQuery?key=IP&include-footnotes=false&include-audio-link=false";
+    NSString *urlString = [[NSString stringWithFormat:@"%@&passage=%@", baseURL, self.reference] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    return [NSURL URLWithString:urlString];
+}
+
 - (void)download {
     if (self.connection) {
         return;
     }
     
-    NSString *baseURL = @"http://www.esvapi.org/v2/rest/passageQuery?key=IP&include-footnotes=false&include-audio-link=false";
-    NSString *urlString = [[NSString stringWithFormat:@"%@&passage=%@", baseURL, self.reference] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:urlString]
+    NSURLRequest *request = [NSURLRequest requestWithURL:self.url
                                              cachePolicy:NSURLRequestUseProtocolCachePolicy
                                          timeoutInterval:60.0];
     
