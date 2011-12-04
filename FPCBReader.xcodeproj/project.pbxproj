@@ -46,6 +46,7 @@
 		E3CB81C6148729B80073AD87 /* NextUnread_ReadingViewControllerSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = E3CB81C5148729B80073AD87 /* NextUnread_ReadingViewControllerSpec.mm */; };
 		E3CB81C9148729F80073AD87 /* NextUnreadReadingDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CB81C8148729F70073AD87 /* NextUnreadReadingDataSource.m */; };
 		E3CB81CA148729F80073AD87 /* NextUnreadReadingDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CB81C8148729F70073AD87 /* NextUnreadReadingDataSource.m */; };
+		E3CB81CD1487E2740073AD87 /* UIPageViewController+Spec.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CB81CC1487E2740073AD87 /* UIPageViewController+Spec.m */; };
 		E3E8DB67147EBE5F005DC2FE /* Cedar-iPhone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E8DB66147EBE5F005DC2FE /* Cedar-iPhone.framework */; };
 		E3E8DB71147ED0A6005DC2FE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E372ECC1147EB81C008400D3 /* CoreData.framework */; };
 		E3E8DB74147ED119005DC2FE /* SpecEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E8DB73147ED119005DC2FE /* SpecEnvironment.m */; };
@@ -211,6 +212,8 @@
 		E3CB81C5148729B80073AD87 /* NextUnread_ReadingViewControllerSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NextUnread_ReadingViewControllerSpec.mm; sourceTree = "<group>"; };
 		E3CB81C7148729F70073AD87 /* NextUnreadReadingDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextUnreadReadingDataSource.h; sourceTree = "<group>"; };
 		E3CB81C8148729F70073AD87 /* NextUnreadReadingDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextUnreadReadingDataSource.m; sourceTree = "<group>"; };
+		E3CB81CB1487E2740073AD87 /* UIPageViewController+Spec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPageViewController+Spec.h"; sourceTree = "<group>"; };
+		E3CB81CC1487E2740073AD87 /* UIPageViewController+Spec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPageViewController+Spec.m"; sourceTree = "<group>"; };
 		E3E8DB3F147EBD74005DC2FE /* Cedar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Cedar.xcodeproj; path = Externals/Cedar/Cedar.xcodeproj; sourceTree = "<group>"; };
 		E3E8DB66147EBE5F005DC2FE /* Cedar-iPhone.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Cedar-iPhone.framework"; path = "Externals/Cedar/build/Debug-iphoneuniversal/Cedar-iPhone.framework"; sourceTree = "<group>"; };
 		E3E8DB73147ED119005DC2FE /* SpecEnvironment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecEnvironment.m; sourceTree = "<group>"; };
@@ -416,6 +419,8 @@
 				E343940714833DA0006343F4 /* CachedPassage+Spec.mm */,
 				E343940914834177006343F4 /* NotificationObserver.h */,
 				E343940A14834177006343F4 /* NotificationObserver.m */,
+				E3CB81CB1487E2740073AD87 /* UIPageViewController+Spec.h */,
+				E3CB81CC1487E2740073AD87 /* UIPageViewController+Spec.m */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -702,6 +707,7 @@
 				E343945F148544BF006343F4 /* TodaysReadingDataSource.m in Sources */,
 				E3CB81C6148729B80073AD87 /* NextUnread_ReadingViewControllerSpec.mm in Sources */,
 				E3CB81CA148729F80073AD87 /* NextUnreadReadingDataSource.m in Sources */,
+				E3CB81CD1487E2740073AD87 /* UIPageViewController+Spec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

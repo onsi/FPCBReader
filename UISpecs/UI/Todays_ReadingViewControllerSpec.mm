@@ -8,16 +8,19 @@ using namespace Cedar::Matchers;
 #import "CachedPassage+Spec.h"
 #import "UIWebView+Spec.h"
 #import "NSURLConnection+Spec.h"
+#import "UIPageViewController+Spec.h"
 
 SPEC_BEGIN(Todays_ReadingViewControllerSpec)
 
 describe(@"ReadingViewController", ^{
     __block ReadingViewController *controller;
     __block TodaysReadingDataSource *dataSource;
+    __block UIPageViewController *pageViewController;
     
     beforeEach(^{
 		dataSource = [TodaysReadingDataSource dataSource];
         controller = [ReadingViewController controllerWithDataSource:dataSource];
+        pageViewController = [UIPageViewController pageViewControllerWithController:controller];
         controller.view should_not be_nil();
     });
     
@@ -42,7 +45,10 @@ describe(@"ReadingViewController", ^{
             
             it(@"should present the content and hide the spinner/loading label/retry button", ^{
                 controller.containerView.subviews.lastObject should equal(controller.contentWebView);
+                controller.contentWebView.hidden should be_truthy();
                 controller.contentWebView.loadedHTMLString should contain(@"On the third day...");
+                [controller.contentWebView finishLoad];
+                controller.contentWebView.hidden should_not be_truthy();
             });
             
             context(@"when the user taps the toggle button", ^{

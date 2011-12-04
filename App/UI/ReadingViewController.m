@@ -75,6 +75,7 @@
     
     if (self.passage) {
         if (self.passage.content) {
+            self.contentWebView.hidden = YES;
             [self.contentWebView loadHTMLString:[reader htmlFormatContent:self.passage.content] baseURL:nil];
             [self.containerView addSubview:self.contentWebView];
         } else {
@@ -109,12 +110,19 @@
     return navigationType == UIWebViewNavigationTypeOther;
 }
 
+- (void)webViewDidFinishLoad:(UIWebView *)webView {
+    webView.hidden = NO;
+}
+
 - (void)didTapToggleReadStateButton {
     Reading *reading = self.dataSource.reading;
     [reading toggleReadingState];
     [self refreshReadButton];
     if (![self.dataSource.reading isEqual:reading]) {
-        [self refresh];
+        [(UIPageViewController *)self.parentViewController setViewControllers:[NSArray arrayWithObject:[ReadingViewController controllerWithDataSource:self.dataSource]]
+                                                                    direction:UIPageViewControllerNavigationDirectionForward
+                                                                     animated:YES
+                                                                   completion:nil];
     }
 }
 

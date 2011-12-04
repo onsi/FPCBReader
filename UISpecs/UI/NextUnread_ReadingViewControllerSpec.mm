@@ -8,17 +8,21 @@ using namespace Cedar::Matchers;
 #import "CachedPassage+Spec.h"
 #import "UIWebView+Spec.h"
 #import "NSURLConnection+Spec.h"
+#import "UIPageViewController+Spec.h"
 
 SPEC_BEGIN(NextUnread_ReadingViewControllerSpec)
 
 describe(@"ReadingViewController", ^{
     __block ReadingViewController *controller;
     __block NextUnreadReadingDataSource *dataSource;
+    __block UIPageViewController *pageViewController;
     
     beforeEach(^{
 		dataSource = [NextUnreadReadingDataSource dataSource];
         controller = [ReadingViewController controllerWithDataSource:dataSource];
+        pageViewController = [UIPageViewController pageViewControllerWithController:controller];
         controller.view should_not be_nil();
+        pageViewController.viewControllers.lastObject should equal(controller);
     });
     
     describe(@"tabBarItem", ^{
@@ -35,14 +39,28 @@ describe(@"ReadingViewController", ^{
         });
         
         context(@"when the passage is available", ^{
+            __block NSString *passageContent;
             beforeEach(^{
                 [CachedPassage passageWithReference:@"John 1" content:@"In the beginning..." date:[NSDate date]];
                 [controller viewWillAppear:YES];
             });
-            
+                   
             it(@"should present the content and hide the spinner/loading label/retry button", ^{
                 controller.containerView.subviews.lastObject should equal(controller.contentWebView);
+                controller.contentWebView.hidden should be_truthy();
                 controller.contentWebView.loadedHTMLString should contain(@"In the beginning...");
+                [controller.contentWebView finishLoad];
+                controller.contentWebView.hidden should_not be_truthy();
+            });
+            
+            sharedExamplesFor(@"displaying a passage", ^(NSDictionary *context) {
+                it(@"should dispaly the passage", ^{
+                    controller.containerView.subviews.lastObject should equal(controller.contentWebView);
+                    controller.contentWebView.hidden should be_truthy();
+                    controller.contentWebView.loadedHTMLString should contain(passageContent);
+                    [controller.contentWebView finishLoad];
+                    controller.contentWebView.hidden should_not be_truthy();
+                });
             });
             
             context(@"when the user taps the toggle button", ^{
@@ -57,6 +75,11 @@ describe(@"ReadingViewController", ^{
                     firstReading.isRead.boolValue should be_truthy();
                     
                     //Second reading is now visible
+                    pageViewController.viewControllers.lastObject should_not equal(controller);
+                    pageViewController.viewControllers.lastObject should be_instance_of([ReadingViewController class]);
+                    controller = pageViewController.viewControllers.lastObject;
+                    [controller viewWillAppear:NO];
+                    
                     dataSource.reading.isRead.boolValue should_not be_truthy();
                     [controller.toggleReadStateButton imageForState:UIControlStateNormal] should equal([UIImage imageNamed:@"Unread.png"]);
                     
@@ -65,24 +88,42 @@ describe(@"ReadingViewController", ^{
                     controller.containerView.subviews.lastObject should equal(controller.loadingView);
                     controller.toggleReadStateButton.enabled should_not be_truthy();
                     
+                    
+                    
                     [NSURLConnection provideSuccesfulResponse:@"On the third day..." forURL:dataSource.reading.passage.url];
                     controller.toggleReadStateButton.enabled should be_truthy();
                     controller.containerView.subviews.lastObject should equal(controller.contentWebView);
+                    controller.contentWebView.hidden should be_truthy();
                     controller.contentWebView.loadedHTMLString should contain(@"On the third day...");
+                    [controller.contentWebView finishLoad];
+                    controller.contentWebView.hidden should_not be_truthy();
                     
                     [controller.toggleReadStateButton sendActionsForControlEvents:UIControlEventTouchUpInside];
                     
                     //third reading is now visible
+                    pageViewController.viewControllers.lastObject should_not equal(controller);
+                    pageViewController.viewControllers.lastObject should be_instance_of([ReadingViewController class]);
+                    controller = pageViewController.viewControllers.lastObject;
+                    [controller viewWillAppear:NO];
+
                     controller.referenceLabel.text should equal(@"John 3");
                     controller.dateLabel.text should equal(SpecEnvironment.tomorrow.readerFormat);
                     controller.containerView.subviews.lastObject should equal(controller.loadingView);
                     [NSURLConnection provideSuccesfulResponse:@"..." forURL:dataSource.reading.passage.url];
                     controller.containerView.subviews.lastObject should equal(controller.contentWebView);
+                    controller.contentWebView.hidden should be_truthy();
                     controller.contentWebView.loadedHTMLString should contain(@"...");
+                    [controller.contentWebView finishLoad];
+                    controller.contentWebView.hidden should_not be_truthy();
                     
                     [controller.toggleReadStateButton sendActionsForControlEvents:UIControlEventTouchUpInside];
                     
                     //no more readings are available
+                    pageViewController.viewControllers.lastObject should_not equal(controller);
+                    pageViewController.viewControllers.lastObject should be_instance_of([ReadingViewController class]);
+                    controller = pageViewController.viewControllers.lastObject;
+                    [controller viewWillAppear:NO];
+
                     controller.containerView.subviews.lastObject should equal(controller.finishedReadingsView);                    
                     controller.toggleReadStateButton.enabled should_not be_truthy();
                 });

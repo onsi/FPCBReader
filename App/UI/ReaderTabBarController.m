@@ -8,10 +8,30 @@
 
 - (id)init {
     self = [super init];
-    if (self) {           
+    if (self) {        
+        UIPageViewController *todayTab = [[[UIPageViewController alloc] initWithTransitionStyle:UIPageViewControllerTransitionStylePageCurl
+                                                                          navigationOrientation:UIPageViewControllerNavigationOrientationHorizontal
+                                                                                        options:[NSDictionary dictionaryWithObject:[NSNumber numberWithInt:UIPageViewControllerSpineLocationMin]
+                                                                                                                            forKey:UIPageViewControllerOptionSpineLocationKey]]
+                                          autorelease];
+        [todayTab setViewControllers:[NSArray arrayWithObject:[ReadingViewController controllerWithDataSource:[TodaysReadingDataSource dataSource]]]
+                           direction:UIPageViewControllerNavigationDirectionForward
+                            animated:NO
+                          completion:nil];
+
+        UIPageViewController *nextUnreadTab = [[[UIPageViewController alloc] initWithTransitionStyle:UIPageViewControllerTransitionStylePageCurl
+                                                                               navigationOrientation:UIPageViewControllerNavigationOrientationHorizontal 
+                                                                                             options:[NSDictionary dictionaryWithObject:[NSNumber numberWithInt:UIPageViewControllerSpineLocationMin]
+                                                                                                                                 forKey:UIPageViewControllerOptionSpineLocationKey]]
+                                               autorelease];
+        [nextUnreadTab setViewControllers:[NSArray arrayWithObject:[ReadingViewController controllerWithDataSource:[NextUnreadReadingDataSource dataSource]]]
+                           direction:UIPageViewControllerNavigationDirectionForward
+                            animated:NO
+                          completion:nil];
+
         self.viewControllers = [NSArray arrayWithObjects:
-                                [ReadingViewController controllerWithDataSource:[TodaysReadingDataSource dataSource]],
-                                [ReadingViewController controllerWithDataSource:[NextUnreadReadingDataSource dataSource]],
+                                todayTab,
+                                nextUnreadTab,
                                 nil];
     }
     return self;
