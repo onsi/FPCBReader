@@ -1,6 +1,7 @@
 #import "ReadingCell.h"
 #import "NSDate+FPCBReader.h"
 #import "Reading.h"
+#import "Reader.h"
 
 @interface ReadingCell ()
 
@@ -27,6 +28,10 @@
 }
 
 - (void)refresh {
+    self.backgroundColor = reader.backgroundColor;
+    self.dateLabel.textColor = reader.textColor;
+    self.readingLabel.textColor = reader.textColor;
+    
     self.dateLabel.text = self.reading.date.readerFormat;
     self.readingLabel.text = self.reading.reference;
     [self refreshReadButton];

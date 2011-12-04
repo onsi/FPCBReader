@@ -30,7 +30,6 @@
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
@@ -47,6 +46,13 @@
 }
 
 - (void)refresh {
+    self.view.backgroundColor = reader.backgroundColor;
+    for (UIView *view in self.view.subviews) {
+        if ([view respondsToSelector:@selector(setTextColor:)]) {
+            [(id)view setTextColor:reader.textColor];
+        }
+    }
+    self.preview.backgroundColor = reader.backgroundColor;
     [self.preview loadHTMLString:reader.preview 
                          baseURL:nil];
 }

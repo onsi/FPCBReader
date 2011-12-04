@@ -3,6 +3,7 @@
 #import "Reading.h"
 #import "NavigationReadingViewController.h"
 #import "SpecificReadingDataSource.h"
+#import "Reader.h"
 
 @interface AllReadingsTableViewController ()
 
@@ -33,6 +34,7 @@
 }
 
 - (void)viewWillAppear:(BOOL)animated {
+    self.tableView.backgroundColor = reader.backgroundColor;
     for (ReadingCell *cell in self.tableView.visibleCells) {
         [cell refresh];
     }

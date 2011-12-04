@@ -10,6 +10,7 @@
 @property (nonatomic, retain) CachedPassage *passage;
 - (void)refresh;
 - (void)refreshReadButton;
+- (void)refreshColors;
 
 @end
 
@@ -49,7 +50,6 @@
 }
 
 - (void)viewWillAppear:(BOOL)animated {
-    self.contentWebView.backgroundColor = [UIColor blackColor];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didDownloadPassage:) name:@"didDownloadPassage" object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(downloadDidFail:) name:@"downloadDidFail" object:nil];
     [self refresh];
@@ -80,6 +80,7 @@
         [self.containerView addSubview:self.finishedReadingsView];
     }
     [self refreshReadButton];
+    [self refreshColors];
 }
 
 - (IBAction)didTapRetryButton {
@@ -97,7 +98,21 @@
     if ([notification.object isEqual:self.passage]) {
         [self.containerView.subviews.lastObject removeFromSuperview];
         [self.containerView addSubview:self.retryView];
+        [self refreshColors];
     }
+}
+
+- (void)refreshColors {
+    self.view.backgroundColor = reader.backgroundColor;
+    self.dateLabel.textColor = reader.textColor;
+    self.referenceLabel.textColor = reader.textColor;
+    [self.containerView.subviews.lastObject setBackgroundColor:reader.backgroundColor];
+    for (UIView *view in [self.containerView.subviews.lastObject subviews]) {
+        if ([view respondsToSelector:@selector(setTextColor:)]) {
+            [(id)view setTextColor:reader.textColor];
+        }
+    }
+
 }
 
 #pragma mark UIWebViewDelegate
