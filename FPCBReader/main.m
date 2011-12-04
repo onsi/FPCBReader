@@ -1,11 +1,3 @@
-//
-//  main.m
-//  FPCBReader
-//
-//  Created by Onsi Fakhouri on 11/24/11.
-//  Copyright (c) 2011 Pivotal Labs. All rights reserved.
-//
-
 #import <UIKit/UIKit.h>
 
 #import "AppDelegate.h"

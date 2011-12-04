@@ -17,10 +17,13 @@
 @property (nonatomic, assign) IBOutlet UIButton *retryButton;
 
 @property (nonatomic, retain) IBOutlet UIWebView *contentWebView;
+@property (nonatomic, assign) IBOutlet UIButton *backButton;
+
 
 + (ReadingViewController *)controllerWithDataSource:(id<ReadingDataSource>)dataSource;
 
 - (IBAction)didTapRetryButton;
 - (IBAction)didTapToggleReadStateButton;
+- (IBAction)didTapBackButton;
 
 @end

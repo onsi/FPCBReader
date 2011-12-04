@@ -47,6 +47,25 @@
 		E3CB81C9148729F80073AD87 /* NextUnreadReadingDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CB81C8148729F70073AD87 /* NextUnreadReadingDataSource.m */; };
 		E3CB81CA148729F80073AD87 /* NextUnreadReadingDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CB81C8148729F70073AD87 /* NextUnreadReadingDataSource.m */; };
 		E3CB81CD1487E2740073AD87 /* UIPageViewController+Spec.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CB81CC1487E2740073AD87 /* UIPageViewController+Spec.m */; };
+		E3CB81F6148B25B10073AD87 /* AllReadingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CB81F4148B25B10073AD87 /* AllReadingsTableViewController.m */; };
+		E3CB81F7148B25B10073AD87 /* AllReadingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CB81F4148B25B10073AD87 /* AllReadingsTableViewController.m */; };
+		E3CB81F8148B25B10073AD87 /* AllReadingsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3CB81F5148B25B10073AD87 /* AllReadingsTableViewController.xib */; };
+		E3CB81F9148B25B10073AD87 /* AllReadingsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3CB81F5148B25B10073AD87 /* AllReadingsTableViewController.xib */; };
+		E3CB8200148B278E0073AD87 /* ReadingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CB81FF148B278D0073AD87 /* ReadingCell.m */; };
+		E3CB8201148B278E0073AD87 /* ReadingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CB81FF148B278D0073AD87 /* ReadingCell.m */; };
+		E3CB8206148B285B0073AD87 /* ReadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3CB8205148B285B0073AD87 /* ReadingCell.xib */; };
+		E3CB8207148B285B0073AD87 /* ReadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3CB8205148B285B0073AD87 /* ReadingCell.xib */; };
+		E3CB8209148B2B840073AD87 /* AllReadingsTableViewControllerSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = E3CB8208148B2B840073AD87 /* AllReadingsTableViewControllerSpec.mm */; };
+		E3CB820C148B30E40073AD87 /* NavigationReadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CB820B148B30E30073AD87 /* NavigationReadingViewController.m */; };
+		E3CB820D148B30E40073AD87 /* NavigationReadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CB820B148B30E30073AD87 /* NavigationReadingViewController.m */; };
+		E3CB8210148B40E10073AD87 /* SpecificReadingDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CB820F148B40E10073AD87 /* SpecificReadingDataSource.m */; };
+		E3CB8211148B40E10073AD87 /* SpecificReadingDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CB820F148B40E10073AD87 /* SpecificReadingDataSource.m */; };
+		E3CB8214148BCC480073AD87 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CB8213148BCC480073AD87 /* Settings.m */; };
+		E3CB8215148BCC480073AD87 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CB8213148BCC480073AD87 /* Settings.m */; };
+		E3CB8219148BCD590073AD87 /* SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CB8217148BCD580073AD87 /* SettingsController.m */; };
+		E3CB821A148BCD590073AD87 /* SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CB8217148BCD580073AD87 /* SettingsController.m */; };
+		E3CB821B148BCD590073AD87 /* SettingsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3CB8218148BCD580073AD87 /* SettingsController.xib */; };
+		E3CB821C148BCD590073AD87 /* SettingsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3CB8218148BCD580073AD87 /* SettingsController.xib */; };
 		E3E8DB67147EBE5F005DC2FE /* Cedar-iPhone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E8DB66147EBE5F005DC2FE /* Cedar-iPhone.framework */; };
 		E3E8DB71147ED0A6005DC2FE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E372ECC1147EB81C008400D3 /* CoreData.framework */; };
 		E3E8DB74147ED119005DC2FE /* SpecEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E8DB73147ED119005DC2FE /* SpecEnvironment.m */; };
@@ -214,6 +233,22 @@
 		E3CB81C8148729F70073AD87 /* NextUnreadReadingDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextUnreadReadingDataSource.m; sourceTree = "<group>"; };
 		E3CB81CB1487E2740073AD87 /* UIPageViewController+Spec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPageViewController+Spec.h"; sourceTree = "<group>"; };
 		E3CB81CC1487E2740073AD87 /* UIPageViewController+Spec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPageViewController+Spec.m"; sourceTree = "<group>"; };
+		E3CB81F3148B25B10073AD87 /* AllReadingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllReadingsTableViewController.h; sourceTree = "<group>"; };
+		E3CB81F4148B25B10073AD87 /* AllReadingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllReadingsTableViewController.m; sourceTree = "<group>"; };
+		E3CB81F5148B25B10073AD87 /* AllReadingsTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AllReadingsTableViewController.xib; sourceTree = "<group>"; };
+		E3CB81FE148B278D0073AD87 /* ReadingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadingCell.h; sourceTree = "<group>"; };
+		E3CB81FF148B278D0073AD87 /* ReadingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadingCell.m; sourceTree = "<group>"; };
+		E3CB8205148B285B0073AD87 /* ReadingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReadingCell.xib; sourceTree = "<group>"; };
+		E3CB8208148B2B840073AD87 /* AllReadingsTableViewControllerSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AllReadingsTableViewControllerSpec.mm; sourceTree = "<group>"; };
+		E3CB820A148B30E30073AD87 /* NavigationReadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationReadingViewController.h; sourceTree = "<group>"; };
+		E3CB820B148B30E30073AD87 /* NavigationReadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationReadingViewController.m; sourceTree = "<group>"; };
+		E3CB820E148B40E10073AD87 /* SpecificReadingDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecificReadingDataSource.h; sourceTree = "<group>"; };
+		E3CB820F148B40E10073AD87 /* SpecificReadingDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecificReadingDataSource.m; sourceTree = "<group>"; };
+		E3CB8212148BCC480073AD87 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		E3CB8213148BCC480073AD87 /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		E3CB8216148BCD570073AD87 /* SettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsController.h; sourceTree = "<group>"; };
+		E3CB8217148BCD580073AD87 /* SettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsController.m; sourceTree = "<group>"; };
+		E3CB8218148BCD580073AD87 /* SettingsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsController.xib; sourceTree = "<group>"; };
 		E3E8DB3F147EBD74005DC2FE /* Cedar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Cedar.xcodeproj; path = Externals/Cedar/Cedar.xcodeproj; sourceTree = "<group>"; };
 		E3E8DB66147EBE5F005DC2FE /* Cedar-iPhone.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Cedar-iPhone.framework"; path = "Externals/Cedar/build/Debug-iphoneuniversal/Cedar-iPhone.framework"; sourceTree = "<group>"; };
 		E3E8DB73147ED119005DC2FE /* SpecEnvironment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecEnvironment.m; sourceTree = "<group>"; };
@@ -273,7 +308,18 @@
 				E34394441484BB3D006343F4 /* ReaderTabBarController.m */,
 				E343945514853F8F006343F4 /* ReadingViewController.h */,
 				E343945614853F8F006343F4 /* ReadingViewController.m */,
+				E3CB820A148B30E30073AD87 /* NavigationReadingViewController.h */,
+				E3CB820B148B30E30073AD87 /* NavigationReadingViewController.m */,
 				E34394501484BD6C006343F4 /* ReadingViewController.xib */,
+				E3CB81F3148B25B10073AD87 /* AllReadingsTableViewController.h */,
+				E3CB81F4148B25B10073AD87 /* AllReadingsTableViewController.m */,
+				E3CB81F5148B25B10073AD87 /* AllReadingsTableViewController.xib */,
+				E3CB81FE148B278D0073AD87 /* ReadingCell.h */,
+				E3CB81FF148B278D0073AD87 /* ReadingCell.m */,
+				E3CB8205148B285B0073AD87 /* ReadingCell.xib */,
+				E3CB8216148BCD570073AD87 /* SettingsController.h */,
+				E3CB8217148BCD580073AD87 /* SettingsController.m */,
+				E3CB8218148BCD580073AD87 /* SettingsController.xib */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -283,6 +329,7 @@
 			children = (
 				E3CB81C5148729B80073AD87 /* NextUnread_ReadingViewControllerSpec.mm */,
 				E343945A14854359006343F4 /* Todays_ReadingViewControllerSpec.mm */,
+				E3CB8208148B2B840073AD87 /* AllReadingsTableViewControllerSpec.mm */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -438,6 +485,8 @@
 				E343945D148544BF006343F4 /* TodaysReadingDataSource.m */,
 				E3CB81C7148729F70073AD87 /* NextUnreadReadingDataSource.h */,
 				E3CB81C8148729F70073AD87 /* NextUnreadReadingDataSource.m */,
+				E3CB820E148B40E10073AD87 /* SpecificReadingDataSource.h */,
+				E3CB820F148B40E10073AD87 /* SpecificReadingDataSource.m */,
 				E34394601485C9E3006343F4 /* ReadingDataSource.h */,
 			);
 			path = Domain;
@@ -450,6 +499,8 @@
 				E3E8DB81148044D9005DC2FE /* DataManager.m */,
 				E3E8DB82148044D9005DC2FE /* Reader.h */,
 				E3E8DB83148044D9005DC2FE /* Reader.m */,
+				E3CB8212148BCC480073AD87 /* Settings.h */,
+				E3CB8213148BCC480073AD87 /* Settings.m */,
 			);
 			path = Global;
 			sourceTree = "<group>";
@@ -649,6 +700,9 @@
 				E343946214860EE3006343F4 /* ReadingPlan.plist in Resources */,
 				E34394691486952F006343F4 /* Read.png in Resources */,
 				E343946B1486952F006343F4 /* Unread.png in Resources */,
+				E3CB81F8148B25B10073AD87 /* AllReadingsTableViewController.xib in Resources */,
+				E3CB8206148B285B0073AD87 /* ReadingCell.xib in Resources */,
+				E3CB821B148BCD590073AD87 /* SettingsController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -660,6 +714,9 @@
 				E34394541484BD6C006343F4 /* ReadingViewController.xib in Resources */,
 				E343946A1486952F006343F4 /* Read.png in Resources */,
 				E343946C1486952F006343F4 /* Unread.png in Resources */,
+				E3CB81F9148B25B10073AD87 /* AllReadingsTableViewController.xib in Resources */,
+				E3CB8207148B285B0073AD87 /* ReadingCell.xib in Resources */,
+				E3CB821C148BCD590073AD87 /* SettingsController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -682,6 +739,12 @@
 				E343945714853F8F006343F4 /* ReadingViewController.m in Sources */,
 				E343945E148544BF006343F4 /* TodaysReadingDataSource.m in Sources */,
 				E3CB81C9148729F80073AD87 /* NextUnreadReadingDataSource.m in Sources */,
+				E3CB81F6148B25B10073AD87 /* AllReadingsTableViewController.m in Sources */,
+				E3CB8200148B278E0073AD87 /* ReadingCell.m in Sources */,
+				E3CB820C148B30E40073AD87 /* NavigationReadingViewController.m in Sources */,
+				E3CB8210148B40E10073AD87 /* SpecificReadingDataSource.m in Sources */,
+				E3CB8214148BCC480073AD87 /* Settings.m in Sources */,
+				E3CB8219148BCD590073AD87 /* SettingsController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -708,6 +771,13 @@
 				E3CB81C6148729B80073AD87 /* NextUnread_ReadingViewControllerSpec.mm in Sources */,
 				E3CB81CA148729F80073AD87 /* NextUnreadReadingDataSource.m in Sources */,
 				E3CB81CD1487E2740073AD87 /* UIPageViewController+Spec.m in Sources */,
+				E3CB81F7148B25B10073AD87 /* AllReadingsTableViewController.m in Sources */,
+				E3CB8201148B278E0073AD87 /* ReadingCell.m in Sources */,
+				E3CB8209148B2B840073AD87 /* AllReadingsTableViewControllerSpec.mm in Sources */,
+				E3CB820D148B30E40073AD87 /* NavigationReadingViewController.m in Sources */,
+				E3CB8211148B40E10073AD87 /* SpecificReadingDataSource.m in Sources */,
+				E3CB8215148BCC480073AD87 /* Settings.m in Sources */,
+				E3CB821A148BCD590073AD87 /* SettingsController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

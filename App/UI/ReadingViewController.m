@@ -26,7 +26,8 @@
     retryView = retryView_,
     finishedReadingsView = finishedReadingsView_,
     retryButton = retryButton_,
-    contentWebView = contentWebView_;
+    contentWebView = contentWebView_,
+    backButton = backButton_;
 
 + (ReadingViewController *)controllerWithDataSource:(id<ReadingDataSource>)dataSource {
     ReadingViewController *controller = [[[self alloc] initWithNibName:@"ReadingViewController" bundle:nil] autorelease];
@@ -45,12 +46,6 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
     return YES;
-}
-
-- (UITabBarItem *)tabBarItem {
-    return [[[UITabBarItem alloc] initWithTitle:self.dataSource.tabItemTitle
-                                          image:nil 
-                                            tag:0] autorelease];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -136,6 +131,9 @@
     [self.toggleReadStateButton setImage:[UIImage imageNamed:imageName] 
                                 forState:UIControlStateNormal];
     self.toggleReadStateButton.enabled = (self.containerView.subviews.lastObject == self.contentWebView);
+}
+
+- (void)didTapBackButton {
 }
 
 @end

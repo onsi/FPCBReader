@@ -10,8 +10,13 @@
         <attribute name="isRead" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
         <attribute name="reference" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
+    <entity name="Settings" representedClassName="Settings" syncable="YES">
+        <attribute name="fontSize" optional="YES" attributeType="Float" defaultValueString="14" syncable="YES"/>
+        <attribute name="invert" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+    </entity>
     <elements>
         <element name="CachedPassage" positionX="-11936" positionY="-3024" width="128" height="90"/>
         <element name="Reading" positionX="-11936" positionY="-3141" width="128" height="90"/>
+        <element name="Settings" positionX="-12132" positionY="-3141" width="128" height="75"/>
     </elements>
 </model>

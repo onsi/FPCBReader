@@ -11,8 +11,4 @@
     return [Reading nextUnreadReading];
 }
 
-- (NSString *)tabItemTitle {
-    return @"Next";
-}
-
 @end

@@ -11,8 +11,4 @@
     return [Reading todaysReading];
 }
 
-- (NSString *)tabItemTitle {
-    return @"Today";
-}
-
 @end
