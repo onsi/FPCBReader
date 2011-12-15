@@ -8,12 +8,13 @@
 @interface AllReadingsTableViewController ()
 
 @property (nonatomic, retain) NSArray *readings;
+@property (nonatomic, assign) BOOL firstView;
 
 @end
 
 @implementation AllReadingsTableViewController
 
-@synthesize readings = readings_;
+@synthesize readings = readings_, firstView = firstView_;
 
 + (AllReadingsTableViewController *)controller {
     return [[[self alloc] initWithNibName:@"AllReadingsTableViewController" bundle:nil] autorelease];
@@ -30,13 +31,23 @@
     [super viewDidLoad];
     self.readings = [Reading readings];
     self.navigationController.navigationBarHidden = YES;
-    //perhaps scroll to next unread passage?
+    self.firstView = YES;
 }
 
 - (void)viewWillAppear:(BOOL)animated {
     self.tableView.backgroundColor = reader.backgroundColor;
+    self.tableView.rowHeight = 60;
     for (ReadingCell *cell in self.tableView.visibleCells) {
         [cell refresh];
+    }
+    if (self.firstView) {
+        int todaysIndex = [self.readings indexOfObject:[Reading todaysReading]];
+        if (todaysIndex != NSNotFound) {
+            [self.tableView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:todaysIndex inSection:0]
+                                  atScrollPosition:UITableViewScrollPositionTop 
+                                          animated:NO];
+        }
+        self.firstView = NO;
     }
 }
 
@@ -64,6 +75,7 @@
     
     return cell;
 }
+
 
 #pragma mark - Table view delegate
 

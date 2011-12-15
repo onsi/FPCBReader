@@ -55,6 +55,8 @@
     self.preview.backgroundColor = reader.backgroundColor;
     [self.preview loadHTMLString:reader.preview 
                          baseURL:nil];
+    [[UIApplication sharedApplication] setStatusBarStyle:reader.settings.invert.boolValue ? UIStatusBarStyleDefault : UIStatusBarStyleBlackOpaque
+                                                animated:NO];
 }
 
 - (void)webViewDidFinishLoad:(UIWebView *)webView {

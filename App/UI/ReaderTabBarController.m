@@ -22,7 +22,7 @@
                           completion:nil];
         
         todayTab.tabBarItem = [[[UITabBarItem alloc] initWithTitle:@"Today"
-                                                             image:nil 
+                                                             image:[UIImage imageNamed:@"Today.png"] 
                                                                tag:1] autorelease];
         
         UIPageViewController *nextUnreadTab = [[[UIPageViewController alloc] initWithTransitionStyle:UIPageViewControllerTransitionStylePageCurl
@@ -36,7 +36,7 @@
                                completion:nil];
         
         nextUnreadTab.tabBarItem = [[[UITabBarItem alloc] initWithTitle:@"Unread"
-                                                                  image:nil 
+                                                                  image:[UIImage imageNamed:@"UnreadTab.png"] 
                                                                     tag:2] autorelease];
         
         
@@ -44,12 +44,12 @@
         
         
         allTab.tabBarItem = [[[UITabBarItem alloc] initWithTitle:@"All"
-                                                           image:nil 
+                                                           image:[UIImage imageNamed:@"All.png"] 
                                                              tag:3] autorelease];
         
         SettingsController *settingsTab = [SettingsController controller];
         settingsTab.tabBarItem = [[[UITabBarItem alloc] initWithTitle:@"Settings"
-                                                                image:nil 
+                                                                image:[UIImage imageNamed:@"Settings.png"] 
                                                                   tag:4] autorelease];
         
         

@@ -26,7 +26,9 @@ Reader *reader;
     self.reader = [[[Reader alloc] init] autorelease];
     reader = self.reader;
     [reader performSetUp];
-    
+    [[UIApplication sharedApplication] setStatusBarStyle:reader.settings.invert.boolValue ? UIStatusBarStyleDefault : UIStatusBarStyleBlackOpaque
+                                                animated:NO];
+
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

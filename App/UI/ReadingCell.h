@@ -7,6 +7,7 @@
 @property (nonatomic, assign) IBOutlet UILabel *readingLabel;
 @property (nonatomic, assign) IBOutlet UILabel *dateLabel;
 @property (nonatomic, assign) IBOutlet UIButton *toggleReadStateButton;
+@property (nonatomic, assign) IBOutlet UIImageView *todayImageView;
 @property (nonatomic, assign) Reading *reading;
 
 + (ReadingCell *)cell;

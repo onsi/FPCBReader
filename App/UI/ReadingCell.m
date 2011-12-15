@@ -16,7 +16,8 @@
     readingLabel = readingLabel_,
     dateLabel = dateLabel_,
     toggleReadStateButton = toggleReadStateButton_,
-    reading = reading_;
+    reading = reading_,
+    todayImageView = todayImageView_;
 
 + (ReadingCell *)cell {
    return [[[NSBundle mainBundle] loadNibNamed:@"ReadingCell" owner:nil options:nil] lastObject];
@@ -34,6 +35,11 @@
     
     self.dateLabel.text = self.reading.date.readerFormat;
     self.readingLabel.text = self.reading.reference;
+    self.todayImageView.hidden = YES;
+    if ([self.reading.date isEqualToDate:[[NSDate date] dateByRemovingTimeComponent]]) {
+        self.todayImageView.hidden = NO;
+        
+    }
     [self refreshReadButton];
 }
 

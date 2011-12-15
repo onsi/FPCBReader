@@ -14,6 +14,7 @@
 			<string>IBUITableViewCell</string>
 			<string>IBUIButton</string>
 			<string>IBUILabel</string>
+			<string>IBUIImageView</string>
 			<string>IBProxyObject</string>
 		</array>
 		<array key="IBDocument.PluginDependencies">
@@ -43,7 +44,7 @@
 							<object class="IBUILabel" id="71113186">
 								<reference key="NSNextResponder" ref="348085389"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{42, 3}, {273, 24}}</string>
+								<string key="NSFrame">{{43, 10}, {273, 24}}</string>
 								<reference key="NSSuperview" ref="348085389"/>
 								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="909702492"/>
@@ -79,10 +80,10 @@
 							<object class="IBUILabel" id="909702492">
 								<reference key="NSNextResponder" ref="348085389"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{42, 22}, {273, 21}}</string>
+								<string key="NSFrame">{{43, 29}, {273, 21}}</string>
 								<reference key="NSSuperview" ref="348085389"/>
 								<reference key="NSWindow"/>
-								<reference key="NSNextKeyView"/>
+								<reference key="NSNextKeyView" ref="287943851"/>
 								<string key="NSReuseIdentifierKey">_NS:328</string>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
@@ -113,7 +114,7 @@
 							<object class="IBUIButton" id="371538323">
 								<reference key="NSNextResponder" ref="348085389"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{3, 4}, {35, 35}}</string>
+								<string key="NSFrame">{{4, 11}, {35, 35}}</string>
 								<reference key="NSSuperview" ref="348085389"/>
 								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="71113186"/>
@@ -145,8 +146,25 @@
 									<int key="NSfFlags">16</int>
 								</object>
 							</object>
+							<object class="IBUIImageView" id="287943851">
+								<reference key="NSNextResponder" ref="348085389"/>
+								<int key="NSvFlags">-2147483356</int>
+								<string key="NSFrame">{{277, 11}, {35, 35}}</string>
+								<reference key="NSSuperview" ref="348085389"/>
+								<reference key="NSWindow"/>
+								<reference key="NSNextKeyView"/>
+								<string key="NSReuseIdentifierKey">_NS:567</string>
+								<bool key="IBUIOpaque">NO</bool>
+								<float key="IBUIAlpha">0.5</float>
+								<bool key="IBUIUserInteractionEnabled">NO</bool>
+								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+								<object class="NSCustomResource" key="IBUIImage">
+									<string key="NSClassName">NSImage</string>
+									<string key="NSResourceName">Today.png</string>
+								</object>
+							</object>
 						</array>
-						<string key="NSFrameSize">{320, 43}</string>
+						<string key="NSFrameSize">{320, 59}</string>
 						<reference key="NSSuperview" ref="143177357"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="371538323"/>
@@ -162,7 +180,7 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 					</object>
 				</array>
-				<string key="NSFrameSize">{320, 44}</string>
+				<string key="NSFrameSize">{320, 60}</string>
 				<reference key="NSSuperview"/>
 				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="348085389"/>
@@ -205,6 +223,14 @@
 					<int key="connectionID">16</int>
 				</object>
 				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">todayImageView</string>
+						<reference key="source" ref="143177357"/>
+						<reference key="destination" ref="287943851"/>
+					</object>
+					<int key="connectionID">18</int>
+				</object>
+				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">didTapToggleReadingButton</string>
 						<reference key="source" ref="371538323"/>
@@ -240,6 +266,7 @@
 							<reference ref="71113186"/>
 							<reference ref="909702492"/>
 							<reference ref="371538323"/>
+							<reference ref="287943851"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -261,6 +288,11 @@
 						<reference key="parent" ref="143177357"/>
 						<string key="objectName">Toggle Reading Button</string>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">17</int>
+						<reference key="object" ref="287943851"/>
+						<reference key="parent" ref="143177357"/>
+					</object>
 				</array>
 			</object>
 			<dictionary class="NSMutableDictionary" key="flattenedProperties">
@@ -268,6 +300,7 @@
 				<string key="-2.CustomClassName">UIResponder</string>
 				<string key="-2.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="10.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<string key="17.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="3.CustomClassName">ReadingCell</string>
 				<string key="3.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="6.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -277,7 +310,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">16</int>
+			<int key="maxID">18</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -298,6 +331,7 @@
 					<dictionary class="NSMutableDictionary" key="outlets">
 						<string key="dateLabel">UILabel</string>
 						<string key="readingLabel">UILabel</string>
+						<string key="todayImageView">UIImageView</string>
 						<string key="toggleReadStateButton">UIButton</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
@@ -308,6 +342,10 @@
 						<object class="IBToOneOutletInfo" key="readingLabel">
 							<string key="name">readingLabel</string>
 							<string key="candidateClassName">UILabel</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="todayImageView">
+							<string key="name">todayImageView</string>
+							<string key="candidateClassName">UIImageView</string>
 						</object>
 						<object class="IBToOneOutletInfo" key="toggleReadStateButton">
 							<string key="name">toggleReadStateButton</string>
@@ -325,10 +363,10 @@
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaTouchFramework</string>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
-		<object class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
-			<string key="NS.key.0">Unread.png</string>
-			<string key="NS.object.0">{35, 35}</string>
-		</object>
+		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
+			<string key="Today.png">{30, 30}</string>
+			<string key="Unread.png">{35, 35}</string>
+		</dictionary>
 		<string key="IBCocoaTouchPluginVersion">933</string>
 	</data>
 </archive>
