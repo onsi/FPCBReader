@@ -1016,6 +1016,61 @@
 			};
 			name = Release;
 		};
+		E373376D1499AE7800A2DA83 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Onsi Fakhouri";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Onsi Fakhouri";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "9A8BEBA3-BED5-4D02-9C73-92620F1820B2";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9A8BEBA3-BED5-4D02-9C73-92620F1820B2";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Ad Hoc";
+		};
+		E373376E1499AE7800A2DA83 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FPCBReader/FPCBReader-Prefix.pch";
+				INFOPLIST_FILE = "FPCBReader/FPCBReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Ad Hoc";
+		};
+		E373376F1499AE7800A2DA83 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Externals/Cedar/build/Debug-iphoneuniversal\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UISpecs/UISpecs-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Externals/PivotalCoreKit/SpecHelperLib/**";
+				INFOPLIST_FILE = "UISpecs/UISpecs-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Ad Hoc";
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1024,6 +1079,7 @@
 			buildConfigurations = (
 				E372ECD2147EB81C008400D3 /* Debug */,
 				E372ECD3147EB81C008400D3 /* Release */,
+				E373376D1499AE7800A2DA83 /* Ad Hoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1033,6 +1089,7 @@
 			buildConfigurations = (
 				E372ECD5147EB81C008400D3 /* Debug */,
 				E372ECD6147EB81C008400D3 /* Release */,
+				E373376E1499AE7800A2DA83 /* Ad Hoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1042,6 +1099,7 @@
 			buildConfigurations = (
 				E372ECF9147EB92E008400D3 /* Debug */,
 				E372ECFA147EB92E008400D3 /* Release */,
+				E373376F1499AE7800A2DA83 /* Ad Hoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
