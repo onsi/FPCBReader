@@ -1,6 +1,6 @@
 require 'CSV'
 
-fname = "WinterReadings"
+fname = "SpringReadings"
 
 f = open("#{fname}.plist", 'w')
 

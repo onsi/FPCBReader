@@ -23,13 +23,7 @@ describe(@"ReadingViewController", ^{
         pageViewController = [UIPageViewController pageViewControllerWithController:controller];
         controller.view should_not be_nil();
     });
-    
-    describe(@"tabBarItem", ^{
-        it(@"should have the correct tab bar item", ^{
-            controller.tabBarItem.title should equal(@"Today");
-        });
-    });
-    
+        
     context(@"when the view appears", ^{
         it(@"should update the reference and date", ^{
             [controller viewWillAppear:YES];

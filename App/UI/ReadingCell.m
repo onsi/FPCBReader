@@ -24,7 +24,21 @@
 }
 
 - (void)setReading:(Reading *)reading {
+    [reading_ removeObserver:self forKeyPath:@"isRead"];
     reading_ = reading;
+    [reading_ addObserver:self
+               forKeyPath:@"isRead"
+                  options:0
+                  context:nil];
+    [self refresh];
+}
+
+- (void)dealloc {
+    self.reading = nil;
+    [super dealloc];
+}
+
+- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {
     [self refresh];
 }
 
@@ -38,6 +52,7 @@
     self.todayImageView.hidden = YES;
     if ([self.reading.date isEqualToDate:[[NSDate date] dateByRemovingTimeComponent]]) {
         self.todayImageView.hidden = NO;
+        self.todayImageView.image = reader.todayImage;
         
     }
     [self refreshReadButton];

@@ -25,12 +25,6 @@ describe(@"ReadingViewController", ^{
         pageViewController.viewControllers.lastObject should equal(controller);
     });
     
-    describe(@"tabBarItem", ^{
-        it(@"should have the correct tab bar item", ^{
-            controller.tabBarItem.title should equal(@"Next");
-        });
-    });
-    
     context(@"when the view appears", ^{
         it(@"should update the reference and date", ^{
             [controller viewWillAppear:YES];

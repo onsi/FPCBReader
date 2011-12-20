@@ -57,5 +57,25 @@ settings = settings_;
     return self.settings.invert.boolValue ? [UIColor blackColor] : [UIColor whiteColor];
 }
 
+- (UIImage *)fontSizeImage {
+    return [UIImage imageNamed:reader.settings.invert.boolValue ? @"font_size_white.png" : @"font_size_black.png"];
+}
+
+- (UIImage *)brightnessImage {
+    return [UIImage imageNamed:reader.settings.invert.boolValue ? @"brightness_white.png" : @"brightness_black.png"];    
+}
+
+- (UIImage *)topGradient {
+    return [UIImage imageNamed:reader.settings.invert.boolValue ? @"gradient_top_white.png" : @"gradient_top_black.png"];
+}
+
+- (UIImage *)bottomGradient {
+    return [UIImage imageNamed:reader.settings.invert.boolValue ? @"gradient_bottom_white.png" : @"gradient_bottom_black.png"];
+}
+
+- (UIImage *)todayImage {
+    return [UIImage imageNamed:reader.settings.invert.boolValue ? @"today_white.png" : @"today_black.png"];    
+}
+
 
 @end

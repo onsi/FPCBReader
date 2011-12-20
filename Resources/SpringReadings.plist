@@ -1,0 +1,2285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+    <dict>
+  		<key>day</key>
+  		<integer>15</integer>
+  		<key>month</key>
+  		<integer>11</integer>
+  		<key>year</key>
+  		<integer>2011</integer>
+  		<key>reference</key>
+  		<string>Luke 12:49-13:30</string>
+  	</dict>
+    <dict>
+  		<key>day</key>
+  		<integer>16</integer>
+  		<key>month</key>
+  		<integer>11</integer>
+  		<key>year</key>
+  		<integer>2011</integer>
+  		<key>reference</key>
+  		<string>Luke 13:31-14:35</string>
+  	</dict>
+    <dict>
+  		<key>day</key>
+  		<integer>17</integer>
+  		<key>month</key>
+  		<integer>11</integer>
+  		<key>year</key>
+  		<integer>2011</integer>
+  		<key>reference</key>
+  		<string>Luke 15:1-32</string>
+  	</dict>
+    <dict>
+  		<key>day</key>
+  		<integer>18</integer>
+  		<key>month</key>
+  		<integer>11</integer>
+  		<key>year</key>
+  		<integer>2011</integer>
+  		<key>reference</key>
+  		<string>Luke 16:1-31</string>
+  	</dict>
+    <dict>
+  		<key>day</key>
+  		<integer>19</integer>
+  		<key>month</key>
+  		<integer>11</integer>
+  		<key>year</key>
+  		<integer>2011</integer>
+  		<key>reference</key>
+  		<string>Luke 17:1-37</string>
+  	</dict>
+    <dict>
+  		<key>day</key>
+  		<integer>20</integer>
+  		<key>month</key>
+  		<integer>11</integer>
+  		<key>year</key>
+  		<integer>2011</integer>
+  		<key>reference</key>
+  		<string>Luke 18:1-43</string>
+  	</dict>
+    <dict>
+  		<key>day</key>
+  		<integer>21</integer>
+  		<key>month</key>
+  		<integer>11</integer>
+  		<key>year</key>
+  		<integer>2011</integer>
+  		<key>reference</key>
+  		<string>Luke 19:1-48</string>
+  	</dict>
+    <dict>
+  		<key>day</key>
+  		<integer>22</integer>
+  		<key>month</key>
+  		<integer>11</integer>
+  		<key>year</key>
+  		<integer>2011</integer>
+  		<key>reference</key>
+  		<string>Luke 20:1-47</string>
+  	</dict>
+    <dict>
+  		<key>day</key>
+  		<integer>23</integer>
+  		<key>month</key>
+  		<integer>11</integer>
+  		<key>year</key>
+  		<integer>2011</integer>
+  		<key>reference</key>
+  		<string>Luke 21:1-38</string>
+  	</dict>
+    <dict>
+  		<key>day</key>
+  		<integer>24</integer>
+  		<key>month</key>
+  		<integer>11</integer>
+  		<key>year</key>
+  		<integer>2011</integer>
+  		<key>reference</key>
+  		<string>Luke 22:1-46</string>
+  	</dict>
+    <dict>
+  		<key>day</key>
+  		<integer>25</integer>
+  		<key>month</key>
+  		<integer>11</integer>
+  		<key>year</key>
+  		<integer>2011</integer>
+  		<key>reference</key>
+  		<string>Luke 22:47-71</string>
+  	</dict>
+    <dict>
+  		<key>day</key>
+  		<integer>26</integer>
+  		<key>month</key>
+  		<integer>11</integer>
+  		<key>year</key>
+  		<integer>2011</integer>
+  		<key>reference</key>
+  		<string>Luke 23:1-56</string>
+  	</dict>
+    <dict>
+  		<key>day</key>
+  		<integer>27</integer>
+  		<key>month</key>
+  		<integer>11</integer>
+  		<key>year</key>
+  		<integer>2011</integer>
+  		<key>reference</key>
+  		<string>Luke 24:1-53</string>
+  	</dict>
+    <dict>
+  		<key>day</key>
+  		<integer>28</integer>
+  		<key>month</key>
+  		<integer>11</integer>
+  		<key>year</key>
+  		<integer>2011</integer>
+  		<key>reference</key>
+  		<string>Acts 1:1-26</string>
+  	</dict>
+    <dict>
+  		<key>day</key>
+  		<integer>29</integer>
+  		<key>month</key>
+  		<integer>11</integer>
+  		<key>year</key>
+  		<integer>2011</integer>
+  		<key>reference</key>
+  		<string>Acts 2:1-47</string>
+  	</dict>
+    <dict>
+  		<key>day</key>
+  		<integer>30</integer>
+  		<key>month</key>
+  		<integer>11</integer>
+  		<key>year</key>
+  		<integer>2011</integer>
+  		<key>reference</key>
+  		<string>Acts 3:1-4:37</string>
+  	</dict>
+    <dict>
+  		<key>day</key>
+  		<integer>1</integer>
+  		<key>month</key>
+  		<integer>12</integer>
+  		<key>year</key>
+  		<integer>2011</integer>
+  		<key>reference</key>
+  		<string>Acts 5:1-42</string>
+  	</dict>
+    <dict>
+  		<key>day</key>
+  		<integer>2</integer>
+  		<key>month</key>
+  		<integer>12</integer>
+  		<key>year</key>
+  		<integer>2011</integer>
+  		<key>reference</key>
+  		<string>Acts 6:1-7:43</string>
+  	</dict>
+    <dict>
+  		<key>day</key>
+  		<integer>3</integer>
+  		<key>month</key>
+  		<integer>12</integer>
+  		<key>year</key>
+  		<integer>2011</integer>
+  		<key>reference</key>
+  		<string>Acts 7:44-8:40</string>
+  	</dict>
+    <dict>
+  		<key>day</key>
+  		<integer>4</integer>
+  		<key>month</key>
+  		<integer>12</integer>
+  		<key>year</key>
+  		<integer>2011</integer>
+  		<key>reference</key>
+  		<string>Acts 9:1-43</string>
+  	</dict>
+    <dict>
+  		<key>day</key>
+  		<integer>5</integer>
+  		<key>month</key>
+  		<integer>12</integer>
+  		<key>year</key>
+  		<integer>2011</integer>
+  		<key>reference</key>
+  		<string>Acts 10:1-48</string>
+  	</dict>
+    <dict>
+  		<key>day</key>
+  		<integer>6</integer>
+  		<key>month</key>
+  		<integer>12</integer>
+  		<key>year</key>
+  		<integer>2011</integer>
+  		<key>reference</key>
+  		<string>Acts 11:1-12:25</string>
+  	</dict>
+    <dict>
+  		<key>day</key>
+  		<integer>7</integer>
+  		<key>month</key>
+  		<integer>12</integer>
+  		<key>year</key>
+  		<integer>2011</integer>
+  		<key>reference</key>
+  		<string>Acts 13:1-52</string>
+  	</dict>
+    <dict>
+  		<key>day</key>
+  		<integer>8</integer>
+  		<key>month</key>
+  		<integer>12</integer>
+  		<key>year</key>
+  		<integer>2011</integer>
+  		<key>reference</key>
+  		<string>Acts 14:1-15:21</string>
+  	</dict>
+    <dict>
+  		<key>day</key>
+  		<integer>9</integer>
+  		<key>month</key>
+  		<integer>12</integer>
+  		<key>year</key>
+  		<integer>2011</integer>
+  		<key>reference</key>
+  		<string>Acts 15:22-16:24</string>
+  	</dict>
+    <dict>
+  		<key>day</key>
+  		<integer>10</integer>
+  		<key>month</key>
+  		<integer>12</integer>
+  		<key>year</key>
+  		<integer>2011</integer>
+  		<key>reference</key>
+  		<string>Acts 16:25-17:34</string>
+  	</dict>
+    <dict>
+  		<key>day</key>
+  		<integer>11</integer>
+  		<key>month</key>
+  		<integer>12</integer>
+  		<key>year</key>
+  		<integer>2011</integer>
+  		<key>reference</key>
+  		<string>Acts 18:1-28</string>
+  	</dict>
+    <dict>
+  		<key>day</key>
+  		<integer>12</integer>
+  		<key>month</key>
+  		<integer>12</integer>
+  		<key>year</key>
+  		<integer>2011</integer>
+  		<key>reference</key>
+  		<string>Acts 19:1-41</string>
+  	</dict>
+    <dict>
+  		<key>day</key>
+  		<integer>13</integer>
+  		<key>month</key>
+  		<integer>12</integer>
+  		<key>year</key>
+  		<integer>2011</integer>
+  		<key>reference</key>
+  		<string>Acts 20:1-38</string>
+  	</dict>
+    <dict>
+  		<key>day</key>
+  		<integer>14</integer>
+  		<key>month</key>
+  		<integer>12</integer>
+  		<key>year</key>
+  		<integer>2011</integer>
+  		<key>reference</key>
+  		<string>Acts 21:1-40</string>
+  	</dict>
+    <dict>
+  		<key>day</key>
+  		<integer>15</integer>
+  		<key>month</key>
+  		<integer>12</integer>
+  		<key>year</key>
+  		<integer>2011</integer>
+  		<key>reference</key>
+  		<string>Acts 22:1-23:11</string>
+  	</dict>
+    <dict>
+  		<key>day</key>
+  		<integer>16</integer>
+  		<key>month</key>
+  		<integer>12</integer>
+  		<key>year</key>
+  		<integer>2011</integer>
+  		<key>reference</key>
+  		<string>Acts 23:12-24:27</string>
+  	</dict>
+    <dict>
+  		<key>day</key>
+  		<integer>17</integer>
+  		<key>month</key>
+  		<integer>12</integer>
+  		<key>year</key>
+  		<integer>2011</integer>
+  		<key>reference</key>
+  		<string>Acts 25:1-26:32</string>
+  	</dict>
+    <dict>
+  		<key>day</key>
+  		<integer>18</integer>
+  		<key>month</key>
+  		<integer>12</integer>
+  		<key>year</key>
+  		<integer>2011</integer>
+  		<key>reference</key>
+  		<string>Acts 27:1-44</string>
+  	</dict>
+    <dict>
+  		<key>day</key>
+  		<integer>19</integer>
+  		<key>month</key>
+  		<integer>12</integer>
+  		<key>year</key>
+  		<integer>2011</integer>
+  		<key>reference</key>
+  		<string>Acts 28:1-31</string>
+  	</dict>
+    <dict>
+  		<key>day</key>
+  		<integer>20</integer>
+  		<key>month</key>
+  		<integer>12</integer>
+  		<key>year</key>
+  		<integer>2011</integer>
+  		<key>reference</key>
+  		<string>Ephesians 1:1-2:22</string>
+  	</dict>
+    <dict>
+  		<key>day</key>
+  		<integer>21</integer>
+  		<key>month</key>
+  		<integer>12</integer>
+  		<key>year</key>
+  		<integer>2011</integer>
+  		<key>reference</key>
+  		<string>Ephesians 3:1-4:32</string>
+  	</dict>
+    <dict>
+  		<key>day</key>
+  		<integer>22</integer>
+  		<key>month</key>
+  		<integer>12</integer>
+  		<key>year</key>
+  		<integer>2011</integer>
+  		<key>reference</key>
+  		<string>Ephesians 5:1-6:24</string>
+  	</dict>
+    <dict>
+  		<key>day</key>
+  		<integer>23</integer>
+  		<key>month</key>
+  		<integer>12</integer>
+  		<key>year</key>
+  		<integer>2011</integer>
+  		<key>reference</key>
+  		<string>Luke 1</string>
+  	</dict>
+    <dict>
+  		<key>day</key>
+  		<integer>24</integer>
+  		<key>month</key>
+  		<integer>12</integer>
+  		<key>year</key>
+  		<integer>2011</integer>
+  		<key>reference</key>
+  		<string>Luke 2</string>
+  	</dict>
+    <dict>
+  		<key>day</key>
+  		<integer>25</integer>
+  		<key>month</key>
+  		<integer>12</integer>
+  		<key>year</key>
+  		<integer>2011</integer>
+  		<key>reference</key>
+  		<string>Matthew 1:18-25, John 1:1-18</string>
+  	</dict>
+    <dict>
+  		<key>day</key>
+  		<integer>26</integer>
+  		<key>month</key>
+  		<integer>12</integer>
+  		<key>year</key>
+  		<integer>2011</integer>
+  		<key>reference</key>
+  		<string>2nd Corinthians 1:1-2:17</string>
+  	</dict>
+    <dict>
+  		<key>day</key>
+  		<integer>27</integer>
+  		<key>month</key>
+  		<integer>12</integer>
+  		<key>year</key>
+  		<integer>2011</integer>
+  		<key>reference</key>
+  		<string>2nd Corinthians 3:1-5:11</string>
+  	</dict>
+    <dict>
+  		<key>day</key>
+  		<integer>28</integer>
+  		<key>month</key>
+  		<integer>12</integer>
+  		<key>year</key>
+  		<integer>2011</integer>
+  		<key>reference</key>
+  		<string>2nd Corinthians 5:12-7:16</string>
+  	</dict>
+    <dict>
+  		<key>day</key>
+  		<integer>29</integer>
+  		<key>month</key>
+  		<integer>12</integer>
+  		<key>year</key>
+  		<integer>2011</integer>
+  		<key>reference</key>
+  		<string>2nd Corinthians 8:1-9:15</string>
+  	</dict>
+    <dict>
+  		<key>day</key>
+  		<integer>30</integer>
+  		<key>month</key>
+  		<integer>12</integer>
+  		<key>year</key>
+  		<integer>2011</integer>
+  		<key>reference</key>
+  		<string>2nd Corinthians 10:1-11:33</string>
+  	</dict>
+    <dict>
+  		<key>day</key>
+  		<integer>31</integer>
+  		<key>month</key>
+  		<integer>12</integer>
+  		<key>year</key>
+  		<integer>2011</integer>
+  		<key>reference</key>
+  		<string>2nd Corinthians 12:1-13:14</string>
+  	</dict>  <dict>
+		<key>day</key>
+		<integer>1</integer>
+		<key>month</key>
+		<integer>1</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Matthew 1:1-2:18</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>2</integer>
+		<key>month</key>
+		<integer>1</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Matthew 2:19-4:22</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>3</integer>
+		<key>month</key>
+		<integer>1</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Matthew 4:23-5:48</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>4</integer>
+		<key>month</key>
+		<integer>1</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Matthew 6:1-34</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>5</integer>
+		<key>month</key>
+		<integer>1</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Matthew 7:1-8:13</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>6</integer>
+		<key>month</key>
+		<integer>1</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Matthew 8:14-9:38</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>7</integer>
+		<key>month</key>
+		<integer>1</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Matthew 10:1-11:1</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>8</integer>
+		<key>month</key>
+		<integer>1</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Matthew 11:2-12:8</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>9</integer>
+		<key>month</key>
+		<integer>1</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Matthew 12:9-50</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>10</integer>
+		<key>month</key>
+		<integer>1</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Matthew 13:1-58</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>11</integer>
+		<key>month</key>
+		<integer>1</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Matthew 14:1-15:20</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>12</integer>
+		<key>month</key>
+		<integer>1</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Matthew 15:21-16:28</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>13</integer>
+		<key>month</key>
+		<integer>1</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Matthew 17:1-18:20</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>14</integer>
+		<key>month</key>
+		<integer>1</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Matthew 18:21-19:30</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>15</integer>
+		<key>month</key>
+		<integer>1</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Matthew 20:1-21:17</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>16</integer>
+		<key>month</key>
+		<integer>1</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Matthew 21:18-22:22</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>17</integer>
+		<key>month</key>
+		<integer>1</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Matthew 22:23-23:39</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>18</integer>
+		<key>month</key>
+		<integer>1</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Matthew 24:1-51</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>19</integer>
+		<key>month</key>
+		<integer>1</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Matthew 25:1-46</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>20</integer>
+		<key>month</key>
+		<integer>1</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Matthew 26:1-56</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>21</integer>
+		<key>month</key>
+		<integer>1</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Matthew 26:57-27:44</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>22</integer>
+		<key>month</key>
+		<integer>1</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Matthew 27:45-28:20</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>23</integer>
+		<key>month</key>
+		<integer>1</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Romans 1:1-2:11</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>24</integer>
+		<key>month</key>
+		<integer>1</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Romans 2:12-3:20</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>25</integer>
+		<key>month</key>
+		<integer>1</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Romans 3:21-4:25</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>26</integer>
+		<key>month</key>
+		<integer>1</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Romans 5:1-6:23</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>27</integer>
+		<key>month</key>
+		<integer>1</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Romans 7:1-8:17</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>28</integer>
+		<key>month</key>
+		<integer>1</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Romans 8:18-9:33</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>29</integer>
+		<key>month</key>
+		<integer>1</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Romans 10:1-11:36</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>30</integer>
+		<key>month</key>
+		<integer>1</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Romans 12:1-14:12</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>31</integer>
+		<key>month</key>
+		<integer>1</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Romans 14:13-16:27</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>1</integer>
+		<key>month</key>
+		<integer>2</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>1 Corinthians 1:1-2:16</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>2</integer>
+		<key>month</key>
+		<integer>2</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>1 Corinthians 3:1-4:21</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>3</integer>
+		<key>month</key>
+		<integer>2</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>1 Corinthians 5:1-6:20</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>4</integer>
+		<key>month</key>
+		<integer>2</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>1 Corinthians 7:1-40</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>5</integer>
+		<key>month</key>
+		<integer>2</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>1 Corinthians 8:1-9:27</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>6</integer>
+		<key>month</key>
+		<integer>2</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>1 Corinthians 10:1-11:16</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>7</integer>
+		<key>month</key>
+		<integer>2</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>1 Corinthians 11:17-12:31</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>8</integer>
+		<key>month</key>
+		<integer>2</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>1 Corinthians 13:1-14:40</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>9</integer>
+		<key>month</key>
+		<integer>2</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>1 Corinthians 15:1-49</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>10</integer>
+		<key>month</key>
+		<integer>2</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>1 Corinthians 15:50-16:24</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>11</integer>
+		<key>month</key>
+		<integer>2</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Mark 1:1-45</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>12</integer>
+		<key>month</key>
+		<integer>2</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Mark 2:1-3:21</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>13</integer>
+		<key>month</key>
+		<integer>2</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Mark 3:22-4:34</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>14</integer>
+		<key>month</key>
+		<integer>2</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Mark 4:35-5:43</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>15</integer>
+		<key>month</key>
+		<integer>2</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Mark 6:1Ð44</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>16</integer>
+		<key>month</key>
+		<integer>2</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Mark 6:45Ð7:30</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>17</integer>
+		<key>month</key>
+		<integer>2</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Mark 7:31-8:38</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>18</integer>
+		<key>month</key>
+		<integer>2</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Mark 9:1-50</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>19</integer>
+		<key>month</key>
+		<integer>2</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Mark 10:1-45</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>20</integer>
+		<key>month</key>
+		<integer>2</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Mark 10:46-11:33</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>21</integer>
+		<key>month</key>
+		<integer>2</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Mark 12:1-44</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>22</integer>
+		<key>month</key>
+		<integer>2</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Mark 13:1-37</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>23</integer>
+		<key>month</key>
+		<integer>2</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Mark 14:1-42</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>24</integer>
+		<key>month</key>
+		<integer>2</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Mark 14:43-72</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>25</integer>
+		<key>month</key>
+		<integer>2</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Mark 15:1-47</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>26</integer>
+		<key>month</key>
+		<integer>2</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Mark 16:1-20</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>27</integer>
+		<key>month</key>
+		<integer>2</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>2 Corinthians 1:1-2:17</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>28</integer>
+		<key>month</key>
+		<integer>2</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>2 Corinthians 3:1-5:10</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>1</integer>
+		<key>month</key>
+		<integer>3</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>2 Corinthians 5:11-7:16</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>2</integer>
+		<key>month</key>
+		<integer>3</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>2 Corinthians 8:1-9:15</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>3</integer>
+		<key>month</key>
+		<integer>3</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>2 Corinthians 10:1-11:33</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>4</integer>
+		<key>month</key>
+		<integer>3</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>2 Corinthians 12:1-13:14</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>5</integer>
+		<key>month</key>
+		<integer>3</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Galatians 1:1-2:21</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>6</integer>
+		<key>month</key>
+		<integer>3</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Galatians 3:1-4:31</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>7</integer>
+		<key>month</key>
+		<integer>3</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Galatians 5:1-6:18</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>8</integer>
+		<key>month</key>
+		<integer>3</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Ephesians 1:1-2:22</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>9</integer>
+		<key>month</key>
+		<integer>3</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Ephesians 3:1-4:32</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>10</integer>
+		<key>month</key>
+		<integer>3</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Ephesians 5:1-6:24</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>11</integer>
+		<key>month</key>
+		<integer>3</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Luke 1:1-45</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>12</integer>
+		<key>month</key>
+		<integer>3</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Luke 1:46-80</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>13</integer>
+		<key>month</key>
+		<integer>3</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Luke 2:1-52</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>14</integer>
+		<key>month</key>
+		<integer>3</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Luke 3:1-38</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>15</integer>
+		<key>month</key>
+		<integer>3</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Luke 4:1-44</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>16</integer>
+		<key>month</key>
+		<integer>3</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Luke 5:1-39</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>17</integer>
+		<key>month</key>
+		<integer>3</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Luke 6:1-49</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>18</integer>
+		<key>month</key>
+		<integer>3</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Luke 7:1-50</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>19</integer>
+		<key>month</key>
+		<integer>3</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Luke 8:1-56</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>20</integer>
+		<key>month</key>
+		<integer>3</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Luke 9:1-50</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>21</integer>
+		<key>month</key>
+		<integer>3</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Luke 9:51-10:42</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>22</integer>
+		<key>month</key>
+		<integer>3</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Luke 11:1-11:54</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>23</integer>
+		<key>month</key>
+		<integer>3</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Luke 12:1-48</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>24</integer>
+		<key>month</key>
+		<integer>3</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Luke 12:49-13:30</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>25</integer>
+		<key>month</key>
+		<integer>3</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Luke 13:31-14:35</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>26</integer>
+		<key>month</key>
+		<integer>3</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Luke 15:1-32</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>27</integer>
+		<key>month</key>
+		<integer>3</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Luke 16:1-31</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>28</integer>
+		<key>month</key>
+		<integer>3</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Luke 17:1-37</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>29</integer>
+		<key>month</key>
+		<integer>3</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Luke 18:1-43</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>30</integer>
+		<key>month</key>
+		<integer>3</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Luke 19:1-48</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>31</integer>
+		<key>month</key>
+		<integer>3</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Luke 20:1-47</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>1</integer>
+		<key>month</key>
+		<integer>4</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Luke 21:1-38</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>2</integer>
+		<key>month</key>
+		<integer>4</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Luke 22:1-46</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>3</integer>
+		<key>month</key>
+		<integer>4</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Luke 22:47-71</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>4</integer>
+		<key>month</key>
+		<integer>4</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Luke 23:1-56</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>5</integer>
+		<key>month</key>
+		<integer>4</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Luke 24:1-53</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>6</integer>
+		<key>month</key>
+		<integer>4</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Philippians 1:1-2:18</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>7</integer>
+		<key>month</key>
+		<integer>4</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Philippians 2:19-4:23</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>8</integer>
+		<key>month</key>
+		<integer>4</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Colossians 1:1-2:23</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>9</integer>
+		<key>month</key>
+		<integer>4</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Colossians 3:1-4:18</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>10</integer>
+		<key>month</key>
+		<integer>4</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>1 Thessalonians 1:1-3:13</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>11</integer>
+		<key>month</key>
+		<integer>4</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>1 Thessalonians 4:1-5:28</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>12</integer>
+		<key>month</key>
+		<integer>4</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>2 Thessalonians 1:1-3:18</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>13</integer>
+		<key>month</key>
+		<integer>4</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>1 Timothy 1:1-3:16</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>14</integer>
+		<key>month</key>
+		<integer>4</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>1 Timothy 4:1-6:2</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>15</integer>
+		<key>month</key>
+		<integer>4</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>1 Timothy 6:3-21</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>16</integer>
+		<key>month</key>
+		<integer>4</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>2 Timothy 1:1-2:26</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>17</integer>
+		<key>month</key>
+		<integer>4</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>2 Timothy 3:1-4:22</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>18</integer>
+		<key>month</key>
+		<integer>4</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Titus 1:1-3:15</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>19</integer>
+		<key>month</key>
+		<integer>4</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>John 1:1-51</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>20</integer>
+		<key>month</key>
+		<integer>4</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>John 2:1-25</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>21</integer>
+		<key>month</key>
+		<integer>4</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>John 3:1-36</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>22</integer>
+		<key>month</key>
+		<integer>4</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>John 4:1-54</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>23</integer>
+		<key>month</key>
+		<integer>4</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>John 5:1-6:15</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>24</integer>
+		<key>month</key>
+		<integer>4</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>John 6:16-71</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>25</integer>
+		<key>month</key>
+		<integer>4</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>John 7:1-36</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>26</integer>
+		<key>month</key>
+		<integer>4</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>John 7:37-8:30</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>27</integer>
+		<key>month</key>
+		<integer>4</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>John 8:31-59</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>28</integer>
+		<key>month</key>
+		<integer>4</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>John 9:1-41</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>29</integer>
+		<key>month</key>
+		<integer>4</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>John 10:1-42</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>30</integer>
+		<key>month</key>
+		<integer>4</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>John 11:1-57</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>1</integer>
+		<key>month</key>
+		<integer>5</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>John 12:1-50</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>2</integer>
+		<key>month</key>
+		<integer>5</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>John 13:1-38</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>3</integer>
+		<key>month</key>
+		<integer>5</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>John 14:1-15:27</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>4</integer>
+		<key>month</key>
+		<integer>5</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>John 16:1-17:26</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>5</integer>
+		<key>month</key>
+		<integer>5</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>John 18:1-40</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>6</integer>
+		<key>month</key>
+		<integer>5</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>John 19:1-42</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>7</integer>
+		<key>month</key>
+		<integer>5</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>John 20:1-21:25</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>8</integer>
+		<key>month</key>
+		<integer>5</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Philemon 1:1-25</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>9</integer>
+		<key>month</key>
+		<integer>5</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Hebrews 1:1-2:18</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>10</integer>
+		<key>month</key>
+		<integer>5</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Hebrews 3:1-4:16</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>11</integer>
+		<key>month</key>
+		<integer>5</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Hebrews 5:1-6:20</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>12</integer>
+		<key>month</key>
+		<integer>5</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Hebrews 7:1-8:13</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>13</integer>
+		<key>month</key>
+		<integer>5</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Hebrews 9:1-10:18</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>14</integer>
+		<key>month</key>
+		<integer>5</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Hebrews 10:19-11:40</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>15</integer>
+		<key>month</key>
+		<integer>5</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Hebrews 12:1-13:25</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>16</integer>
+		<key>month</key>
+		<integer>5</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>James 1:1-2:13</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>17</integer>
+		<key>month</key>
+		<integer>5</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>James 2:14-3:18</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>18</integer>
+		<key>month</key>
+		<integer>5</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>James 4:1-5:20</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>19</integer>
+		<key>month</key>
+		<integer>5</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>I Peter 1:1-2:25</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>20</integer>
+		<key>month</key>
+		<integer>5</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>I Peter 3:1-4:19</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>21</integer>
+		<key>month</key>
+		<integer>5</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>I Peter 5:1-14; II Peter 1:1-21</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>22</integer>
+		<key>month</key>
+		<integer>5</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>II Peter 2:1-3:18</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>23</integer>
+		<key>month</key>
+		<integer>5</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Acts 1:1-26</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>24</integer>
+		<key>month</key>
+		<integer>5</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Acts 2:1-47</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>25</integer>
+		<key>month</key>
+		<integer>5</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Acts 3:1-4:37</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>26</integer>
+		<key>month</key>
+		<integer>5</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Acts 5:1-42</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>27</integer>
+		<key>month</key>
+		<integer>5</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Acts 6:1-7:60</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>28</integer>
+		<key>month</key>
+		<integer>5</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Acts 8:1-8:40</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>29</integer>
+		<key>month</key>
+		<integer>5</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Acts 9:1-43</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>30</integer>
+		<key>month</key>
+		<integer>5</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Acts 10:1-48</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>31</integer>
+		<key>month</key>
+		<integer>5</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Acts 11:1-12:25</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>1</integer>
+		<key>month</key>
+		<integer>6</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Acts 13:1-52</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>2</integer>
+		<key>month</key>
+		<integer>6</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Acts 14:1-15:35</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>3</integer>
+		<key>month</key>
+		<integer>6</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Acts 15:36-16:40</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>4</integer>
+		<key>month</key>
+		<integer>6</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Acts 17:1-34</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>5</integer>
+		<key>month</key>
+		<integer>6</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Acts 18:1-28</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>6</integer>
+		<key>month</key>
+		<integer>6</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Acts 19:1-41</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>7</integer>
+		<key>month</key>
+		<integer>6</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Acts 20:1-38</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>8</integer>
+		<key>month</key>
+		<integer>6</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Acts 21:1-36</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>9</integer>
+		<key>month</key>
+		<integer>6</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Acts 21:37-22:29</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>10</integer>
+		<key>month</key>
+		<integer>6</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Acts 22:30-:24:27</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>11</integer>
+		<key>month</key>
+		<integer>6</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Acts 25:1-26:32</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>12</integer>
+		<key>month</key>
+		<integer>6</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Acts 27:1-44</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>13</integer>
+		<key>month</key>
+		<integer>6</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Acts 28:1-31</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>14</integer>
+		<key>month</key>
+		<integer>6</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>I John 1:1-2:27</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>15</integer>
+		<key>month</key>
+		<integer>6</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>I John 2:28-4:21</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>16</integer>
+		<key>month</key>
+		<integer>6</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>I John 5:1-21; II John 1:1-13</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>17</integer>
+		<key>month</key>
+		<integer>6</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>III John and Jude </string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>18</integer>
+		<key>month</key>
+		<integer>6</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Revelation 1:1-2:17</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>19</integer>
+		<key>month</key>
+		<integer>6</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Revelation 2:18-3:22</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>20</integer>
+		<key>month</key>
+		<integer>6</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Revelation 4:1-5:14</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>21</integer>
+		<key>month</key>
+		<integer>6</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Revelation 6:1-8:13</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>22</integer>
+		<key>month</key>
+		<integer>6</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Revelation 9:1-10:11</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>23</integer>
+		<key>month</key>
+		<integer>6</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Revelation 11:1-12:17</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>24</integer>
+		<key>month</key>
+		<integer>6</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Revelation 13:1-14:20</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>25</integer>
+		<key>month</key>
+		<integer>6</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Revelation 15:1-16:21</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>26</integer>
+		<key>month</key>
+		<integer>6</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Revelation 17:1-18:24</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>27</integer>
+		<key>month</key>
+		<integer>6</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Revelation 19:1-21</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>28</integer>
+		<key>month</key>
+		<integer>6</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Revelation 20:1-15</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>29</integer>
+		<key>month</key>
+		<integer>6</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Revelation 21:1-27</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>30</integer>
+		<key>month</key>
+		<integer>6</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Revelation 22:1-21</string>
+	</dict>
+</array>
+</plist>

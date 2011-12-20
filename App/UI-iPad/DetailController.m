@@ -1,23 +1,20 @@
-#import "ReadingViewController.h"
+#import "DetailController.h"
 #import "NSDate+FPCBReader.h"
 #import "Reading.h"
 #import "CachedPassage.h"
 #import "Reader.h"
 
-@interface ReadingViewController ()
+@interface DetailController ()
 
-@property (nonatomic, retain) id<ReadingDataSource> dataSource;
 @property (nonatomic, retain) CachedPassage *passage;
-- (void)refresh;
 - (void)refreshReadButton;
 - (void)refreshColors;
 
 @end
 
-@implementation ReadingViewController
+@implementation DetailController
 
 @synthesize
-    dataSource = dataSource_,
     passage = passage_,
     dateLabel = dateLabel_,
     referenceLabel = referenceLabel_,
@@ -25,30 +22,42 @@
     containerView = containerView_,
     loadingView = loadingView_,
     retryView = retryView_,
-    finishedReadingsView = finishedReadingsView_,
     retryButton = retryButton_,
     contentWebView = contentWebView_,
-    backButton = backButton_,
+    reading = reading_,
     topGradient = topGradient_,
     bottomGradient = bottomGradient_;
 
-+ (ReadingViewController *)controllerWithDataSource:(id<ReadingDataSource>)dataSource {
-    ReadingViewController *controller = [[[self alloc] initWithNibName:@"ReadingViewController" bundle:nil] autorelease];
-    controller.dataSource = dataSource;
++ (DetailController *)controller {
+    DetailController *controller = [[[self alloc] initWithNibName:@"DetailController" bundle:nil] autorelease];
     return controller;
 }
 
 - (void)dealloc {
     self.passage = nil;
-    self.dataSource = nil;
     self.loadingView = nil;
     self.retryView = nil;
     self.contentWebView = nil;
+    self.reading = nil;
     [super dealloc];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    return YES;
+	return UIInterfaceOrientationIsLandscape(interfaceOrientation);
+}
+
+- (void)setReading:(Reading *)reading {
+    [reading_ removeObserver:self forKeyPath:@"isRead"];
+    reading_ = reading;
+    [reading_ addObserver:self
+               forKeyPath:@"isRead"
+                  options:0
+                  context:nil];
+    [self refresh];
+}
+
+- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {
+    [self refresh];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -63,13 +72,12 @@
 }
 
 - (void)refresh {
-    self.dateLabel.text = self.dataSource.reading.date.readerFormat;
-    self.referenceLabel.text = self.dataSource.reading.reference;
+    self.dateLabel.text = self.reading.date.readerFormat;
+    self.referenceLabel.text = self.reading.reference;
     
     [self.containerView.subviews.lastObject removeFromSuperview];
     
-    self.passage = self.dataSource.reading.passage;
-    
+    self.passage = self.reading.passage;
     if (self.passage) {
         if (self.passage.content) {
             self.contentWebView.hidden = YES;
@@ -78,8 +86,6 @@
         } else {
             [self.containerView addSubview:self.loadingView];
         }
-    } else {
-        [self.containerView addSubview:self.finishedReadingsView];
     }
     [self refreshReadButton];
     [self refreshColors];
@@ -110,14 +116,13 @@
     self.referenceLabel.textColor = reader.textColor;
     self.topGradient.image = reader.topGradient;
     self.bottomGradient.image = reader.bottomGradient;
-    
     [self.containerView.subviews.lastObject setBackgroundColor:reader.backgroundColor];
     for (UIView *view in [self.containerView.subviews.lastObject subviews]) {
         if ([view respondsToSelector:@selector(setTextColor:)]) {
             [(id)view setTextColor:reader.textColor];
         }
     }
-
+    
 }
 
 #pragma mark UIWebViewDelegate
@@ -130,20 +135,13 @@
 }
 
 - (void)didTapToggleReadStateButton {
-    Reading *reading = self.dataSource.reading;
-    [reading toggleReadingState];
+    [self.reading toggleReadingState];
     [self refreshReadButton];
-    if (![self.dataSource.reading isEqual:reading]) {
-        [(UIPageViewController *)self.parentViewController setViewControllers:[NSArray arrayWithObject:[ReadingViewController controllerWithDataSource:self.dataSource]]
-                                                                    direction:UIPageViewControllerNavigationDirectionForward
-                                                                     animated:YES
-                                                                   completion:nil];
-    }
 }
 
 - (void)refreshReadButton {
     NSString *imageName;
-    if (self.dataSource.reading.isRead.boolValue) {
+    if (self.reading.isRead.boolValue) {
         imageName = @"Read.png";
     } else {
         imageName = @"Unread.png";        
@@ -151,9 +149,6 @@
     [self.toggleReadStateButton setImage:[UIImage imageNamed:imageName] 
                                 forState:UIControlStateNormal];
     self.toggleReadStateButton.enabled = (self.containerView.subviews.lastObject == self.contentWebView);
-}
-
-- (void)didTapBackButton {
 }
 
 @end

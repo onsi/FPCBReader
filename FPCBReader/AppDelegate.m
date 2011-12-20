@@ -1,5 +1,6 @@
 #import "AppDelegate.h"
 #import "ReaderTabBarController.h"
+#import "ReaderSplitViewController.h"
 #import "Reader.h"
 Reader *reader;
 
@@ -33,7 +34,11 @@ Reader *reader;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
-    self.window.rootViewController = [[[ReaderTabBarController alloc] init] autorelease];
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
+        self.window.rootViewController = [[[ReaderSplitViewController alloc] init] autorelease];        
+    } else {
+        self.window.rootViewController = [[[ReaderTabBarController alloc] init] autorelease];        
+    }
     
     return YES;
 }

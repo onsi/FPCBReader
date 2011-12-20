@@ -1,31 +1,30 @@
 #import <UIKit/UIKit.h>
-#import "ReadingDataSource.h"
 
-@class Reading;
+@class Reading, MasterController;
 
-@interface ReadingViewController : UIViewController <UIWebViewDelegate>
+@interface DetailController : UIViewController <UIWebViewDelegate>
 
 @property (nonatomic, assign) IBOutlet UILabel *dateLabel;
 @property (nonatomic, assign) IBOutlet UILabel *referenceLabel;
 @property (nonatomic, assign) IBOutlet UIButton *toggleReadStateButton;
 
 @property (nonatomic, assign) IBOutlet UIView *containerView;
-@property (nonatomic, assign) IBOutlet UIImageView *topGradient;
-@property (nonatomic, assign) IBOutlet UIImageView *bottomGradient;
 
 @property (nonatomic, retain) IBOutlet UIView *loadingView;
 @property (nonatomic, retain) IBOutlet UIView *retryView;
-@property (nonatomic, retain) IBOutlet UIView *finishedReadingsView;
 @property (nonatomic, assign) IBOutlet UIButton *retryButton;
 
 @property (nonatomic, retain) IBOutlet UIWebView *contentWebView;
-@property (nonatomic, assign) IBOutlet UIButton *backButton;
 
+@property (nonatomic, retain) IBOutlet UIImageView *topGradient;
+@property (nonatomic, retain) IBOutlet UIImageView *bottomGradient;
 
-+ (ReadingViewController *)controllerWithDataSource:(id<ReadingDataSource>)dataSource;
+@property (nonatomic, assign) Reading *reading;
+
++ (DetailController *)controller;
 
 - (IBAction)didTapRetryButton;
 - (IBAction)didTapToggleReadStateButton;
-- (IBAction)didTapBackButton;
+- (void)refresh;
 
 @end

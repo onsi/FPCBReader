@@ -12,7 +12,9 @@
 @synthesize 
     fontSizeSlider = fontSizeSlider_,
     invertSwitch = invertSwitch_,
-    preview = preview_;
+    preview = preview_,
+    fontSizeImageView = fontSizeImageView_,
+    brightnessImageView = brightnessImageView_;
 
 + (SettingsController *)controller {
     return [[[self alloc] initWithNibName:@"SettingsController" bundle:nil] autorelease];
@@ -47,11 +49,9 @@
 
 - (void)refresh {
     self.view.backgroundColor = reader.backgroundColor;
-    for (UIView *view in self.view.subviews) {
-        if ([view respondsToSelector:@selector(setTextColor:)]) {
-            [(id)view setTextColor:reader.textColor];
-        }
-    }
+    self.fontSizeImageView.image = reader.fontSizeImage;
+    self.brightnessImageView.image = reader.brightnessImage;
+
     self.preview.backgroundColor = reader.backgroundColor;
     [self.preview loadHTMLString:reader.preview 
                          baseURL:nil];
