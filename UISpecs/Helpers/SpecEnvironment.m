@@ -1,4 +1,5 @@
 #import "SpecEnvironment.h"
+#import "NSDate+FPCBReader.h"
 Reader *reader;
 
 static BOOL didSetupReadingPlist;
@@ -27,8 +28,10 @@ static NSTimeInterval today;
     
     NSDateComponents *components;
     
-    components = [[NSCalendar currentCalendar] components:NSYearCalendarUnit | NSMonthCalendarUnit |  NSDayCalendarUnit
-                                                 fromDate:self.yesterday];
+    NSCalendar *calendar = [NSCalendar currentCalendar];
+    components = [calendar components:NSYearCalendarUnit | NSMonthCalendarUnit |  NSDayCalendarUnit
+                             fromDate:self.yesterday];
+    
     [readings addObject:[NSDictionary dictionaryWithObjectsAndKeys:
                          [NSNumber numberWithInt:components.year], @"year",
                          [NSNumber numberWithInt:components.month], @"month",
@@ -36,7 +39,7 @@ static NSTimeInterval today;
                          @"John 1", @"reference",
                          nil]];
 
-    components = [[NSCalendar currentCalendar] components:NSYearCalendarUnit | NSMonthCalendarUnit |  NSDayCalendarUnit
+    components = [calendar components:NSYearCalendarUnit | NSMonthCalendarUnit |  NSDayCalendarUnit
                                                  fromDate:self.tomorrow];
     [readings addObject:[NSDictionary dictionaryWithObjectsAndKeys:
                          [NSNumber numberWithInt:components.year], @"year",
@@ -45,7 +48,7 @@ static NSTimeInterval today;
                          @"John 3", @"reference",
                          nil]];
     
-    components = [[NSCalendar currentCalendar] components:NSYearCalendarUnit | NSMonthCalendarUnit |  NSDayCalendarUnit
+    components = [calendar components:NSYearCalendarUnit | NSMonthCalendarUnit |  NSDayCalendarUnit
                                                  fromDate:self.today];
     [readings addObject:[NSDictionary dictionaryWithObjectsAndKeys:
                          [NSNumber numberWithInt:components.year], @"year",
@@ -65,10 +68,12 @@ static NSTimeInterval today;
     if (!today) {
         NSDateComponents *components = [[NSCalendar currentCalendar] components:NSYearCalendarUnit | NSMonthCalendarUnit |  NSDayCalendarUnit
                                                                        fromDate:[NSDate date]];
-        NSDate *todaysDate = [[NSCalendar currentCalendar] dateFromComponents:components];
-        today = floor([todaysDate timeIntervalSince1970]);
+        NSDate *date = [[NSCalendar currentCalendar] dateFromComponents:components];
+
+        today = floor(date.timeIntervalSince1970);
     }
-    return [NSDate dateWithTimeIntervalSince1970:today];
+    NSDate *date = [NSDate dateWithTimeIntervalSince1970:today];
+    return date;
 }
 
 + (NSDate *)tomorrow {

@@ -59,8 +59,6 @@
                               atScrollPosition:UITableViewScrollPositionTop 
                                       animated:NO];
         self.detailController.reading = [Reading todaysReading];
-    } else {
-        self.detailController.reading = [self.readings objectAtIndex:0];
     }
     
     [self refreshColors];

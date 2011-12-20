@@ -29,6 +29,7 @@
             components.year = year;
             components.month = month;
             components.day = day;
+            components.timeZone = [NSTimeZone timeZoneForSecondsFromGMT:0]; //store off readings in GMT
             
             reading.date = [[NSCalendar currentCalendar] dateFromComponents:components];
             reading.reference = [readingDictionary objectForKey:@"reference"];
@@ -43,7 +44,7 @@
     return [reader.dataManager.managedObjectContext executeFetchRequest:request error:NULL];
 }
 
-+ (Reading *)todaysReading {
++ (Reading *)todaysReading {    
     return [self readingForDate:[NSDate date]];
 }
 

@@ -115,7 +115,7 @@
 						<string key="NSFrame">{{5, 45}, {310, 366}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="243227432"/>
+						<reference key="NSNextKeyView" ref="962327606"/>
 						<string key="NSReuseIdentifierKey">_NS:196</string>
 						<object class="NSColor" key="IBUIBackgroundColor">
 							<int key="NSColorSpace">3</int>
@@ -194,18 +194,18 @@
 							<int key="NSfFlags">16</int>
 						</object>
 					</object>
-					<object class="IBUIImageView" id="243227432">
+					<object class="IBUIImageView" id="962327606">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{5, 45}, {310, 15}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="428789718"/>
+						<reference key="NSNextKeyView" ref="781583342"/>
 						<string key="NSReuseIdentifierKey">_NS:567</string>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 					</object>
-					<object class="IBUIImageView" id="428789718">
+					<object class="IBUIImageView" id="781583342">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{5, 396}, {310, 15}}</string>
@@ -284,7 +284,6 @@
 						<string key="NSFrame">{{147, 100}, {20, 20}}</string>
 						<reference key="NSSuperview" ref="220674804"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:1030</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -316,7 +315,6 @@
 						<string key="NSFrame">{{30, 68}, {250, 23}}</string>
 						<reference key="NSSuperview" ref="240915715"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:328</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -324,7 +322,7 @@
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">There are no more readings</string>
+						<string key="IBUIText">No reading found</string>
 						<reference key="IBUITextColor" ref="554393536"/>
 						<reference key="IBUIHighlightedColor" ref="963310304"/>
 						<int key="IBUIBaselineAdjustment">1</int>
@@ -397,7 +395,6 @@
 						<string key="NSFrame">{{43, 92}, {225, 33}}</string>
 						<reference key="NSSuperview" ref="718726794"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:328</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -529,7 +526,7 @@
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">topGradient</string>
 						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="243227432"/>
+						<reference key="destination" ref="962327606"/>
 					</object>
 					<int key="connectionID">49</int>
 				</object>
@@ -537,7 +534,7 @@
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">bottomGradient</string>
 						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="428789718"/>
+						<reference key="destination" ref="781583342"/>
 					</object>
 					<int key="connectionID">50</int>
 				</object>
@@ -594,8 +591,8 @@
 							<reference ref="616702246"/>
 							<reference ref="745638659"/>
 							<reference ref="779643270"/>
-							<reference ref="243227432"/>
-							<reference ref="428789718"/>
+							<reference ref="962327606"/>
+							<reference ref="781583342"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -710,13 +707,13 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">46</int>
-						<reference key="object" ref="243227432"/>
+						<reference key="object" ref="962327606"/>
 						<reference key="parent" ref="191373211"/>
 						<string key="objectName">Top Gradient</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">48</int>
-						<reference key="object" ref="428789718"/>
+						<reference key="object" ref="781583342"/>
 						<reference key="parent" ref="191373211"/>
 						<string key="objectName">Bottom Gradient</string>
 					</object>

@@ -183,7 +183,6 @@
 						<string key="NSFrame">{{10, 721}, {680, 15}}</string>
 						<reference key="NSSuperview" ref="766721923"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:569</string>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
@@ -295,7 +294,6 @@
 						<string key="NSFrame">{{228, 138}, {225, 33}}</string>
 						<reference key="NSSuperview" ref="1047707672"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:328</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -365,7 +363,6 @@
 						<string key="NSFrame">{{324, 142}, {37, 37}}</string>
 						<reference key="NSSuperview" ref="32047603"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:1030</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
@@ -394,7 +391,6 @@
 				<string key="NSFrameSize">{680, 680}</string>
 				<reference key="NSSuperview"/>
 				<reference key="NSWindow"/>
-				<reference key="NSNextKeyView"/>
 				<string key="NSReuseIdentifierKey">_NS:693</string>
 				<reference key="IBUIBackgroundColor" ref="100529982"/>
 				<string key="targetRuntimeIdentifier">IBIPadFramework</string>

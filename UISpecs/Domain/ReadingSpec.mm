@@ -28,13 +28,13 @@ describe(@"Reading", ^{
             NSArray *readings = [Reading readings];
             readings.count should equal(3);
 
-            [[readings objectAtIndex:0] date] should equal([SpecEnvironment yesterday]);
+            [[readings objectAtIndex:0] date] should equal([[SpecEnvironment yesterday] dateByRemovingTimeComponent]);
             [[readings objectAtIndex:0] reference] should equal(@"John 1");
             
-            [[readings objectAtIndex:1] date] should equal([SpecEnvironment today]);
+            [[readings objectAtIndex:1] date] should equal([[SpecEnvironment today] dateByRemovingTimeComponent]);
             [[readings objectAtIndex:1] reference] should equal(@"John 2");
 
-            [[readings objectAtIndex:2] date] should equal([SpecEnvironment tomorrow]);            
+            [[readings objectAtIndex:2] date] should equal([[SpecEnvironment tomorrow] dateByRemovingTimeComponent]);            
             [[readings objectAtIndex:2] reference] should equal(@"John 3");
         });
     });
