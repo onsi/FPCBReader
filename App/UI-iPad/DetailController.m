@@ -8,7 +8,6 @@
 
 @property (nonatomic, retain) CachedPassage *passage;
 - (void)refreshReadButton;
-- (void)refreshColors;
 
 @end
 
@@ -57,7 +56,7 @@
 }
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {
-    [self refresh];
+    [self refreshReadButton];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -88,7 +87,7 @@
         }
     }
     [self refreshReadButton];
-    [self refreshColors];
+    [self refreshColorsAndFontSize];
 }
 
 - (IBAction)didTapRetryButton {
@@ -106,11 +105,11 @@
     if ([notification.object isEqual:self.passage]) {
         [self.containerView.subviews.lastObject removeFromSuperview];
         [self.containerView addSubview:self.retryView];
-        [self refreshColors];
+        [self refreshColorsAndFontSize];
     }
 }
 
-- (void)refreshColors {
+- (void)refreshColorsAndFontSize {
     self.view.backgroundColor = reader.backgroundColor;
     self.dateLabel.textColor = reader.textColor;
     self.referenceLabel.textColor = reader.textColor;
@@ -123,6 +122,9 @@
         }
     }
     
+    if ([self.containerView.subviews.lastObject isEqual:self.contentWebView]) {
+        [self.contentWebView stringByEvaluatingJavaScriptFromString:reader.javascriptToUpdateStyling];
+    }
 }
 
 #pragma mark UIWebViewDelegate

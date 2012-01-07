@@ -26,5 +26,6 @@
 - (IBAction)didTapRetryButton;
 - (IBAction)didTapToggleReadStateButton;
 - (void)refresh;
+- (void)refreshColorsAndFontSize;
 
 @end

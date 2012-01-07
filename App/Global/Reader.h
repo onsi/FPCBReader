@@ -10,6 +10,7 @@
 - (void)performSetUp;
 - (NSString *)htmlFormatContent:(NSString *)content;
 - (NSString *)preview;
+- (NSString *)javascriptToUpdateStyling;
 
 - (UIColor *)backgroundColor;
 - (UIColor *)textColor;

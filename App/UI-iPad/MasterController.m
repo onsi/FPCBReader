@@ -67,13 +67,13 @@
 - (IBAction)didUpdateFontSize {
     reader.settings.fontSize = [NSNumber numberWithFloat:self.fontSizeSlider.value];
     [reader.dataManager saveContext];
-    [self.detailController refresh];
+    [self.detailController refreshColorsAndFontSize];
 }
 
 - (IBAction)didToggleInvert {
     reader.settings.invert = [NSNumber numberWithBool:self.invert.isOn];
     [reader.dataManager saveContext];
-    [self.detailController refresh];
+    [self.detailController refreshColorsAndFontSize];
     [self refreshColors];
 }
 

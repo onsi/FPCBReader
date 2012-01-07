@@ -6,6 +6,8 @@
 @property (nonatomic, retain, readwrite) DataManager *dataManager;
 @property (nonatomic, retain, readwrite) Settings *settings;
 
+- (NSString *)css;
+
 @end
 
 @implementation Reader
@@ -34,15 +36,31 @@ settings = settings_;
     [Reading populateReadings];
 }
 
-- (NSString *)htmlFormatContent:(NSString *)content {
-    NSString *css;
-    if (self.settings.invert.boolValue) {
-        css = [NSString stringWithFormat:@"<style type=\"text/css\">\nbody {\n	background-color:#fff;\n	color:#000;\n	font-family:Cochin; font-size:%fpt;\n}\n\na {\n	text-decoration:none;\n	color:#333;\n}\n\np {\n	margin-top:0.7em;\n	margin-bottom:0.7em;\n}\n\nh3 {\n	text-align: left;\n	margin-bottom:5px;\n}\n	\nspan.verse-num {\n	font-size: 70%%;\n	font-weight: bold;\n	margin-left: 0.5em;\n	margin-right: -0.2em;\n	vertical-align: text-top;\n	color:#333;\n}\n\nspan.chapter-num {\n	font-size: 70%%;\n	vertical-align: text-top;\n	font-weight: bold;\n	color:#333;\n}\n\nspan.woc {\n	color:  #900;\n}\n		\ndiv.esv-text p {\n	text-indent: 2em;\n}\n	\ndiv.esv-text p.same-paragraph {\n	text-indent: 0;\n}\n	\ndiv.block-indent p {\n	text-indent: 0;\n	padding-left: 2.5em;\n	margin-left: 0;\n}\n	\nspan.indent {\n	padding-left: 2em;\n}\n	\nspan.indent-2, span.psalm-doxology-line {\n	padding-left: 4em;\n}\n	\nspan.declares-line {\n	padding-left: 6em;\n}\n	\nspan.small-caps {\n	font-variant: small-caps;\n}\n	\nspan.selah {\n	font-style: italic;\n	margin-left: 1em;\n}\n\np.extra-space {\n	margin-top: 2em;\n}\n\ndiv.block-indent span.verse-num, div.block-indent span.woc  {\n	padding-left: 0;\n}\n\nh4 {\n	font-weight: normal;\n}\n\nh4.speaker {\n	padding-left: 10em;\n	font-variant: small-caps;\n	margin-bottom: -1em;\n}\n\nh4.textual-note {\n	font-variant: small-caps;	\n}\n\nh4.psalm-acrostic-title {\n	font-variant: small-caps;\n}\n\nh4.psalm-title {\n}\n\nspan.footnote {\n	font-size: 80%%;\n	padding-right: .5em;\n	padding-left: 0em;\n	vertical-align: text-top;\n}\n\ndiv.footnotes h3 {\n	margin-top: 0;\n	margin-bottom: 0;\n}\n\ndiv.footnotes p {\n	text-indent: 0;\n}\n\nspan.footnote-ref {\n	font-weight: bold;\n}\n\np.copyright {\n	text-indent: 0;\n}\n\nobject.audio {\n	margin: 0 0 0 10px;\n	padding: 0;\n}\n</style>", self.settings.fontSize.floatValue];
-    } else {
-        css = [NSString stringWithFormat:@"<style type=\"text/css\">\nbody {\n	background-color:#000;\n	color:#fff;\n	font-family:Cochin; font-size:%fpt;\n}\n\na {\n	text-decoration:none;\n	color:#ccc;\n}\n\np {\n	margin-top:0.7em;\n	margin-bottom:0.7em;\n}\n\nh3 {\n	text-align: left;\n	margin-bottom:5px;\n}\n	\nspan.verse-num {\n	font-size: 70%%;\n	font-weight: bold;\n	margin-left: 0.5em;\n	margin-right: -0.2em;\n	vertical-align: text-top;\n	color:#ccc;\n}\n\nspan.chapter-num {\n	font-size: 70%%;\n	vertical-align: text-top;\n	font-weight: bold;\n	color:#ccc;\n}\n\nspan.woc {\n	color: #f77;\n}\n		\ndiv.esv-text p {\n	text-indent: 2em;\n}\n	\ndiv.esv-text p.same-paragraph {\n	text-indent: 0;\n}\n	\ndiv.block-indent p {\n	text-indent: 0;\n	padding-left: 2.5em;\n	margin-left: 0;\n}\n	\nspan.indent {\n	padding-left: 2em;\n}\n	\nspan.indent-2, span.psalm-doxology-line {\n	padding-left: 4em;\n}\n	\nspan.declares-line {\n	padding-left: 6em;\n}\n	\nspan.small-caps {\n	font-variant: small-caps;\n}\n	\nspan.selah {\n	font-style: italic;\n	margin-left: 1em;\n}\n\np.extra-space {\n	margin-top: 2em;\n}\n\ndiv.block-indent span.verse-num, div.block-indent span.woc  {\n	padding-left: 0;\n}\n\nh4 {\n	font-weight: normal;\n}\n\nh4.speaker {\n	padding-left: 10em;\n	font-variant: small-caps;\n	margin-bottom: -1em;\n}\n\nh4.textual-note {\n	font-variant: small-caps;	\n}\n\nh4.psalm-acrostic-title {\n	font-variant: small-caps;\n}\n\nh4.psalm-title {\n}\n\nspan.footnote {\n	font-size: 80%%;\n	padding-right: .5em;\n	padding-left: 0em;\n	vertical-align: text-top;\n}\n\ndiv.footnotes h3 {\n	margin-top: 0;\n	margin-bottom: 0;\n}\n\ndiv.footnotes p {\n	text-indent: 0;\n}\n\nspan.footnote-ref {\n	font-weight: bold;\n}\n\np.copyright {\n	text-indent: 0;\n}\n\nobject.audio {\n	margin: 0 0 0 10px;\n	padding: 0;\n}\n</style>", self.settings.fontSize.floatValue];        
-    }
+- (NSString *)javascriptToUpdateStyling {
+    NSMutableArray *strings = [NSMutableArray array];
+    [strings addObject:[NSString stringWithFormat:@"var css = \"%@\"", self.css]];
+    [strings addObject:@"var scrollFraction = window.scrollY / document.height;"];
+    [strings addObject:@"var styleNode = document.styleSheets[0].ownerNode"];
+    [strings addObject:@"var parentNode = styleNode.parentNode;"];
+    [strings addObject:@"parentNode.removeChild(styleNode);"];
+    [strings addObject:@"styleNode = document.createElement('style');"];
+    [strings addObject:@"styleNode.innerHTML = css;"];
+    [strings addObject:@"parentNode.appendChild(styleNode);"];
+    [strings addObject:@"window.scrollTo(0, scrollFraction * document.height);"];
     
-    return [NSString stringWithFormat:@"<html><head>%@</head><body>%@</body></html>", css, content];
+    return [strings componentsJoinedByString:@"\n"];
+}
+
+- (NSString *)css {
+    if (self.settings.invert.boolValue) {
+        return [NSString stringWithFormat:@"body{background-color:#fff;color:#000;font-family:Cochin;font-size:%fpt;}a{text-decoration:none;color:#333;}p{margin-top:0.7em;margin-bottom:0.7em;}h3{text-align:left;margin-bottom:5px;}span.verse-num{font-size:70%%;font-weight:bold;margin-left:0.5em;margin-right:-0.2em;vertical-align:text-top;color:#333;}span.chapter-num{font-size:70%%;vertical-align:text-top;font-weight:bold;color:#333;}span.woc{color:#900;}div.esv-text p{text-indent:2em;}div.esv-text p.same-paragraph{text-indent:0;}div.block-indent p{text-indent:0;padding-left:2.5em;margin-left:0;}span.indent{padding-left:2em;}span.indent-2,span.psalm-doxology-line{padding-left:4em;}span.declares-line{padding-left:6em;}span.small-caps{font-variant:small-caps;}span.selah{font-style:italic;margin-left:1em;}p.extra-space{margin-top:2em;}div.block-indent span.verse-num,div.block-indent span.woc{padding-left:0;}h4{font-weight:normal;}h4.speaker{padding-left:10em;font-variant:small-caps;margin-bottom:-1em;}h4.textual-note{font-variant:small-caps;}h4.psalm-acrostic-title{font-variant:small-caps;}h4.psalm-title{}span.footnote{font-size:80%%;padding-right:.5em;padding-left:0em;vertical-align:text-top;}div.footnotes h3{margin-top:0;margin-bottom:0;}div.footnotes p{text-indent:0;}span.footnote-ref{font-weight:bold;}p.copyright{text-indent:0;}object.audio{margin:0 0 0 10px;padding:0;}", self.settings.fontSize.floatValue];
+    } else {
+        return [NSString stringWithFormat:@"body{background-color:#000;color:#fff;font-family:Cochin;font-size:%fpt;}a{text-decoration:none;color:#ccc;}p{margin-top:0.7em;margin-bottom:0.7em;}h3{text-align:left;margin-bottom:5px;}span.verse-num{font-size:70%%;font-weight:bold;margin-left:0.5em;margin-right:-0.2em;vertical-align:text-top;color:#ccc;}span.chapter-num{font-size:70%%;vertical-align:text-top;font-weight:bold;color:#ccc;}span.woc{color:#f77;}div.esv-text p{text-indent:2em;}div.esv-text p.same-paragraph{text-indent:0;}div.block-indent p{text-indent:0;padding-left:2.5em;margin-left:0;}span.indent{padding-left:2em;}span.indent-2,span.psalm-doxology-line{padding-left:4em;}span.declares-line{padding-left:6em;}span.small-caps{font-variant:small-caps;}span.selah{font-style:italic;margin-left:1em;}p.extra-space{margin-top:2em;}div.block-indent span.verse-num,div.block-indent span.woc{padding-left:0;}h4{font-weight:normal;}h4.speaker{padding-left:10em;font-variant:small-caps;margin-bottom:-1em;}h4.textual-note{font-variant:small-caps;}h4.psalm-acrostic-title{font-variant:small-caps;}h4.psalm-title{}span.footnote{font-size:80%%;padding-right:.5em;padding-left:0em;vertical-align:text-top;}div.footnotes h3{margin-top:0;margin-bottom:0;}div.footnotes p{text-indent:0;}span.footnote-ref{font-weight:bold;}p.copyright{text-indent:0;}object.audio{margin:0 0 0 10px;padding:0;}", self.settings.fontSize.floatValue];        
+    }
+}
+
+- (NSString *)htmlFormatContent:(NSString *)content {
+    return [NSString stringWithFormat:@"<html><head><style type=\"text/css\">%@</style></head><body>%@</body></html>", self.css, content];
 }
 
 - (NSString *)preview {
