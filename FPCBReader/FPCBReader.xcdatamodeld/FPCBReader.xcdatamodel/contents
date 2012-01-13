@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="872" systemVersion="11B26" minimumToolsVersion="Xcode 4.2" macOSVersion="Automatic" iOSVersion="Automatic">
-    <entity name="CachedPassage" representedClassName="CachedPassage" syncable="YES">
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="562" systemVersion="11C74" minimumToolsVersion="Xcode 4.2" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="CachedPassage" representedClassName="CachedPassage" syncable="YES" dataClassName="">
         <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="date" optional="YES" attributeType="Date" indexed="YES" syncable="YES"/>
         <attribute name="reference" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
     </entity>
-    <entity name="Reading" representedClassName="Reading" syncable="YES">
+    <entity name="Reading" representedClassName="Reading" syncable="YES" dataClassName="">
         <attribute name="date" optional="YES" attributeType="Date" indexed="YES" syncable="YES"/>
         <attribute name="isRead" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
         <attribute name="reference" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
-    <entity name="Settings" representedClassName="Settings" syncable="YES">
+    <entity name="Settings" representedClassName="Settings" syncable="YES" dataClassName="">
         <attribute name="fontSize" optional="YES" attributeType="Float" defaultValueString="14" syncable="YES"/>
         <attribute name="invert" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
     </entity>

@@ -460,7 +460,7 @@
 		<key>year</key>
 		<integer>2012</integer>
 		<key>reference</key>
-		<string>Mark 6:1Ð44</string>
+		<string>Mark 6:1–44</string>
 	</dict>
   <dict>
 		<key>day</key>
@@ -470,7 +470,7 @@
 		<key>year</key>
 		<integer>2012</integer>
 		<key>reference</key>
-		<string>Mark 6:45Ð7:30</string>
+		<string>Mark 6:45–7:30</string>
 	</dict>
   <dict>
 		<key>day</key>
@@ -591,6 +591,16 @@
 		<integer>2012</integer>
 		<key>reference</key>
 		<string>2 Corinthians 3:1-5:10</string>
+	</dict>
+  <dict>
+		<key>day</key>
+		<integer>29</integer>
+		<key>month</key>
+		<integer>2</integer>
+		<key>year</key>
+		<integer>2012</integer>
+		<key>reference</key>
+		<string>Psalm 1; Psalm23; Psalm 51; Psalm 32; Psalm 100</string>
 	</dict>
   <dict>
 		<key>day</key>
@@ -2270,7 +2280,7 @@
 		<key>year</key>
 		<integer>2012</integer>
 		<key>reference</key>
-		<string>Mark 6:1Ð44</string>
+		<string>Mark 6:1–44</string>
 	</dict>
   <dict>
 		<key>day</key>
@@ -2280,7 +2290,7 @@
 		<key>year</key>
 		<integer>2012</integer>
 		<key>reference</key>
-		<string>Mark 6:45Ð7:30</string>
+		<string>Mark 6:45–7:30</string>
 	</dict>
   <dict>
 		<key>day</key>

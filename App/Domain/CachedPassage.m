@@ -57,7 +57,7 @@
 + (void)ensureCacheLimit {
     NSFetchRequest *request = [NSFetchRequest fetchRequestWithEntityName:@"CachedPassage"];
     NSUInteger count = [reader.dataManager.managedObjectContext countForFetchRequest:request error:NULL];
-    if (count < 30) {
+    if (count < 10) {
         return;
     }
     

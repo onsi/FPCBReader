@@ -32,67 +32,6 @@
 		E307B63B149DCEF300799029 /* font_size_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B62C149DCEF300799029 /* font_size_white@2x.png */; };
 		E307B63C149DCEF300799029 /* font_size_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B62C149DCEF300799029 /* font_size_white@2x.png */; };
 		E31CFEFB14804A2A0004377F /* CachedPassageSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = E31CFEF914804A2A0004377F /* CachedPassageSpec.mm */; };
-		E31EA0E214A0B96D00C3C7C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E372ECC9147EB81C008400D3 /* main.m */; };
-		E31EA0E414A0B96D00C3C7C5 /* FPCBReader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E372ECCF147EB81C008400D3 /* FPCBReader.xcdatamodeld */; };
-		E31EA0E514A0B96D00C3C7C5 /* CachedPassage.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E8DB7D148044CF005DC2FE /* CachedPassage.m */; };
-		E31EA0E614A0B96D00C3C7C5 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E8DB81148044D9005DC2FE /* DataManager.m */; };
-		E31EA0E714A0B96D00C3C7C5 /* Reader.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E8DB83148044D9005DC2FE /* Reader.m */; };
-		E31EA0E814A0B96D00C3C7C5 /* Reading.m in Sources */ = {isa = PBXBuildFile; fileRef = E343943514836338006343F4 /* Reading.m */; };
-		E31EA0E914A0B96D00C3C7C5 /* NSDate+FPCBReader.m in Sources */ = {isa = PBXBuildFile; fileRef = E343943C1484AE16006343F4 /* NSDate+FPCBReader.m */; };
-		E31EA0EF14A0B96D00C3C7C5 /* ReadingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CB81FF148B278D0073AD87 /* ReadingCell.m */; };
-		E31EA0F214A0B96D00C3C7C5 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CB8213148BCC480073AD87 /* Settings.m */; };
-		E31EA0F414A0B96D00C3C7C5 /* ReaderSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F25F35149B070A00D5602C /* ReaderSplitViewController.m */; };
-		E31EA0F514A0B96D00C3C7C5 /* DetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F25F39149B07F800D5602C /* DetailController.m */; };
-		E31EA0F614A0B96D00C3C7C5 /* MasterController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F25F40149B080800D5602C /* MasterController.m */; };
-		E31EA0F814A0B96D00C3C7C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E372ECBB147EB81C008400D3 /* UIKit.framework */; };
-		E31EA0F914A0B96D00C3C7C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E372ECBD147EB81C008400D3 /* Foundation.framework */; };
-		E31EA0FA14A0B96D00C3C7C5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E372ECBF147EB81C008400D3 /* CoreGraphics.framework */; };
-		E31EA0FB14A0B96D00C3C7C5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E372ECC1147EB81C008400D3 /* CoreData.framework */; };
-		E31EA0FD14A0B96D00C3C7C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E372ECC6147EB81C008400D3 /* InfoPlist.strings */; };
-		E31EA0FE14A0B96D00C3C7C5 /* ReadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E34394501484BD6C006343F4 /* ReadingViewController.xib */; };
-		E31EA0FF14A0B96D00C3C7C5 /* ReadingPlan.plist in Resources */ = {isa = PBXBuildFile; fileRef = E343946114860EE2006343F4 /* ReadingPlan.plist */; };
-		E31EA10014A0B96D00C3C7C5 /* AllReadingsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3CB81F5148B25B10073AD87 /* AllReadingsTableViewController.xib */; };
-		E31EA10114A0B96D00C3C7C5 /* ReadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3CB8205148B285B0073AD87 /* ReadingCell.xib */; };
-		E31EA10214A0B96D00C3C7C5 /* SettingsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3CB8218148BCD580073AD87 /* SettingsController.xib */; };
-		E31EA10314A0B96D00C3C7C5 /* Read.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB821D148BDB5E0073AD87 /* Read.png */; };
-		E31EA10414A0B96D00C3C7C5 /* Read@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB821E148BDB5E0073AD87 /* Read@2x.png */; };
-		E31EA10514A0B96D00C3C7C5 /* Unread.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB821F148BDB5E0073AD87 /* Unread.png */; };
-		E31EA10614A0B96D00C3C7C5 /* Unread@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB8220148BDB5E0073AD87 /* Unread@2x.png */; };
-		E31EA10714A0B96D00C3C7C5 /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB8229148BF1DE0073AD87 /* Settings.png */; };
-		E31EA10814A0B96D00C3C7C5 /* Settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB822A148BF1DE0073AD87 /* Settings@2x.png */; };
-		E31EA10914A0B96D00C3C7C5 /* UnreadTab.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB822F148BF3330073AD87 /* UnreadTab.png */; };
-		E31EA10A14A0B96D00C3C7C5 /* UnreadTab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB8230148BF3330073AD87 /* UnreadTab@2x.png */; };
-		E31EA10B14A0B96D00C3C7C5 /* All.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB8235148BF5550073AD87 /* All.png */; };
-		E31EA10C14A0B96D00C3C7C5 /* All@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB8236148BF5550073AD87 /* All@2x.png */; };
-		E31EA10D14A0B96D00C3C7C5 /* Back.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB8241148C032C0073AD87 /* Back.png */; };
-		E31EA10E14A0B96D00C3C7C5 /* Back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB8242148C032C0073AD87 /* Back@2x.png */; };
-		E31EA10F14A0B96D00C3C7C5 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB824D148C0BC20073AD87 /* Icon.png */; };
-		E31EA11014A0B96D00C3C7C5 /* DetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3F25F3A149B07F800D5602C /* DetailController.xib */; };
-		E31EA11114A0B96D00C3C7C5 /* MasterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3F25F41149B080800D5602C /* MasterController.xib */; };
-		E31EA11214A0B96D00C3C7C5 /* gradient_bottom_black.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B619149DC9AC00799029 /* gradient_bottom_black.png */; };
-		E31EA11314A0B96D00C3C7C5 /* gradient_bottom_white.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B61A149DC9AC00799029 /* gradient_bottom_white.png */; };
-		E31EA11414A0B96D00C3C7C5 /* gradient_top_black.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B61B149DC9AC00799029 /* gradient_top_black.png */; };
-		E31EA11514A0B96D00C3C7C5 /* gradient_top_white.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B61C149DC9AC00799029 /* gradient_top_white.png */; };
-		E31EA11614A0B96D00C3C7C5 /* brightness_black.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B625149DCEF300799029 /* brightness_black.png */; };
-		E31EA11714A0B96D00C3C7C5 /* brightness_black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B626149DCEF300799029 /* brightness_black@2x.png */; };
-		E31EA11814A0B96D00C3C7C5 /* brightness_white.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B627149DCEF300799029 /* brightness_white.png */; };
-		E31EA11914A0B96D00C3C7C5 /* brightness_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B628149DCEF300799029 /* brightness_white@2x.png */; };
-		E31EA11A14A0B96D00C3C7C5 /* font_size_black.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B629149DCEF300799029 /* font_size_black.png */; };
-		E31EA11B14A0B96D00C3C7C5 /* font_size_black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B62A149DCEF300799029 /* font_size_black@2x.png */; };
-		E31EA11C14A0B96D00C3C7C5 /* font_size_white.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B62B149DCEF300799029 /* font_size_white.png */; };
-		E31EA11D14A0B96D00C3C7C5 /* font_size_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B62C149DCEF300799029 /* font_size_white@2x.png */; };
-		E31EA11E14A0B96D00C3C7C5 /* today_black.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DAA149E6A3C005984FB /* today_black.png */; };
-		E31EA11F14A0B96D00C3C7C5 /* today_black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DAB149E6A3C005984FB /* today_black@2x.png */; };
-		E31EA12014A0B96D00C3C7C5 /* today_white.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DAC149E6A3C005984FB /* today_white.png */; };
-		E31EA12114A0B96D00C3C7C5 /* today_white@2xpng.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DAD149E6A3C005984FB /* today_white@2xpng.png */; };
-		E31EA12214A0B96D00C3C7C5 /* Today.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DB6149E6A61005984FB /* Today.png */; };
-		E31EA12314A0B96D00C3C7C5 /* Today@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DB7149E6A61005984FB /* Today@2x.png */; };
-		E31EA12414A0B96D00C3C7C5 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DBC149E6CD0005984FB /* Icon@2x.png */; };
-		E31EA12514A0B96D00C3C7C5 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DBF149E6D15005984FB /* Icon-72.png */; };
-		E31EA12614A0B96D00C3C7C5 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DC8149E70BC005984FB /* Default-Landscape~ipad.png */; };
-		E31EA12714A0B96D00C3C7C5 /* Default@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DC9149E70BC005984FB /* Default@2x~iphone.png */; };
-		E31EA12814A0B96D00C3C7C5 /* Default~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DCA149E70BC005984FB /* Default~iphone.png */; };
-		E31EA13214A0B9C100C3C7C5 /* AppDelegate-iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = E31EA13114A0B9C100C3C7C5 /* AppDelegate-iPad.m */; };
 		E3225DAE149E6A3C005984FB /* today_black.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DAA149E6A3C005984FB /* today_black.png */; };
 		E3225DAF149E6A3C005984FB /* today_black.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DAA149E6A3C005984FB /* today_black.png */; };
 		E3225DB0149E6A3C005984FB /* today_black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DAB149E6A3C005984FB /* today_black@2x.png */; };
@@ -339,10 +278,6 @@
 		E307B62B149DCEF300799029 /* font_size_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = font_size_white.png; sourceTree = "<group>"; };
 		E307B62C149DCEF300799029 /* font_size_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "font_size_white@2x.png"; sourceTree = "<group>"; };
 		E31CFEF914804A2A0004377F /* CachedPassageSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CachedPassageSpec.mm; sourceTree = "<group>"; };
-		E31EA12D14A0B96D00C3C7C5 /* FPCBReader copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FPCBReader copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E31EA12F14A0B96E00C3C7C5 /* FPCBReader copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "FPCBReader copy-Info.plist"; path = "/Users/onsi/Documents/Development/iOS/FPCBReader/FPCBReader copy-Info.plist"; sourceTree = "<absolute>"; };
-		E31EA13014A0B9C100C3C7C5 /* AppDelegate-iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate-iPad.h"; sourceTree = "<group>"; };
-		E31EA13114A0B9C100C3C7C5 /* AppDelegate-iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate-iPad.m"; sourceTree = "<group>"; };
 		E3225DAA149E6A3C005984FB /* today_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = today_black.png; sourceTree = "<group>"; };
 		E3225DAB149E6A3C005984FB /* today_black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "today_black@2x.png"; sourceTree = "<group>"; };
 		E3225DAC149E6A3C005984FB /* today_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = today_white.png; sourceTree = "<group>"; };
@@ -446,17 +381,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E31EA0F714A0B96D00C3C7C5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E31EA0F814A0B96D00C3C7C5 /* UIKit.framework in Frameworks */,
-				E31EA0F914A0B96D00C3C7C5 /* Foundation.framework in Frameworks */,
-				E31EA0FA14A0B96D00C3C7C5 /* CoreGraphics.framework in Frameworks */,
-				E31EA0FB14A0B96D00C3C7C5 /* CoreData.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E372ECB4147EB81C008400D3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -584,7 +508,6 @@
 				E372ECBA147EB81C008400D3 /* Frameworks */,
 				E372ECB8147EB81C008400D3 /* Products */,
 				E3E8DB63147EBD79005DC2FE /* Externals */,
-				E31EA12F14A0B96E00C3C7C5 /* FPCBReader copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -593,7 +516,6 @@
 			children = (
 				E372ECB7147EB81C008400D3 /* FPCBReader.app */,
 				E372ECE7147EB92D008400D3 /* UISpecs.app */,
-				E31EA12D14A0B96D00C3C7C5 /* FPCBReader copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -615,8 +537,6 @@
 			children = (
 				E372ECCC147EB81C008400D3 /* AppDelegate.h */,
 				E372ECCD147EB81C008400D3 /* AppDelegate.m */,
-				E31EA13014A0B9C100C3C7C5 /* AppDelegate-iPad.h */,
-				E31EA13114A0B9C100C3C7C5 /* AppDelegate-iPad.m */,
 				E372ECCF147EB81C008400D3 /* FPCBReader.xcdatamodeld */,
 				E372ECC4147EB81C008400D3 /* Supporting Files */,
 			);
@@ -767,23 +687,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E31EA0E014A0B96D00C3C7C5 /* FPCBReader iPad */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E31EA12914A0B96D00C3C7C5 /* Build configuration list for PBXNativeTarget "FPCBReader iPad" */;
-			buildPhases = (
-				E31EA0E114A0B96D00C3C7C5 /* Sources */,
-				E31EA0F714A0B96D00C3C7C5 /* Frameworks */,
-				E31EA0FC14A0B96D00C3C7C5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "FPCBReader iPad";
-			productName = FPCBReader;
-			productReference = E31EA12D14A0B96D00C3C7C5 /* FPCBReader copy.app */;
-			productType = "com.apple.product-type.application";
-		};
 		E372ECB6147EB81C008400D3 /* FPCBReader */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E372ECD4147EB81C008400D3 /* Build configuration list for PBXNativeTarget "FPCBReader" */;
@@ -852,7 +755,6 @@
 			targets = (
 				E372ECB6147EB81C008400D3 /* FPCBReader */,
 				E372ECE6147EB92D008400D3 /* UISpecs */,
-				E31EA0E014A0B96D00C3C7C5 /* FPCBReader iPad */,
 			);
 		};
 /* End PBXProject section */
@@ -959,57 +861,6 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E31EA0FC14A0B96D00C3C7C5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E31EA0FD14A0B96D00C3C7C5 /* InfoPlist.strings in Resources */,
-				E31EA0FE14A0B96D00C3C7C5 /* ReadingViewController.xib in Resources */,
-				E31EA0FF14A0B96D00C3C7C5 /* ReadingPlan.plist in Resources */,
-				E31EA10014A0B96D00C3C7C5 /* AllReadingsTableViewController.xib in Resources */,
-				E31EA10114A0B96D00C3C7C5 /* ReadingCell.xib in Resources */,
-				E31EA10214A0B96D00C3C7C5 /* SettingsController.xib in Resources */,
-				E31EA10314A0B96D00C3C7C5 /* Read.png in Resources */,
-				E31EA10414A0B96D00C3C7C5 /* Read@2x.png in Resources */,
-				E31EA10514A0B96D00C3C7C5 /* Unread.png in Resources */,
-				E31EA10614A0B96D00C3C7C5 /* Unread@2x.png in Resources */,
-				E31EA10714A0B96D00C3C7C5 /* Settings.png in Resources */,
-				E31EA10814A0B96D00C3C7C5 /* Settings@2x.png in Resources */,
-				E31EA10914A0B96D00C3C7C5 /* UnreadTab.png in Resources */,
-				E31EA10A14A0B96D00C3C7C5 /* UnreadTab@2x.png in Resources */,
-				E31EA10B14A0B96D00C3C7C5 /* All.png in Resources */,
-				E31EA10C14A0B96D00C3C7C5 /* All@2x.png in Resources */,
-				E31EA10D14A0B96D00C3C7C5 /* Back.png in Resources */,
-				E31EA10E14A0B96D00C3C7C5 /* Back@2x.png in Resources */,
-				E31EA10F14A0B96D00C3C7C5 /* Icon.png in Resources */,
-				E31EA11014A0B96D00C3C7C5 /* DetailController.xib in Resources */,
-				E31EA11114A0B96D00C3C7C5 /* MasterController.xib in Resources */,
-				E31EA11214A0B96D00C3C7C5 /* gradient_bottom_black.png in Resources */,
-				E31EA11314A0B96D00C3C7C5 /* gradient_bottom_white.png in Resources */,
-				E31EA11414A0B96D00C3C7C5 /* gradient_top_black.png in Resources */,
-				E31EA11514A0B96D00C3C7C5 /* gradient_top_white.png in Resources */,
-				E31EA11614A0B96D00C3C7C5 /* brightness_black.png in Resources */,
-				E31EA11714A0B96D00C3C7C5 /* brightness_black@2x.png in Resources */,
-				E31EA11814A0B96D00C3C7C5 /* brightness_white.png in Resources */,
-				E31EA11914A0B96D00C3C7C5 /* brightness_white@2x.png in Resources */,
-				E31EA11A14A0B96D00C3C7C5 /* font_size_black.png in Resources */,
-				E31EA11B14A0B96D00C3C7C5 /* font_size_black@2x.png in Resources */,
-				E31EA11C14A0B96D00C3C7C5 /* font_size_white.png in Resources */,
-				E31EA11D14A0B96D00C3C7C5 /* font_size_white@2x.png in Resources */,
-				E31EA11E14A0B96D00C3C7C5 /* today_black.png in Resources */,
-				E31EA11F14A0B96D00C3C7C5 /* today_black@2x.png in Resources */,
-				E31EA12014A0B96D00C3C7C5 /* today_white.png in Resources */,
-				E31EA12114A0B96D00C3C7C5 /* today_white@2xpng.png in Resources */,
-				E31EA12214A0B96D00C3C7C5 /* Today.png in Resources */,
-				E31EA12314A0B96D00C3C7C5 /* Today@2x.png in Resources */,
-				E31EA12414A0B96D00C3C7C5 /* Icon@2x.png in Resources */,
-				E31EA12514A0B96D00C3C7C5 /* Icon-72.png in Resources */,
-				E31EA12614A0B96D00C3C7C5 /* Default-Landscape~ipad.png in Resources */,
-				E31EA12714A0B96D00C3C7C5 /* Default@2x~iphone.png in Resources */,
-				E31EA12814A0B96D00C3C7C5 /* Default~iphone.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E372ECB5147EB81C008400D3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1114,26 +965,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E31EA0E114A0B96D00C3C7C5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E31EA0E214A0B96D00C3C7C5 /* main.m in Sources */,
-				E31EA0E414A0B96D00C3C7C5 /* FPCBReader.xcdatamodeld in Sources */,
-				E31EA0E514A0B96D00C3C7C5 /* CachedPassage.m in Sources */,
-				E31EA0E614A0B96D00C3C7C5 /* DataManager.m in Sources */,
-				E31EA0E714A0B96D00C3C7C5 /* Reader.m in Sources */,
-				E31EA0E814A0B96D00C3C7C5 /* Reading.m in Sources */,
-				E31EA0E914A0B96D00C3C7C5 /* NSDate+FPCBReader.m in Sources */,
-				E31EA0EF14A0B96D00C3C7C5 /* ReadingCell.m in Sources */,
-				E31EA0F214A0B96D00C3C7C5 /* Settings.m in Sources */,
-				E31EA0F414A0B96D00C3C7C5 /* ReaderSplitViewController.m in Sources */,
-				E31EA0F514A0B96D00C3C7C5 /* DetailController.m in Sources */,
-				E31EA0F614A0B96D00C3C7C5 /* MasterController.m in Sources */,
-				E31EA13214A0B9C100C3C7C5 /* AppDelegate-iPad.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E372ECB3147EB81C008400D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1228,45 +1059,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		E31EA12A14A0B96D00C3C7C5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FPCBReader/FPCBReader-Prefix.pch";
-				INFOPLIST_FILE = "FPCBReader copy-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				PRODUCT_NAME = "FPCBReader copy";
-				TARGETED_DEVICE_FAMILY = 2;
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		E31EA12B14A0B96D00C3C7C5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FPCBReader/FPCBReader-Prefix.pch";
-				INFOPLIST_FILE = "FPCBReader copy-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				PRODUCT_NAME = "FPCBReader copy";
-				TARGETED_DEVICE_FAMILY = 2;
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		E31EA12C14A0B96D00C3C7C5 /* Ad Hoc */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FPCBReader/FPCBReader-Prefix.pch";
-				INFOPLIST_FILE = "FPCBReader copy-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				PRODUCT_NAME = "FPCBReader copy";
-				TARGETED_DEVICE_FAMILY = 2;
-				WRAPPER_EXTENSION = app;
-			};
-			name = "Ad Hoc";
-		};
 		E372ECD2147EB81C008400D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1404,11 +1196,13 @@
 		E373376E1499AE7800A2DA83 /* Ad Hoc */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Onsi Fakhouri";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FPCBReader/FPCBReader-Prefix.pch";
 				INFOPLIST_FILE = "FPCBReader/FPCBReader-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "27F2673A-C2CF-478B-89D4-C8B33E431028";
 				WRAPPER_EXTENSION = app;
 			};
 			name = "Ad Hoc";
@@ -1437,16 +1231,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E31EA12914A0B96D00C3C7C5 /* Build configuration list for PBXNativeTarget "FPCBReader iPad" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E31EA12A14A0B96D00C3C7C5 /* Debug */,
-				E31EA12B14A0B96D00C3C7C5 /* Release */,
-				E31EA12C14A0B96D00C3C7C5 /* Ad Hoc */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		E372ECB1147EB81C008400D3 /* Build configuration list for PBXProject "FPCBReader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
