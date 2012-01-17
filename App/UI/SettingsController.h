@@ -9,6 +9,9 @@
 @property (nonatomic, assign) IBOutlet UIImageView *fontSizeImageView;
 @property (nonatomic, assign) IBOutlet UIImageView *brightnessImageView;
 
+@property (nonatomic, retain) IBOutlet UIImageView *topGradient;
+@property (nonatomic, retain) IBOutlet UIImageView *bottomGradient;
+
 + (SettingsController *)controller;
 
 - (IBAction)didUpdateFontSize;

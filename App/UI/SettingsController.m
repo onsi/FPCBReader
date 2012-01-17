@@ -3,6 +3,7 @@
 
 @interface SettingsController ()
 
+- (void)refreshColorsAndFontSize;
 - (void)refresh;
     
 @end
@@ -14,7 +15,9 @@
     invertSwitch = invertSwitch_,
     preview = preview_,
     fontSizeImageView = fontSizeImageView_,
-    brightnessImageView = brightnessImageView_;
+    brightnessImageView = brightnessImageView_,
+    topGradient = topGradient_,
+    bottomGradient = bottomGradient_;
 
 + (SettingsController *)controller {
     return [[[self alloc] initWithNibName:@"SettingsController" bundle:nil] autorelease];
@@ -38,25 +41,35 @@
 - (IBAction)didUpdateFontSize {
     reader.settings.fontSize = [NSNumber numberWithFloat:self.fontSizeSlider.value];
     [reader.dataManager saveContext];
-    [self refresh];
+    [self refreshColorsAndFontSize];
 }
 
 - (IBAction)didToggleInvert {
     reader.settings.invert = [NSNumber numberWithBool:self.invertSwitch.isOn];
     [reader.dataManager saveContext];
-    [self refresh];
+    [self refreshColorsAndFontSize];
 }
 
 - (void)refresh {
+    [self.preview loadHTMLString:reader.preview 
+                         baseURL:nil];
+    [self refreshColorsAndFontSize];
+}
+
+- (void)refreshColorsAndFontSize {
     self.view.backgroundColor = reader.backgroundColor;
     self.fontSizeImageView.image = reader.fontSizeImage;
     self.brightnessImageView.image = reader.brightnessImage;
+    
+    self.topGradient.image = reader.topGradient;
+    self.bottomGradient.image = reader.bottomGradient;
 
     self.preview.backgroundColor = reader.backgroundColor;
-    [self.preview loadHTMLString:reader.preview 
-                         baseURL:nil];
+    
     [[UIApplication sharedApplication] setStatusBarStyle:reader.settings.invert.boolValue ? UIStatusBarStyleDefault : UIStatusBarStyleBlackOpaque
-                                                animated:NO];
+                                                animated:NO];    
+    
+    [self.preview stringByEvaluatingJavaScriptFromString:reader.javascriptToUpdateStyling];
 }
 
 - (void)webViewDidFinishLoad:(UIWebView *)webView {
