@@ -54,12 +54,18 @@
 - (void)viewWillAppear:(BOOL)animated {
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didDownloadPassage:) name:@"didDownloadPassage" object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(downloadDidFail:) name:@"downloadDidFail" object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(applicationDidBecomeActive) name:@"applicationDidBecomeActive" object:nil];
     [self refresh];
     [super viewWillAppear:animated];
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
     [[NSNotificationCenter defaultCenter] removeObserver:self]; 
+}
+
+
+- (void)applicationDidBecomeActive {
+    [self refresh];
 }
 
 - (void)refresh {

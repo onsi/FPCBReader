@@ -11,6 +11,7 @@
 @property (nonatomic, retain) NSArray *readings;
 
 - (void)scrollToReading:(Reading *)reading;
+- (void)refresh;
 - (void)refreshColors;
 
 @end
@@ -49,10 +50,24 @@
 }
 
 - (void)viewWillAppear:(BOOL)animated {
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(applicationDidBecomeActive) name:@"applicationDidBecomeActive" object:nil];
+    
+    [self refresh];
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [[NSNotificationCenter defaultCenter] removeObserver:self]; 
+}
+
+- (void)applicationDidBecomeActive {
+    [self refresh];
+}
+
+- (void)refresh {
     self.fontSizeSlider.value = reader.settings.fontSize.floatValue;
     [self.invert setOn:reader.settings.invert.boolValue];
     self.tableView.rowHeight = 60;
-    
+ 
     int todaysIndex = [self.readings indexOfObject:[Reading todaysReading]];
     if (todaysIndex != NSNotFound) {
         [self.tableView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:todaysIndex inSection:0]

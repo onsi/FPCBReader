@@ -10,6 +10,8 @@
 @property (nonatomic, retain) NSArray *readings;
 @property (nonatomic, assign) BOOL firstView;
 
+- (void)refresh;
+
 @end
 
 @implementation AllReadingsTableViewController
@@ -35,6 +37,20 @@
 }
 
 - (void)viewWillAppear:(BOOL)animated {
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(applicationDidBecomeActive) name:@"applicationDidBecomeActive" object:nil];
+    [self refresh];
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [[NSNotificationCenter defaultCenter] removeObserver:self]; 
+}
+
+- (void)applicationDidBecomeActive {
+    self.firstView = YES;
+    [self refresh];
+}
+
+- (void)refresh {
     self.tableView.backgroundColor = reader.backgroundColor;
     self.tableView.rowHeight = 60;
     for (ReadingCell *cell in self.tableView.visibleCells) {
@@ -50,6 +66,7 @@
         self.firstView = NO;
     }
 }
+
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
