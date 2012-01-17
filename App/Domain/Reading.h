@@ -1,7 +1,7 @@
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
 
-@class CachedPassage;
+@protocol Passage;
 
 @interface Reading : NSManagedObject
 
@@ -16,7 +16,7 @@
 + (Reading *)nextUnreadReading;
 + (Reading *)readingForDate:(NSDate *)date;
 
-- (CachedPassage *)passage;
+- (id<Passage>)passage;
 
 - (BOOL)toggleReadingState;
 - (void)markAsRead;

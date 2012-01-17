@@ -2,8 +2,9 @@
 using namespace Cedar::Matchers;
 
 #import "Reading.h"
-#import "CachedPassage.h"
+#import "Passage.h"
 #import "SpecEnvironment.h"
+#import "NSURLConnection+Spec.h"
 
 SPEC_BEGIN(ReadingSpec)
 
@@ -99,8 +100,11 @@ describe(@"Reading", ^{
     });
     
     describe(@"passage", ^{
-        it(@"should return the associated cached passage", ^{
-            [Reading todaysReading].passage should equal([CachedPassage passageForReference:@"John 2"]);
+        it(@"should return the associated passage", ^{
+            [Reading todaysReading].passage.reference should equal(@"John 2");
+            NSURLConnection.connections.count should equal(1);
+            [Reading todaysReading].passage should equal([Reading todaysReading].passage); //caches the same copy
+            NSURLConnection.connections.count should equal(1);
         });
     });
 });

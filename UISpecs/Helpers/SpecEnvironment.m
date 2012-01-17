@@ -1,9 +1,17 @@
 #import "SpecEnvironment.h"
 #import "NSDate+FPCBReader.h"
+#import "UncachedPassage.h"
 Reader *reader;
 
 static BOOL didSetupReadingPlist;
 static NSTimeInterval today;
+
+@interface UncachedPassage (SpecEnvironment)
+
++ (void)resetCache;
+
+@end
+
 
 @interface SpecEnvironment ()
 
@@ -14,6 +22,7 @@ static NSTimeInterval today;
 @implementation SpecEnvironment
 
 + (void)beforeEach {
+    [UncachedPassage resetCache];
     reader = [[[Reader alloc] init] autorelease];
 
     if (!didSetupReadingPlist) {

@@ -33,8 +33,9 @@ describe(@"ReadingViewController", ^{
         
         context(@"when the passage is available", ^{
             beforeEach(^{
-                [CachedPassage passageWithReference:@"John 2" content:@"On the third day..." date:[NSDate date]];
                 [controller viewWillAppear:YES];
+                [NSURLConnection provideSuccesfulResponse:@"On the third day..."
+                                                   forURL:dataSource.reading.passage.url];
             });
             
             it(@"should present the content and hide the spinner/loading label/retry button", ^{

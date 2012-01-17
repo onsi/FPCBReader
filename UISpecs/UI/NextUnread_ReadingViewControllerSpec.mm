@@ -5,10 +5,10 @@ using namespace Cedar::Matchers;
 #import "NextUnreadReadingDataSource.h"
 #import "Reading.h"
 #import "SpecEnvironment.h"
-#import "CachedPassage+Spec.h"
 #import "UIWebView+Spec.h"
 #import "NSURLConnection+Spec.h"
 #import "UIPageViewController+Spec.h"
+#import "Passage.h"
 
 SPEC_BEGIN(NextUnread_ReadingViewControllerSpec)
 
@@ -35,8 +35,10 @@ describe(@"ReadingViewController", ^{
         context(@"when the passage is available", ^{
             __block NSString *passageContent;
             beforeEach(^{
-                [CachedPassage passageWithReference:@"John 1" content:@"In the beginning..." date:[NSDate date]];
                 [controller viewWillAppear:YES];
+                [NSURLConnection provideSuccesfulResponse:@"In the beginning..."
+                                                   forURL:dataSource.reading.passage.url];
+                
             });
                    
             it(@"should present the content and hide the spinner/loading label/retry button", ^{
@@ -48,7 +50,7 @@ describe(@"ReadingViewController", ^{
             });
             
             sharedExamplesFor(@"displaying a passage", ^(NSDictionary *context) {
-                it(@"should dispaly the passage", ^{
+                it(@"should display the passage", ^{
                     controller.containerView.subviews.lastObject should equal(controller.contentWebView);
                     controller.contentWebView.hidden should be_truthy();
                     controller.contentWebView.loadedHTMLString should contain(passageContent);

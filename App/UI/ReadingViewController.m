@@ -1,13 +1,13 @@
 #import "ReadingViewController.h"
 #import "NSDate+FPCBReader.h"
 #import "Reading.h"
-#import "CachedPassage.h"
+#import "Passage.h"
 #import "Reader.h"
 
 @interface ReadingViewController ()
 
 @property (nonatomic, retain) id<ReadingDataSource> dataSource;
-@property (nonatomic, retain) CachedPassage *passage;
+@property (nonatomic, retain) id<Passage> passage;
 - (void)refresh;
 - (void)refreshReadButton;
 - (void)refreshColors;

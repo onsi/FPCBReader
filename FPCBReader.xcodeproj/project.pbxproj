@@ -85,6 +85,9 @@
 		E372ECEB147EB92E008400D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E372ECBF147EB81C008400D3 /* CoreGraphics.framework */; };
 		E372ECF1147EB92E008400D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E372ECEF147EB92E008400D3 /* InfoPlist.strings */; };
 		E372ECF3147EB92E008400D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E372ECF2147EB92E008400D3 /* main.m */; };
+		E3BE065F14C3476300E4B642 /* UncachedPassage.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BE065E14C3476300E4B642 /* UncachedPassage.m */; };
+		E3BE066014C3476300E4B642 /* UncachedPassage.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BE065E14C3476300E4B642 /* UncachedPassage.m */; };
+		E3BE066214C3477900E4B642 /* UncachedPassageSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = E3BE066114C3477900E4B642 /* UncachedPassageSpec.mm */; };
 		E3CB81C6148729B80073AD87 /* NextUnread_ReadingViewControllerSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = E3CB81C5148729B80073AD87 /* NextUnread_ReadingViewControllerSpec.mm */; };
 		E3CB81C9148729F80073AD87 /* NextUnreadReadingDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CB81C8148729F70073AD87 /* NextUnreadReadingDataSource.m */; };
 		E3CB81CA148729F80073AD87 /* NextUnreadReadingDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CB81C8148729F70073AD87 /* NextUnreadReadingDataSource.m */; };
@@ -327,6 +330,10 @@
 		E372ECF0147EB92E008400D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E372ECF2147EB92E008400D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E372ECF4147EB92E008400D3 /* UISpecs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UISpecs-Prefix.pch"; sourceTree = "<group>"; };
+		E3BE065C14C3466700E4B642 /* Passage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Passage.h; sourceTree = "<group>"; };
+		E3BE065D14C3476300E4B642 /* UncachedPassage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UncachedPassage.h; sourceTree = "<group>"; };
+		E3BE065E14C3476300E4B642 /* UncachedPassage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UncachedPassage.m; sourceTree = "<group>"; };
+		E3BE066114C3477900E4B642 /* UncachedPassageSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UncachedPassageSpec.mm; sourceTree = "<group>"; };
 		E3CB81C5148729B80073AD87 /* NextUnread_ReadingViewControllerSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NextUnread_ReadingViewControllerSpec.mm; sourceTree = "<group>"; };
 		E3CB81C7148729F70073AD87 /* NextUnreadReadingDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextUnreadReadingDataSource.h; sourceTree = "<group>"; };
 		E3CB81C8148729F70073AD87 /* NextUnreadReadingDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextUnreadReadingDataSource.m; sourceTree = "<group>"; };
@@ -643,6 +650,9 @@
 				E3CB820E148B40E10073AD87 /* SpecificReadingDataSource.h */,
 				E3CB820F148B40E10073AD87 /* SpecificReadingDataSource.m */,
 				E34394601485C9E3006343F4 /* ReadingDataSource.h */,
+				E3BE065C14C3466700E4B642 /* Passage.h */,
+				E3BE065D14C3476300E4B642 /* UncachedPassage.h */,
+				E3BE065E14C3476300E4B642 /* UncachedPassage.m */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -665,6 +675,7 @@
 			children = (
 				E31CFEF914804A2A0004377F /* CachedPassageSpec.mm */,
 				E34394381483E38B006343F4 /* ReadingSpec.mm */,
+				E3BE066114C3477900E4B642 /* UncachedPassageSpec.mm */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -990,6 +1001,7 @@
 				E3F25F36149B070A00D5602C /* ReaderSplitViewController.m in Sources */,
 				E3F25F3B149B07F800D5602C /* DetailController.m in Sources */,
 				E3F25F42149B080800D5602C /* MasterController.m in Sources */,
+				E3BE065F14C3476300E4B642 /* UncachedPassage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1026,6 +1038,8 @@
 				E3F25F37149B070A00D5602C /* ReaderSplitViewController.m in Sources */,
 				E3F25F3C149B07F800D5602C /* DetailController.m in Sources */,
 				E3F25F43149B080800D5602C /* MasterController.m in Sources */,
+				E3BE066014C3476300E4B642 /* UncachedPassage.m in Sources */,
+				E3BE066214C3477900E4B642 /* UncachedPassageSpec.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

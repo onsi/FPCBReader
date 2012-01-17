@@ -1,7 +1,8 @@
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
+#import "Passage.h"
 
-@interface CachedPassage : NSManagedObject
+@interface CachedPassage : NSManagedObject <Passage>
 
 @property (nonatomic, retain) NSDate *date;
 @property (nonatomic, retain) NSString *content;

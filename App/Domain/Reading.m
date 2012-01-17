@@ -1,7 +1,9 @@
 #import "Reading.h"
 #import "Reader.h"
-#import "CachedPassage.h"
+#import "Passage.h"
 #import "NSDate+FPCBReader.h"
+
+#import "UncachedPassage.h"
 
 @implementation Reading
 
@@ -63,8 +65,8 @@
     return [[reader.dataManager.managedObjectContext executeFetchRequest:request error:NULL] lastObject];
 }
 
-- (CachedPassage *)passage {
-    return [CachedPassage passageForReference:self.reference];
+- (id<Passage>)passage {
+    return [UncachedPassage passageForReference:self.reference];
 }
 
 - (BOOL)toggleReadingState {

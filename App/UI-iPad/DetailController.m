@@ -1,12 +1,12 @@
 #import "DetailController.h"
 #import "NSDate+FPCBReader.h"
 #import "Reading.h"
-#import "CachedPassage.h"
+#import "Passage.h"
 #import "Reader.h"
 
 @interface DetailController ()
 
-@property (nonatomic, retain) CachedPassage *passage;
+@property (nonatomic, retain) id<Passage> passage;
 - (void)refreshReadButton;
 
 @end
