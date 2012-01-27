@@ -3,7 +3,7 @@
 #import "Passage.h"
 #import "NSDate+FPCBReader.h"
 
-#import "UncachedPassage.h"
+#import "CachedPassage.h"
 
 @implementation Reading
 
@@ -66,7 +66,7 @@
 }
 
 - (id<Passage>)passage {
-    return [UncachedPassage passageForReference:self.reference];
+    return [CachedPassage passageForReference:self.reference];
 }
 
 - (BOOL)toggleReadingState {

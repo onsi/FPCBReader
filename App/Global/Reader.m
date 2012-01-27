@@ -1,5 +1,6 @@
 #import "Reader.h"
 #import "Reading.h"
+#import "CachedPassage.h"
 
 @interface Reader ()
 
@@ -34,6 +35,7 @@ settings = settings_;
 - (void)performSetUp {
     self.settings = [Settings settings];
     [Reading populateReadings];
+    [CachedPassage clearAllCachedPassages];
 }
 
 - (NSString *)javascriptToUpdateStyling {

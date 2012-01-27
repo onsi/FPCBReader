@@ -24,6 +24,16 @@
     connection = connection_,
     downloadData = downloadData_;
 
++ (void)clearAllCachedPassages {
+    NSFetchRequest *request = [NSFetchRequest fetchRequestWithEntityName:@"CachedPassage"];
+    NSArray *results = [reader.dataManager.managedObjectContext executeFetchRequest:request error:NULL];
+
+    for (CachedPassage *passage in results) {
+        [reader.dataManager.managedObjectContext deleteObject:passage];
+    }
+    
+    [reader.dataManager.managedObjectContext save:NULL];
+}
 
 + (CachedPassage *)passageForReference:(NSString *)reference {
     CachedPassage *passage = [self _passageForReference:reference];

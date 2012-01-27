@@ -9,6 +9,26 @@ using namespace Cedar::Matchers;
 SPEC_BEGIN(CachedPassageSpec)
 
 describe(@"CachedPassage", ^{
+    describe(@"clearAllCachedPassages", ^{
+        beforeEach(^{
+            [CachedPassage passageWithReference:@"John 1:1"
+                                        content:@"In the beginning..."
+                                           date:[NSDate dateWithTimeIntervalSinceNow:-1000]];
+        });
+        
+        it(@"it should delete all the passages", ^{
+            CachedPassage *passage = [CachedPassage passageForReference:@"John 1:1"];
+            passage.reference should equal(@"John 1:1");
+            passage.content should equal(@"In the beginning...");
+            
+            [CachedPassage clearAllCachedPassages];
+            
+            passage = [CachedPassage passageForReference:@"John 1:1"];
+            passage.reference should equal(@"John 1:1");
+            passage.content should be_nil();
+        });
+    });
+    
     describe(@"getting a passage", ^{
         context(@"when the passage is already cached", ^{
             beforeEach(^{
@@ -22,7 +42,7 @@ describe(@"CachedPassage", ^{
                 passage.reference should equal(@"John 1:1");
                 passage.content should equal(@"In the beginning...");
                 [[NSDate date] timeIntervalSinceDate:passage.date] should be_less_than(1);
-            }); 
+            });
         });
         
         context(@"when the passage has not been cached yet", ^{

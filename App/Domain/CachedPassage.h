@@ -9,5 +9,6 @@
 @property (nonatomic, retain) NSString *reference;
 
 + (CachedPassage *)passageForReference:(NSString *)reference;
++ (void)clearAllCachedPassages;
 
 @end

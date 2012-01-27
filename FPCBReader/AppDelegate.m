@@ -2,6 +2,7 @@
 #import "ReaderTabBarController.h"
 #import "ReaderSplitViewController.h"
 #import "Reader.h"
+
 Reader *reader;
 
 @interface AppDelegate ()
@@ -27,6 +28,7 @@ Reader *reader;
     self.reader = [[[Reader alloc] init] autorelease];
     reader = self.reader;
     [reader performSetUp];
+    
     [[UIApplication sharedApplication] setStatusBarStyle:reader.settings.invert.boolValue ? UIStatusBarStyleDefault : UIStatusBarStyleBlackOpaque
                                                 animated:NO];
 
@@ -39,6 +41,7 @@ Reader *reader;
     } else {
         self.window.rootViewController = [[[ReaderTabBarController alloc] init] autorelease];        
     }
+    
     
     return YES;
 }
