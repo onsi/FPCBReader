@@ -2,6 +2,8 @@
 #import "Reading.h"
 #import "CachedPassage.h"
 
+extern NSString *SECRET_KEY;
+
 @interface Reader ()
 
 @property (nonatomic, retain, readwrite) DataManager *dataManager;
@@ -36,6 +38,10 @@ settings = settings_;
     self.settings = [Settings settings];
     [Reading populateReadings];
     [CachedPassage clearAllCachedPassages];
+}
+
+- (NSString *)baseURL {
+    return [NSString stringWithFormat:@"http://www.esvapi.org/v2/rest/passageQuery?key=%@&include-footnotes=false&include-audio-link=false", SECRET_KEY];
 }
 
 - (NSString *)javascriptToUpdateStyling {

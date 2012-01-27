@@ -8,6 +8,7 @@
 @property (nonatomic, retain, readonly) Settings *settings;
 
 - (void)performSetUp;
+- (NSString *)baseURL;
 - (NSString *)htmlFormatContent:(NSString *)content;
 - (NSString *)preview;
 - (NSString *)javascriptToUpdateStyling;

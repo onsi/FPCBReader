@@ -3,6 +3,8 @@
 #import "UncachedPassage.h"
 Reader *reader;
 
+NSString *SECRET_KEY = @"SPEC_KEY";
+
 static BOOL didSetupReadingPlist;
 static NSTimeInterval today;
 

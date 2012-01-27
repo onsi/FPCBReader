@@ -49,7 +49,7 @@ describe(@"CachedPassage", ^{
             __block NSURL *url;
             
             beforeEach(^{
-                NSString *urlString = @"http://www.esvapi.org/v2/rest/passageQuery?key=IP&include-footnotes=false&include-audio-link=false&passage=John 1:1";
+                NSString *urlString = @"http://www.esvapi.org/v2/rest/passageQuery?key=SPEC_KEY&include-footnotes=false&include-audio-link=false&passage=John 1:1";
                 url = [NSURL URLWithString:[urlString stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];
                 
                 for (int i = 0 ; i < 29 ; i++) {

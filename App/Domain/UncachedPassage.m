@@ -59,8 +59,7 @@ UncachedPassage *thePassage;
 }
 
 - (NSURL *)url {
-    NSString *baseURL = @"http://www.esvapi.org/v2/rest/passageQuery?key=IP&include-footnotes=false&include-audio-link=false";
-    NSString *urlString = [[NSString stringWithFormat:@"%@&passage=%@", baseURL, self.reference] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    NSString *urlString = [[NSString stringWithFormat:@"%@&passage=%@", reader.baseURL, self.reference] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     return [NSURL URLWithString:urlString];
 }
 

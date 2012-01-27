@@ -101,6 +101,7 @@
 		E3225DCC149E70BC005984FB /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DC8149E70BC005984FB /* Default-Landscape~ipad.png */; };
 		E3225DCE149E70BC005984FB /* Default@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DC9149E70BC005984FB /* Default@2x~iphone.png */; };
 		E3225DD0149E70BC005984FB /* Default~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DCA149E70BC005984FB /* Default~iphone.png */; };
+		E3407A4014D266A4003D2C3A /* SecretKey.m in Sources */ = {isa = PBXBuildFile; fileRef = E3407A3F14D266A4003D2C3A /* SecretKey.m */; };
 		E343940814833DA0006343F4 /* CachedPassage+Spec.mm in Sources */ = {isa = PBXBuildFile; fileRef = E343940714833DA0006343F4 /* CachedPassage+Spec.mm */; };
 		E343940B14834177006343F4 /* NotificationObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = E343940A14834177006343F4 /* NotificationObserver.m */; };
 		E343940E14834DAA006343F4 /* libPivotalSpecHelperKit-StaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E343940314833C9C006343F4 /* libPivotalSpecHelperKit-StaticLib.a */; };
@@ -294,6 +295,7 @@
 		E3225DC8149E70BC005984FB /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
 		E3225DC9149E70BC005984FB /* Default@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x~iphone.png"; sourceTree = "<group>"; };
 		E3225DCA149E70BC005984FB /* Default~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~iphone.png"; sourceTree = "<group>"; };
+		E3407A3F14D266A4003D2C3A /* SecretKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecretKey.m; sourceTree = "<group>"; };
 		E34393EA14833C9C006343F4 /* PivotalCoreKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PivotalCoreKit.xcodeproj; path = Externals/PivotalCoreKit/PivotalCoreKit.xcodeproj; sourceTree = "<group>"; };
 		E343940614833DA0006343F4 /* CachedPassage+Spec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CachedPassage+Spec.h"; sourceTree = "<group>"; };
 		E343940714833DA0006343F4 /* CachedPassage+Spec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "CachedPassage+Spec.mm"; sourceTree = "<group>"; };
@@ -666,6 +668,7 @@
 				E3E8DB83148044D9005DC2FE /* Reader.m */,
 				E3CB8212148BCC480073AD87 /* Settings.h */,
 				E3CB8213148BCC480073AD87 /* Settings.m */,
+				E3407A3F14D266A4003D2C3A /* SecretKey.m */,
 			);
 			path = Global;
 			sourceTree = "<group>";
@@ -1002,6 +1005,7 @@
 				E320952314D259FF00B83CDE /* DetailController.m in Sources */,
 				E320952414D259FF00B83CDE /* MasterController.m in Sources */,
 				E320952514D259FF00B83CDE /* UncachedPassage.m in Sources */,
+				E3407A4014D266A4003D2C3A /* SecretKey.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
