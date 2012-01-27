@@ -72,6 +72,14 @@
     self.dateLabel.text = self.dataSource.reading.date.readerFormat;
     self.referenceLabel.text = self.dataSource.reading.reference;
     
+    if ([self.passage isEqual:self.dataSource.reading.passage]) {
+        if ([self.containerView.subviews.lastObject isEqual:self.contentWebView]) {
+            [self refreshReadButton];
+            [self refreshColors];
+            return;
+        }
+    }
+
     [self.containerView.subviews.lastObject removeFromSuperview];
     
     self.passage = self.dataSource.reading.passage;
@@ -123,7 +131,10 @@
             [(id)view setTextColor:reader.textColor];
         }
     }
-
+    
+    if ([self.containerView.subviews.lastObject isEqual:self.contentWebView]) {
+        [self.contentWebView stringByEvaluatingJavaScriptFromString:reader.javascriptToUpdateStyling];
+    }
 }
 
 #pragma mark UIWebViewDelegate
