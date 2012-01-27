@@ -7,155 +7,155 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E307B61D149DC9AC00799029 /* gradient_bottom_black.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B619149DC9AC00799029 /* gradient_bottom_black.png */; };
 		E307B61E149DC9AC00799029 /* gradient_bottom_black.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B619149DC9AC00799029 /* gradient_bottom_black.png */; };
-		E307B61F149DC9AC00799029 /* gradient_bottom_white.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B61A149DC9AC00799029 /* gradient_bottom_white.png */; };
 		E307B620149DC9AC00799029 /* gradient_bottom_white.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B61A149DC9AC00799029 /* gradient_bottom_white.png */; };
-		E307B621149DC9AC00799029 /* gradient_top_black.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B61B149DC9AC00799029 /* gradient_top_black.png */; };
 		E307B622149DC9AC00799029 /* gradient_top_black.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B61B149DC9AC00799029 /* gradient_top_black.png */; };
-		E307B623149DC9AC00799029 /* gradient_top_white.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B61C149DC9AC00799029 /* gradient_top_white.png */; };
 		E307B624149DC9AC00799029 /* gradient_top_white.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B61C149DC9AC00799029 /* gradient_top_white.png */; };
-		E307B62D149DCEF300799029 /* brightness_black.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B625149DCEF300799029 /* brightness_black.png */; };
 		E307B62E149DCEF300799029 /* brightness_black.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B625149DCEF300799029 /* brightness_black.png */; };
-		E307B62F149DCEF300799029 /* brightness_black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B626149DCEF300799029 /* brightness_black@2x.png */; };
 		E307B630149DCEF300799029 /* brightness_black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B626149DCEF300799029 /* brightness_black@2x.png */; };
-		E307B631149DCEF300799029 /* brightness_white.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B627149DCEF300799029 /* brightness_white.png */; };
 		E307B632149DCEF300799029 /* brightness_white.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B627149DCEF300799029 /* brightness_white.png */; };
-		E307B633149DCEF300799029 /* brightness_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B628149DCEF300799029 /* brightness_white@2x.png */; };
 		E307B634149DCEF300799029 /* brightness_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B628149DCEF300799029 /* brightness_white@2x.png */; };
-		E307B635149DCEF300799029 /* font_size_black.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B629149DCEF300799029 /* font_size_black.png */; };
 		E307B636149DCEF300799029 /* font_size_black.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B629149DCEF300799029 /* font_size_black.png */; };
-		E307B637149DCEF300799029 /* font_size_black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B62A149DCEF300799029 /* font_size_black@2x.png */; };
 		E307B638149DCEF300799029 /* font_size_black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B62A149DCEF300799029 /* font_size_black@2x.png */; };
-		E307B639149DCEF300799029 /* font_size_white.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B62B149DCEF300799029 /* font_size_white.png */; };
 		E307B63A149DCEF300799029 /* font_size_white.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B62B149DCEF300799029 /* font_size_white.png */; };
-		E307B63B149DCEF300799029 /* font_size_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B62C149DCEF300799029 /* font_size_white@2x.png */; };
 		E307B63C149DCEF300799029 /* font_size_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B62C149DCEF300799029 /* font_size_white@2x.png */; };
 		E31CFEFB14804A2A0004377F /* CachedPassageSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = E31CFEF914804A2A0004377F /* CachedPassageSpec.mm */; };
-		E3225DAE149E6A3C005984FB /* today_black.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DAA149E6A3C005984FB /* today_black.png */; };
+		E320951014D259FF00B83CDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E372ECC9147EB81C008400D3 /* main.m */; };
+		E320951114D259FF00B83CDE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E372ECCD147EB81C008400D3 /* AppDelegate.m */; };
+		E320951214D259FF00B83CDE /* FPCBReader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E372ECCF147EB81C008400D3 /* FPCBReader.xcdatamodeld */; };
+		E320951314D259FF00B83CDE /* CachedPassage.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E8DB7D148044CF005DC2FE /* CachedPassage.m */; };
+		E320951414D259FF00B83CDE /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E8DB81148044D9005DC2FE /* DataManager.m */; };
+		E320951514D259FF00B83CDE /* Reader.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E8DB83148044D9005DC2FE /* Reader.m */; };
+		E320951614D259FF00B83CDE /* Reading.m in Sources */ = {isa = PBXBuildFile; fileRef = E343943514836338006343F4 /* Reading.m */; };
+		E320951714D259FF00B83CDE /* NSDate+FPCBReader.m in Sources */ = {isa = PBXBuildFile; fileRef = E343943C1484AE16006343F4 /* NSDate+FPCBReader.m */; };
+		E320951814D259FF00B83CDE /* ReaderTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E34394441484BB3D006343F4 /* ReaderTabBarController.m */; };
+		E320951914D259FF00B83CDE /* ReadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E343945614853F8F006343F4 /* ReadingViewController.m */; };
+		E320951A14D259FF00B83CDE /* TodaysReadingDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E343945D148544BF006343F4 /* TodaysReadingDataSource.m */; };
+		E320951B14D259FF00B83CDE /* NextUnreadReadingDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CB81C8148729F70073AD87 /* NextUnreadReadingDataSource.m */; };
+		E320951C14D259FF00B83CDE /* AllReadingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CB81F4148B25B10073AD87 /* AllReadingsTableViewController.m */; };
+		E320951D14D259FF00B83CDE /* ReadingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CB81FF148B278D0073AD87 /* ReadingCell.m */; };
+		E320951E14D259FF00B83CDE /* NavigationReadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CB820B148B30E30073AD87 /* NavigationReadingViewController.m */; };
+		E320951F14D259FF00B83CDE /* SpecificReadingDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CB820F148B40E10073AD87 /* SpecificReadingDataSource.m */; };
+		E320952014D259FF00B83CDE /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CB8213148BCC480073AD87 /* Settings.m */; };
+		E320952114D259FF00B83CDE /* SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CB8217148BCD580073AD87 /* SettingsController.m */; };
+		E320952214D259FF00B83CDE /* ReaderSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F25F35149B070A00D5602C /* ReaderSplitViewController.m */; };
+		E320952314D259FF00B83CDE /* DetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F25F39149B07F800D5602C /* DetailController.m */; };
+		E320952414D259FF00B83CDE /* MasterController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F25F40149B080800D5602C /* MasterController.m */; };
+		E320952514D259FF00B83CDE /* UncachedPassage.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BE065E14C3476300E4B642 /* UncachedPassage.m */; };
+		E320952714D259FF00B83CDE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E372ECBB147EB81C008400D3 /* UIKit.framework */; };
+		E320952814D259FF00B83CDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E372ECBD147EB81C008400D3 /* Foundation.framework */; };
+		E320952914D259FF00B83CDE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E372ECBF147EB81C008400D3 /* CoreGraphics.framework */; };
+		E320952A14D259FF00B83CDE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E372ECC1147EB81C008400D3 /* CoreData.framework */; };
+		E320952C14D259FF00B83CDE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E372ECC6147EB81C008400D3 /* InfoPlist.strings */; };
+		E320952D14D259FF00B83CDE /* ReadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E34394501484BD6C006343F4 /* ReadingViewController.xib */; };
+		E320952E14D259FF00B83CDE /* ReadingPlan.plist in Resources */ = {isa = PBXBuildFile; fileRef = E343946114860EE2006343F4 /* ReadingPlan.plist */; };
+		E320952F14D259FF00B83CDE /* AllReadingsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3CB81F5148B25B10073AD87 /* AllReadingsTableViewController.xib */; };
+		E320953014D259FF00B83CDE /* ReadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3CB8205148B285B0073AD87 /* ReadingCell.xib */; };
+		E320953114D259FF00B83CDE /* SettingsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3CB8218148BCD580073AD87 /* SettingsController.xib */; };
+		E320953214D259FF00B83CDE /* Read.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB821D148BDB5E0073AD87 /* Read.png */; };
+		E320953314D259FF00B83CDE /* Read@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB821E148BDB5E0073AD87 /* Read@2x.png */; };
+		E320953414D259FF00B83CDE /* Unread.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB821F148BDB5E0073AD87 /* Unread.png */; };
+		E320953514D259FF00B83CDE /* Unread@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB8220148BDB5E0073AD87 /* Unread@2x.png */; };
+		E320953614D259FF00B83CDE /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB8229148BF1DE0073AD87 /* Settings.png */; };
+		E320953714D259FF00B83CDE /* Settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB822A148BF1DE0073AD87 /* Settings@2x.png */; };
+		E320953814D259FF00B83CDE /* UnreadTab.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB822F148BF3330073AD87 /* UnreadTab.png */; };
+		E320953914D259FF00B83CDE /* UnreadTab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB8230148BF3330073AD87 /* UnreadTab@2x.png */; };
+		E320953A14D259FF00B83CDE /* All.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB8235148BF5550073AD87 /* All.png */; };
+		E320953B14D259FF00B83CDE /* All@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB8236148BF5550073AD87 /* All@2x.png */; };
+		E320953C14D259FF00B83CDE /* Back.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB8241148C032C0073AD87 /* Back.png */; };
+		E320953D14D259FF00B83CDE /* Back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB8242148C032C0073AD87 /* Back@2x.png */; };
+		E320953E14D259FF00B83CDE /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB824D148C0BC20073AD87 /* Icon.png */; };
+		E320953F14D259FF00B83CDE /* DetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3F25F3A149B07F800D5602C /* DetailController.xib */; };
+		E320954014D259FF00B83CDE /* MasterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3F25F41149B080800D5602C /* MasterController.xib */; };
+		E320954114D259FF00B83CDE /* gradient_bottom_black.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B619149DC9AC00799029 /* gradient_bottom_black.png */; };
+		E320954214D259FF00B83CDE /* gradient_bottom_white.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B61A149DC9AC00799029 /* gradient_bottom_white.png */; };
+		E320954314D259FF00B83CDE /* gradient_top_black.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B61B149DC9AC00799029 /* gradient_top_black.png */; };
+		E320954414D259FF00B83CDE /* gradient_top_white.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B61C149DC9AC00799029 /* gradient_top_white.png */; };
+		E320954514D259FF00B83CDE /* brightness_black.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B625149DCEF300799029 /* brightness_black.png */; };
+		E320954614D259FF00B83CDE /* brightness_black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B626149DCEF300799029 /* brightness_black@2x.png */; };
+		E320954714D259FF00B83CDE /* brightness_white.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B627149DCEF300799029 /* brightness_white.png */; };
+		E320954814D259FF00B83CDE /* brightness_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B628149DCEF300799029 /* brightness_white@2x.png */; };
+		E320954914D259FF00B83CDE /* font_size_black.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B629149DCEF300799029 /* font_size_black.png */; };
+		E320954A14D259FF00B83CDE /* font_size_black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B62A149DCEF300799029 /* font_size_black@2x.png */; };
+		E320954B14D259FF00B83CDE /* font_size_white.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B62B149DCEF300799029 /* font_size_white.png */; };
+		E320954C14D259FF00B83CDE /* font_size_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E307B62C149DCEF300799029 /* font_size_white@2x.png */; };
+		E320954D14D259FF00B83CDE /* today_black.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DAA149E6A3C005984FB /* today_black.png */; };
+		E320954E14D259FF00B83CDE /* today_black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DAB149E6A3C005984FB /* today_black@2x.png */; };
+		E320954F14D259FF00B83CDE /* today_white.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DAC149E6A3C005984FB /* today_white.png */; };
+		E320955014D259FF00B83CDE /* today_white@2xpng.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DAD149E6A3C005984FB /* today_white@2xpng.png */; };
+		E320955114D259FF00B83CDE /* Today.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DB6149E6A61005984FB /* Today.png */; };
+		E320955214D259FF00B83CDE /* Today@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DB7149E6A61005984FB /* Today@2x.png */; };
+		E320955314D259FF00B83CDE /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DBC149E6CD0005984FB /* Icon@2x.png */; };
+		E320955414D259FF00B83CDE /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DBF149E6D15005984FB /* Icon-72.png */; };
+		E320955514D259FF00B83CDE /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DC8149E70BC005984FB /* Default-Landscape~ipad.png */; };
+		E320955614D259FF00B83CDE /* Default@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DC9149E70BC005984FB /* Default@2x~iphone.png */; };
+		E320955714D259FF00B83CDE /* Default~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DCA149E70BC005984FB /* Default~iphone.png */; };
 		E3225DAF149E6A3C005984FB /* today_black.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DAA149E6A3C005984FB /* today_black.png */; };
-		E3225DB0149E6A3C005984FB /* today_black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DAB149E6A3C005984FB /* today_black@2x.png */; };
 		E3225DB1149E6A3C005984FB /* today_black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DAB149E6A3C005984FB /* today_black@2x.png */; };
-		E3225DB2149E6A3C005984FB /* today_white.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DAC149E6A3C005984FB /* today_white.png */; };
 		E3225DB3149E6A3C005984FB /* today_white.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DAC149E6A3C005984FB /* today_white.png */; };
-		E3225DB4149E6A3C005984FB /* today_white@2xpng.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DAD149E6A3C005984FB /* today_white@2xpng.png */; };
 		E3225DB5149E6A3C005984FB /* today_white@2xpng.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DAD149E6A3C005984FB /* today_white@2xpng.png */; };
-		E3225DB8149E6A61005984FB /* Today.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DB6149E6A61005984FB /* Today.png */; };
 		E3225DB9149E6A61005984FB /* Today.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DB6149E6A61005984FB /* Today.png */; };
-		E3225DBA149E6A61005984FB /* Today@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DB7149E6A61005984FB /* Today@2x.png */; };
 		E3225DBB149E6A61005984FB /* Today@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DB7149E6A61005984FB /* Today@2x.png */; };
-		E3225DBD149E6CD0005984FB /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DBC149E6CD0005984FB /* Icon@2x.png */; };
 		E3225DBE149E6CD0005984FB /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DBC149E6CD0005984FB /* Icon@2x.png */; };
-		E3225DC0149E6D15005984FB /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DBF149E6D15005984FB /* Icon-72.png */; };
 		E3225DC1149E6D15005984FB /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DBF149E6D15005984FB /* Icon-72.png */; };
-		E3225DCB149E70BC005984FB /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DC8149E70BC005984FB /* Default-Landscape~ipad.png */; };
 		E3225DCC149E70BC005984FB /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DC8149E70BC005984FB /* Default-Landscape~ipad.png */; };
-		E3225DCD149E70BC005984FB /* Default@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DC9149E70BC005984FB /* Default@2x~iphone.png */; };
 		E3225DCE149E70BC005984FB /* Default@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DC9149E70BC005984FB /* Default@2x~iphone.png */; };
-		E3225DCF149E70BC005984FB /* Default~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DCA149E70BC005984FB /* Default~iphone.png */; };
 		E3225DD0149E70BC005984FB /* Default~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = E3225DCA149E70BC005984FB /* Default~iphone.png */; };
 		E343940814833DA0006343F4 /* CachedPassage+Spec.mm in Sources */ = {isa = PBXBuildFile; fileRef = E343940714833DA0006343F4 /* CachedPassage+Spec.mm */; };
 		E343940B14834177006343F4 /* NotificationObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = E343940A14834177006343F4 /* NotificationObserver.m */; };
 		E343940E14834DAA006343F4 /* libPivotalSpecHelperKit-StaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E343940314833C9C006343F4 /* libPivotalSpecHelperKit-StaticLib.a */; };
-		E343943614836338006343F4 /* Reading.m in Sources */ = {isa = PBXBuildFile; fileRef = E343943514836338006343F4 /* Reading.m */; };
 		E343943714836338006343F4 /* Reading.m in Sources */ = {isa = PBXBuildFile; fileRef = E343943514836338006343F4 /* Reading.m */; };
 		E34394391483E38C006343F4 /* ReadingSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = E34394381483E38B006343F4 /* ReadingSpec.mm */; };
-		E343943D1484AE16006343F4 /* NSDate+FPCBReader.m in Sources */ = {isa = PBXBuildFile; fileRef = E343943C1484AE16006343F4 /* NSDate+FPCBReader.m */; };
 		E343943E1484AE16006343F4 /* NSDate+FPCBReader.m in Sources */ = {isa = PBXBuildFile; fileRef = E343943C1484AE16006343F4 /* NSDate+FPCBReader.m */; };
-		E34394451484BB3D006343F4 /* ReaderTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E34394441484BB3D006343F4 /* ReaderTabBarController.m */; };
 		E34394461484BB3D006343F4 /* ReaderTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E34394441484BB3D006343F4 /* ReaderTabBarController.m */; };
-		E34394531484BD6C006343F4 /* ReadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E34394501484BD6C006343F4 /* ReadingViewController.xib */; };
 		E34394541484BD6C006343F4 /* ReadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E34394501484BD6C006343F4 /* ReadingViewController.xib */; };
-		E343945714853F8F006343F4 /* ReadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E343945614853F8F006343F4 /* ReadingViewController.m */; };
 		E343945814853F8F006343F4 /* ReadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E343945614853F8F006343F4 /* ReadingViewController.m */; };
 		E343945B14854359006343F4 /* Todays_ReadingViewControllerSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = E343945A14854359006343F4 /* Todays_ReadingViewControllerSpec.mm */; };
-		E343945E148544BF006343F4 /* TodaysReadingDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E343945D148544BF006343F4 /* TodaysReadingDataSource.m */; };
 		E343945F148544BF006343F4 /* TodaysReadingDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E343945D148544BF006343F4 /* TodaysReadingDataSource.m */; };
-		E343946214860EE3006343F4 /* ReadingPlan.plist in Resources */ = {isa = PBXBuildFile; fileRef = E343946114860EE2006343F4 /* ReadingPlan.plist */; };
-		E372ECBC147EB81C008400D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E372ECBB147EB81C008400D3 /* UIKit.framework */; };
-		E372ECBE147EB81C008400D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E372ECBD147EB81C008400D3 /* Foundation.framework */; };
-		E372ECC0147EB81C008400D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E372ECBF147EB81C008400D3 /* CoreGraphics.framework */; };
-		E372ECC2147EB81C008400D3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E372ECC1147EB81C008400D3 /* CoreData.framework */; };
-		E372ECC8147EB81C008400D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E372ECC6147EB81C008400D3 /* InfoPlist.strings */; };
-		E372ECCA147EB81C008400D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E372ECC9147EB81C008400D3 /* main.m */; };
-		E372ECCE147EB81C008400D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E372ECCD147EB81C008400D3 /* AppDelegate.m */; };
-		E372ECD1147EB81C008400D3 /* FPCBReader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E372ECCF147EB81C008400D3 /* FPCBReader.xcdatamodeld */; };
 		E372ECE9147EB92D008400D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E372ECBB147EB81C008400D3 /* UIKit.framework */; };
 		E372ECEA147EB92E008400D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E372ECBD147EB81C008400D3 /* Foundation.framework */; };
 		E372ECEB147EB92E008400D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E372ECBF147EB81C008400D3 /* CoreGraphics.framework */; };
 		E372ECF1147EB92E008400D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E372ECEF147EB92E008400D3 /* InfoPlist.strings */; };
 		E372ECF3147EB92E008400D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E372ECF2147EB92E008400D3 /* main.m */; };
-		E3BE065F14C3476300E4B642 /* UncachedPassage.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BE065E14C3476300E4B642 /* UncachedPassage.m */; };
 		E3BE066014C3476300E4B642 /* UncachedPassage.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BE065E14C3476300E4B642 /* UncachedPassage.m */; };
 		E3BE066214C3477900E4B642 /* UncachedPassageSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = E3BE066114C3477900E4B642 /* UncachedPassageSpec.mm */; };
 		E3CB81C6148729B80073AD87 /* NextUnread_ReadingViewControllerSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = E3CB81C5148729B80073AD87 /* NextUnread_ReadingViewControllerSpec.mm */; };
-		E3CB81C9148729F80073AD87 /* NextUnreadReadingDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CB81C8148729F70073AD87 /* NextUnreadReadingDataSource.m */; };
 		E3CB81CA148729F80073AD87 /* NextUnreadReadingDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CB81C8148729F70073AD87 /* NextUnreadReadingDataSource.m */; };
 		E3CB81CD1487E2740073AD87 /* UIPageViewController+Spec.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CB81CC1487E2740073AD87 /* UIPageViewController+Spec.m */; };
-		E3CB81F6148B25B10073AD87 /* AllReadingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CB81F4148B25B10073AD87 /* AllReadingsTableViewController.m */; };
 		E3CB81F7148B25B10073AD87 /* AllReadingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CB81F4148B25B10073AD87 /* AllReadingsTableViewController.m */; };
-		E3CB81F8148B25B10073AD87 /* AllReadingsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3CB81F5148B25B10073AD87 /* AllReadingsTableViewController.xib */; };
 		E3CB81F9148B25B10073AD87 /* AllReadingsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3CB81F5148B25B10073AD87 /* AllReadingsTableViewController.xib */; };
-		E3CB8200148B278E0073AD87 /* ReadingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CB81FF148B278D0073AD87 /* ReadingCell.m */; };
 		E3CB8201148B278E0073AD87 /* ReadingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CB81FF148B278D0073AD87 /* ReadingCell.m */; };
-		E3CB8206148B285B0073AD87 /* ReadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3CB8205148B285B0073AD87 /* ReadingCell.xib */; };
 		E3CB8207148B285B0073AD87 /* ReadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3CB8205148B285B0073AD87 /* ReadingCell.xib */; };
 		E3CB8209148B2B840073AD87 /* AllReadingsTableViewControllerSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = E3CB8208148B2B840073AD87 /* AllReadingsTableViewControllerSpec.mm */; };
-		E3CB820C148B30E40073AD87 /* NavigationReadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CB820B148B30E30073AD87 /* NavigationReadingViewController.m */; };
 		E3CB820D148B30E40073AD87 /* NavigationReadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CB820B148B30E30073AD87 /* NavigationReadingViewController.m */; };
-		E3CB8210148B40E10073AD87 /* SpecificReadingDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CB820F148B40E10073AD87 /* SpecificReadingDataSource.m */; };
 		E3CB8211148B40E10073AD87 /* SpecificReadingDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CB820F148B40E10073AD87 /* SpecificReadingDataSource.m */; };
-		E3CB8214148BCC480073AD87 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CB8213148BCC480073AD87 /* Settings.m */; };
 		E3CB8215148BCC480073AD87 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CB8213148BCC480073AD87 /* Settings.m */; };
-		E3CB8219148BCD590073AD87 /* SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CB8217148BCD580073AD87 /* SettingsController.m */; };
 		E3CB821A148BCD590073AD87 /* SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CB8217148BCD580073AD87 /* SettingsController.m */; };
-		E3CB821B148BCD590073AD87 /* SettingsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3CB8218148BCD580073AD87 /* SettingsController.xib */; };
 		E3CB821C148BCD590073AD87 /* SettingsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3CB8218148BCD580073AD87 /* SettingsController.xib */; };
-		E3CB8221148BDB5E0073AD87 /* Read.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB821D148BDB5E0073AD87 /* Read.png */; };
 		E3CB8222148BDB5E0073AD87 /* Read.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB821D148BDB5E0073AD87 /* Read.png */; };
-		E3CB8223148BDB5E0073AD87 /* Read@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB821E148BDB5E0073AD87 /* Read@2x.png */; };
 		E3CB8224148BDB5E0073AD87 /* Read@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB821E148BDB5E0073AD87 /* Read@2x.png */; };
-		E3CB8225148BDB5E0073AD87 /* Unread.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB821F148BDB5E0073AD87 /* Unread.png */; };
 		E3CB8226148BDB5E0073AD87 /* Unread.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB821F148BDB5E0073AD87 /* Unread.png */; };
-		E3CB8227148BDB5E0073AD87 /* Unread@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB8220148BDB5E0073AD87 /* Unread@2x.png */; };
 		E3CB8228148BDB5E0073AD87 /* Unread@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB8220148BDB5E0073AD87 /* Unread@2x.png */; };
-		E3CB822B148BF1DE0073AD87 /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB8229148BF1DE0073AD87 /* Settings.png */; };
 		E3CB822C148BF1DE0073AD87 /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB8229148BF1DE0073AD87 /* Settings.png */; };
-		E3CB822D148BF1DE0073AD87 /* Settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB822A148BF1DE0073AD87 /* Settings@2x.png */; };
 		E3CB822E148BF1DE0073AD87 /* Settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB822A148BF1DE0073AD87 /* Settings@2x.png */; };
-		E3CB8231148BF3330073AD87 /* UnreadTab.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB822F148BF3330073AD87 /* UnreadTab.png */; };
 		E3CB8232148BF3330073AD87 /* UnreadTab.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB822F148BF3330073AD87 /* UnreadTab.png */; };
-		E3CB8233148BF3330073AD87 /* UnreadTab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB8230148BF3330073AD87 /* UnreadTab@2x.png */; };
 		E3CB8234148BF3330073AD87 /* UnreadTab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB8230148BF3330073AD87 /* UnreadTab@2x.png */; };
-		E3CB8237148BF5550073AD87 /* All.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB8235148BF5550073AD87 /* All.png */; };
 		E3CB8238148BF5550073AD87 /* All.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB8235148BF5550073AD87 /* All.png */; };
-		E3CB8239148BF5550073AD87 /* All@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB8236148BF5550073AD87 /* All@2x.png */; };
 		E3CB823A148BF5550073AD87 /* All@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB8236148BF5550073AD87 /* All@2x.png */; };
-		E3CB8243148C032C0073AD87 /* Back.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB8241148C032C0073AD87 /* Back.png */; };
 		E3CB8244148C032C0073AD87 /* Back.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB8241148C032C0073AD87 /* Back.png */; };
-		E3CB8245148C032C0073AD87 /* Back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB8242148C032C0073AD87 /* Back@2x.png */; };
 		E3CB8246148C032C0073AD87 /* Back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB8242148C032C0073AD87 /* Back@2x.png */; };
-		E3CB824F148C0BC20073AD87 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB824D148C0BC20073AD87 /* Icon.png */; };
 		E3CB8250148C0BC20073AD87 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CB824D148C0BC20073AD87 /* Icon.png */; };
 		E3E8DB67147EBE5F005DC2FE /* Cedar-iPhone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E8DB66147EBE5F005DC2FE /* Cedar-iPhone.framework */; };
 		E3E8DB71147ED0A6005DC2FE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E372ECC1147EB81C008400D3 /* CoreData.framework */; };
 		E3E8DB74147ED119005DC2FE /* SpecEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E8DB73147ED119005DC2FE /* SpecEnvironment.m */; };
 		E3E8DB79148043E6005DC2FE /* FPCBReader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E372ECCF147EB81C008400D3 /* FPCBReader.xcdatamodeld */; };
-		E3E8DB7E148044CF005DC2FE /* CachedPassage.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E8DB7D148044CF005DC2FE /* CachedPassage.m */; };
 		E3E8DB7F148044CF005DC2FE /* CachedPassage.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E8DB7D148044CF005DC2FE /* CachedPassage.m */; };
-		E3E8DB84148044D9005DC2FE /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E8DB81148044D9005DC2FE /* DataManager.m */; };
 		E3E8DB85148044D9005DC2FE /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E8DB81148044D9005DC2FE /* DataManager.m */; };
-		E3E8DB86148044D9005DC2FE /* Reader.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E8DB83148044D9005DC2FE /* Reader.m */; };
 		E3E8DB87148044D9005DC2FE /* Reader.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E8DB83148044D9005DC2FE /* Reader.m */; };
-		E3F25F36149B070A00D5602C /* ReaderSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F25F35149B070A00D5602C /* ReaderSplitViewController.m */; };
 		E3F25F37149B070A00D5602C /* ReaderSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F25F35149B070A00D5602C /* ReaderSplitViewController.m */; };
-		E3F25F3B149B07F800D5602C /* DetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F25F39149B07F800D5602C /* DetailController.m */; };
 		E3F25F3C149B07F800D5602C /* DetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F25F39149B07F800D5602C /* DetailController.m */; };
-		E3F25F3D149B07F800D5602C /* DetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3F25F3A149B07F800D5602C /* DetailController.xib */; };
 		E3F25F3E149B07F800D5602C /* DetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3F25F3A149B07F800D5602C /* DetailController.xib */; };
-		E3F25F42149B080800D5602C /* MasterController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F25F40149B080800D5602C /* MasterController.m */; };
 		E3F25F43149B080800D5602C /* MasterController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F25F40149B080800D5602C /* MasterController.m */; };
-		E3F25F44149B080800D5602C /* MasterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3F25F41149B080800D5602C /* MasterController.xib */; };
 		E3F25F45149B080800D5602C /* MasterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3F25F41149B080800D5602C /* MasterController.xib */; };
 /* End PBXBuildFile section */
 
@@ -281,6 +281,8 @@
 		E307B62B149DCEF300799029 /* font_size_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = font_size_white.png; sourceTree = "<group>"; };
 		E307B62C149DCEF300799029 /* font_size_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "font_size_white@2x.png"; sourceTree = "<group>"; };
 		E31CFEF914804A2A0004377F /* CachedPassageSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CachedPassageSpec.mm; sourceTree = "<group>"; };
+		E320955D14D259FF00B83CDE /* fpcbreader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fpcbreader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E320955F14D259FF00B83CDE /* fpcbreader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "fpcbreader-Info.plist"; path = "/Users/onsi/Documents/Development/FPCBReader/fpcbreader-Info.plist"; sourceTree = "<absolute>"; };
 		E3225DAA149E6A3C005984FB /* today_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = today_black.png; sourceTree = "<group>"; };
 		E3225DAB149E6A3C005984FB /* today_black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "today_black@2x.png"; sourceTree = "<group>"; };
 		E3225DAC149E6A3C005984FB /* today_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = today_white.png; sourceTree = "<group>"; };
@@ -313,12 +315,10 @@
 		E343945D148544BF006343F4 /* TodaysReadingDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodaysReadingDataSource.m; sourceTree = "<group>"; };
 		E34394601485C9E3006343F4 /* ReadingDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadingDataSource.h; sourceTree = "<group>"; };
 		E343946114860EE2006343F4 /* ReadingPlan.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ReadingPlan.plist; sourceTree = "<group>"; };
-		E372ECB7147EB81C008400D3 /* FPCBReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FPCBReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E372ECBB147EB81C008400D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E372ECBD147EB81C008400D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E372ECBF147EB81C008400D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		E372ECC1147EB81C008400D3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		E372ECC5147EB81C008400D3 /* FPCBReader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FPCBReader-Info.plist"; sourceTree = "<group>"; };
 		E372ECC7147EB81C008400D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E372ECC9147EB81C008400D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E372ECCB147EB81C008400D3 /* FPCBReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FPCBReader-Prefix.pch"; sourceTree = "<group>"; };
@@ -388,14 +388,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E372ECB4147EB81C008400D3 /* Frameworks */ = {
+		E320952614D259FF00B83CDE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E372ECBC147EB81C008400D3 /* UIKit.framework in Frameworks */,
-				E372ECBE147EB81C008400D3 /* Foundation.framework in Frameworks */,
-				E372ECC0147EB81C008400D3 /* CoreGraphics.framework in Frameworks */,
-				E372ECC2147EB81C008400D3 /* CoreData.framework in Frameworks */,
+				E320952714D259FF00B83CDE /* UIKit.framework in Frameworks */,
+				E320952814D259FF00B83CDE /* Foundation.framework in Frameworks */,
+				E320952914D259FF00B83CDE /* CoreGraphics.framework in Frameworks */,
+				E320952A14D259FF00B83CDE /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,14 +515,15 @@
 				E372ECBA147EB81C008400D3 /* Frameworks */,
 				E372ECB8147EB81C008400D3 /* Products */,
 				E3E8DB63147EBD79005DC2FE /* Externals */,
+				E320955F14D259FF00B83CDE /* fpcbreader-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
 		E372ECB8147EB81C008400D3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E372ECB7147EB81C008400D3 /* FPCBReader.app */,
 				E372ECE7147EB92D008400D3 /* UISpecs.app */,
+				E320955D14D259FF00B83CDE /* fpcbreader.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -553,7 +554,6 @@
 		E372ECC4147EB81C008400D3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E372ECC5147EB81C008400D3 /* FPCBReader-Info.plist */,
 				E372ECC6147EB81C008400D3 /* InfoPlist.strings */,
 				E372ECC9147EB81C008400D3 /* main.m */,
 				E372ECCB147EB81C008400D3 /* FPCBReader-Prefix.pch */,
@@ -698,21 +698,21 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E372ECB6147EB81C008400D3 /* FPCBReader */ = {
+		E320950E14D259FF00B83CDE /* fpcbreader */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E372ECD4147EB81C008400D3 /* Build configuration list for PBXNativeTarget "FPCBReader" */;
+			buildConfigurationList = E320955814D259FF00B83CDE /* Build configuration list for PBXNativeTarget "fpcbreader" */;
 			buildPhases = (
-				E372ECB3147EB81C008400D3 /* Sources */,
-				E372ECB4147EB81C008400D3 /* Frameworks */,
-				E372ECB5147EB81C008400D3 /* Resources */,
+				E320950F14D259FF00B83CDE /* Sources */,
+				E320952614D259FF00B83CDE /* Frameworks */,
+				E320952B14D259FF00B83CDE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = FPCBReader;
+			name = fpcbreader;
 			productName = FPCBReader;
-			productReference = E372ECB7147EB81C008400D3 /* FPCBReader.app */;
+			productReference = E320955D14D259FF00B83CDE /* fpcbreader.app */;
 			productType = "com.apple.product-type.application";
 		};
 		E372ECE6147EB92D008400D3 /* UISpecs */ = {
@@ -764,7 +764,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				E372ECB6147EB81C008400D3 /* FPCBReader */,
+				E320950E14D259FF00B83CDE /* fpcbreader */,
 				E372ECE6147EB92D008400D3 /* UISpecs */,
 			);
 		};
@@ -872,54 +872,54 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E372ECB5147EB81C008400D3 /* Resources */ = {
+		E320952B14D259FF00B83CDE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E372ECC8147EB81C008400D3 /* InfoPlist.strings in Resources */,
-				E34394531484BD6C006343F4 /* ReadingViewController.xib in Resources */,
-				E343946214860EE3006343F4 /* ReadingPlan.plist in Resources */,
-				E3CB81F8148B25B10073AD87 /* AllReadingsTableViewController.xib in Resources */,
-				E3CB8206148B285B0073AD87 /* ReadingCell.xib in Resources */,
-				E3CB821B148BCD590073AD87 /* SettingsController.xib in Resources */,
-				E3CB8221148BDB5E0073AD87 /* Read.png in Resources */,
-				E3CB8223148BDB5E0073AD87 /* Read@2x.png in Resources */,
-				E3CB8225148BDB5E0073AD87 /* Unread.png in Resources */,
-				E3CB8227148BDB5E0073AD87 /* Unread@2x.png in Resources */,
-				E3CB822B148BF1DE0073AD87 /* Settings.png in Resources */,
-				E3CB822D148BF1DE0073AD87 /* Settings@2x.png in Resources */,
-				E3CB8231148BF3330073AD87 /* UnreadTab.png in Resources */,
-				E3CB8233148BF3330073AD87 /* UnreadTab@2x.png in Resources */,
-				E3CB8237148BF5550073AD87 /* All.png in Resources */,
-				E3CB8239148BF5550073AD87 /* All@2x.png in Resources */,
-				E3CB8243148C032C0073AD87 /* Back.png in Resources */,
-				E3CB8245148C032C0073AD87 /* Back@2x.png in Resources */,
-				E3CB824F148C0BC20073AD87 /* Icon.png in Resources */,
-				E3F25F3D149B07F800D5602C /* DetailController.xib in Resources */,
-				E3F25F44149B080800D5602C /* MasterController.xib in Resources */,
-				E307B61D149DC9AC00799029 /* gradient_bottom_black.png in Resources */,
-				E307B61F149DC9AC00799029 /* gradient_bottom_white.png in Resources */,
-				E307B621149DC9AC00799029 /* gradient_top_black.png in Resources */,
-				E307B623149DC9AC00799029 /* gradient_top_white.png in Resources */,
-				E307B62D149DCEF300799029 /* brightness_black.png in Resources */,
-				E307B62F149DCEF300799029 /* brightness_black@2x.png in Resources */,
-				E307B631149DCEF300799029 /* brightness_white.png in Resources */,
-				E307B633149DCEF300799029 /* brightness_white@2x.png in Resources */,
-				E307B635149DCEF300799029 /* font_size_black.png in Resources */,
-				E307B637149DCEF300799029 /* font_size_black@2x.png in Resources */,
-				E307B639149DCEF300799029 /* font_size_white.png in Resources */,
-				E307B63B149DCEF300799029 /* font_size_white@2x.png in Resources */,
-				E3225DAE149E6A3C005984FB /* today_black.png in Resources */,
-				E3225DB0149E6A3C005984FB /* today_black@2x.png in Resources */,
-				E3225DB2149E6A3C005984FB /* today_white.png in Resources */,
-				E3225DB4149E6A3C005984FB /* today_white@2xpng.png in Resources */,
-				E3225DB8149E6A61005984FB /* Today.png in Resources */,
-				E3225DBA149E6A61005984FB /* Today@2x.png in Resources */,
-				E3225DBD149E6CD0005984FB /* Icon@2x.png in Resources */,
-				E3225DC0149E6D15005984FB /* Icon-72.png in Resources */,
-				E3225DCB149E70BC005984FB /* Default-Landscape~ipad.png in Resources */,
-				E3225DCD149E70BC005984FB /* Default@2x~iphone.png in Resources */,
-				E3225DCF149E70BC005984FB /* Default~iphone.png in Resources */,
+				E320952C14D259FF00B83CDE /* InfoPlist.strings in Resources */,
+				E320952D14D259FF00B83CDE /* ReadingViewController.xib in Resources */,
+				E320952E14D259FF00B83CDE /* ReadingPlan.plist in Resources */,
+				E320952F14D259FF00B83CDE /* AllReadingsTableViewController.xib in Resources */,
+				E320953014D259FF00B83CDE /* ReadingCell.xib in Resources */,
+				E320953114D259FF00B83CDE /* SettingsController.xib in Resources */,
+				E320953214D259FF00B83CDE /* Read.png in Resources */,
+				E320953314D259FF00B83CDE /* Read@2x.png in Resources */,
+				E320953414D259FF00B83CDE /* Unread.png in Resources */,
+				E320953514D259FF00B83CDE /* Unread@2x.png in Resources */,
+				E320953614D259FF00B83CDE /* Settings.png in Resources */,
+				E320953714D259FF00B83CDE /* Settings@2x.png in Resources */,
+				E320953814D259FF00B83CDE /* UnreadTab.png in Resources */,
+				E320953914D259FF00B83CDE /* UnreadTab@2x.png in Resources */,
+				E320953A14D259FF00B83CDE /* All.png in Resources */,
+				E320953B14D259FF00B83CDE /* All@2x.png in Resources */,
+				E320953C14D259FF00B83CDE /* Back.png in Resources */,
+				E320953D14D259FF00B83CDE /* Back@2x.png in Resources */,
+				E320953E14D259FF00B83CDE /* Icon.png in Resources */,
+				E320953F14D259FF00B83CDE /* DetailController.xib in Resources */,
+				E320954014D259FF00B83CDE /* MasterController.xib in Resources */,
+				E320954114D259FF00B83CDE /* gradient_bottom_black.png in Resources */,
+				E320954214D259FF00B83CDE /* gradient_bottom_white.png in Resources */,
+				E320954314D259FF00B83CDE /* gradient_top_black.png in Resources */,
+				E320954414D259FF00B83CDE /* gradient_top_white.png in Resources */,
+				E320954514D259FF00B83CDE /* brightness_black.png in Resources */,
+				E320954614D259FF00B83CDE /* brightness_black@2x.png in Resources */,
+				E320954714D259FF00B83CDE /* brightness_white.png in Resources */,
+				E320954814D259FF00B83CDE /* brightness_white@2x.png in Resources */,
+				E320954914D259FF00B83CDE /* font_size_black.png in Resources */,
+				E320954A14D259FF00B83CDE /* font_size_black@2x.png in Resources */,
+				E320954B14D259FF00B83CDE /* font_size_white.png in Resources */,
+				E320954C14D259FF00B83CDE /* font_size_white@2x.png in Resources */,
+				E320954D14D259FF00B83CDE /* today_black.png in Resources */,
+				E320954E14D259FF00B83CDE /* today_black@2x.png in Resources */,
+				E320954F14D259FF00B83CDE /* today_white.png in Resources */,
+				E320955014D259FF00B83CDE /* today_white@2xpng.png in Resources */,
+				E320955114D259FF00B83CDE /* Today.png in Resources */,
+				E320955214D259FF00B83CDE /* Today@2x.png in Resources */,
+				E320955314D259FF00B83CDE /* Icon@2x.png in Resources */,
+				E320955414D259FF00B83CDE /* Icon-72.png in Resources */,
+				E320955514D259FF00B83CDE /* Default-Landscape~ipad.png in Resources */,
+				E320955614D259FF00B83CDE /* Default@2x~iphone.png in Resources */,
+				E320955714D259FF00B83CDE /* Default~iphone.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -976,32 +976,32 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E372ECB3147EB81C008400D3 /* Sources */ = {
+		E320950F14D259FF00B83CDE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E372ECCA147EB81C008400D3 /* main.m in Sources */,
-				E372ECCE147EB81C008400D3 /* AppDelegate.m in Sources */,
-				E372ECD1147EB81C008400D3 /* FPCBReader.xcdatamodeld in Sources */,
-				E3E8DB7E148044CF005DC2FE /* CachedPassage.m in Sources */,
-				E3E8DB84148044D9005DC2FE /* DataManager.m in Sources */,
-				E3E8DB86148044D9005DC2FE /* Reader.m in Sources */,
-				E343943614836338006343F4 /* Reading.m in Sources */,
-				E343943D1484AE16006343F4 /* NSDate+FPCBReader.m in Sources */,
-				E34394451484BB3D006343F4 /* ReaderTabBarController.m in Sources */,
-				E343945714853F8F006343F4 /* ReadingViewController.m in Sources */,
-				E343945E148544BF006343F4 /* TodaysReadingDataSource.m in Sources */,
-				E3CB81C9148729F80073AD87 /* NextUnreadReadingDataSource.m in Sources */,
-				E3CB81F6148B25B10073AD87 /* AllReadingsTableViewController.m in Sources */,
-				E3CB8200148B278E0073AD87 /* ReadingCell.m in Sources */,
-				E3CB820C148B30E40073AD87 /* NavigationReadingViewController.m in Sources */,
-				E3CB8210148B40E10073AD87 /* SpecificReadingDataSource.m in Sources */,
-				E3CB8214148BCC480073AD87 /* Settings.m in Sources */,
-				E3CB8219148BCD590073AD87 /* SettingsController.m in Sources */,
-				E3F25F36149B070A00D5602C /* ReaderSplitViewController.m in Sources */,
-				E3F25F3B149B07F800D5602C /* DetailController.m in Sources */,
-				E3F25F42149B080800D5602C /* MasterController.m in Sources */,
-				E3BE065F14C3476300E4B642 /* UncachedPassage.m in Sources */,
+				E320951014D259FF00B83CDE /* main.m in Sources */,
+				E320951114D259FF00B83CDE /* AppDelegate.m in Sources */,
+				E320951214D259FF00B83CDE /* FPCBReader.xcdatamodeld in Sources */,
+				E320951314D259FF00B83CDE /* CachedPassage.m in Sources */,
+				E320951414D259FF00B83CDE /* DataManager.m in Sources */,
+				E320951514D259FF00B83CDE /* Reader.m in Sources */,
+				E320951614D259FF00B83CDE /* Reading.m in Sources */,
+				E320951714D259FF00B83CDE /* NSDate+FPCBReader.m in Sources */,
+				E320951814D259FF00B83CDE /* ReaderTabBarController.m in Sources */,
+				E320951914D259FF00B83CDE /* ReadingViewController.m in Sources */,
+				E320951A14D259FF00B83CDE /* TodaysReadingDataSource.m in Sources */,
+				E320951B14D259FF00B83CDE /* NextUnreadReadingDataSource.m in Sources */,
+				E320951C14D259FF00B83CDE /* AllReadingsTableViewController.m in Sources */,
+				E320951D14D259FF00B83CDE /* ReadingCell.m in Sources */,
+				E320951E14D259FF00B83CDE /* NavigationReadingViewController.m in Sources */,
+				E320951F14D259FF00B83CDE /* SpecificReadingDataSource.m in Sources */,
+				E320952014D259FF00B83CDE /* Settings.m in Sources */,
+				E320952114D259FF00B83CDE /* SettingsController.m in Sources */,
+				E320952214D259FF00B83CDE /* ReaderSplitViewController.m in Sources */,
+				E320952314D259FF00B83CDE /* DetailController.m in Sources */,
+				E320952414D259FF00B83CDE /* MasterController.m in Sources */,
+				E320952514D259FF00B83CDE /* UncachedPassage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1073,6 +1073,111 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		E32094B814D2586600B83CDE /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		E32094BA14D2586600B83CDE /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Externals/Cedar/build/Debug-iphoneuniversal\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UISpecs/UISpecs-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Externals/PivotalCoreKit/SpecHelperLib/**";
+				INFOPLIST_FILE = "UISpecs/UISpecs-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+		E320955914D259FF00B83CDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Onsi Fakhouri (QSWP6JN529)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Onsi Fakhouri (QSWP6JN529)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FPCBReader/FPCBReader-Prefix.pch";
+				INFOPLIST_FILE = "fpcbreader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = fpcbreader;
+				PROVISIONING_PROFILE = "B42891A8-5FEC-420B-A720-E35BC2A24369";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B42891A8-5FEC-420B-A720-E35BC2A24369";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E320955A14D259FF00B83CDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Onsi Fakhouri (QSWP6JN529)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Onsi Fakhouri (QSWP6JN529)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FPCBReader/FPCBReader-Prefix.pch";
+				INFOPLIST_FILE = "fpcbreader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = fpcbreader;
+				PROVISIONING_PROFILE = "B42891A8-5FEC-420B-A720-E35BC2A24369";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B42891A8-5FEC-420B-A720-E35BC2A24369";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E320955B14D259FF00B83CDE /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: First Presbyterian Church of Berkeley";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: First Presbyterian Church of Berkeley";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FPCBReader/FPCBReader-Prefix.pch";
+				INFOPLIST_FILE = "fpcbreader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = fpcbreader;
+				PROVISIONING_PROFILE = "AC8D3CB8-CF70-4076-8814-C599AFE8B4E0";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "AC8D3CB8-CF70-4076-8814-C599AFE8B4E0";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+		E320955C14D259FF00B83CDE /* Test Flight */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: First Presbyterian Church of Berkeley";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: First Presbyterian Church of Berkeley";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FPCBReader/FPCBReader-Prefix.pch";
+				INFOPLIST_FILE = "fpcbreader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = fpcbreader;
+				PROVISIONING_PROFILE = "F2686A64-791B-41B2-A892-367F88A3C8D3";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F2686A64-791B-41B2-A892-367F88A3C8D3";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Test Flight";
+		};
 		E372ECD2147EB81C008400D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1118,30 +1223,6 @@
 			};
 			name = Release;
 		};
-		E372ECD5147EB81C008400D3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FPCBReader/FPCBReader-Prefix.pch";
-				INFOPLIST_FILE = "FPCBReader/FPCBReader-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		E372ECD6147EB81C008400D3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FPCBReader/FPCBReader-Prefix.pch";
-				INFOPLIST_FILE = "FPCBReader/FPCBReader-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
 		E372ECF9147EB92E008400D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1184,7 +1265,7 @@
 			};
 			name = Release;
 		};
-		E373376D1499AE7800A2DA83 /* Ad Hoc */ = {
+		E373376D1499AE7800A2DA83 /* Test Flight */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1205,23 +1286,9 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
-			name = "Ad Hoc";
+			name = "Test Flight";
 		};
-		E373376E1499AE7800A2DA83 /* Ad Hoc */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Onsi Fakhouri";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FPCBReader/FPCBReader-Prefix.pch";
-				INFOPLIST_FILE = "FPCBReader/FPCBReader-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "27F2673A-C2CF-478B-89D4-C8B33E431028";
-				WRAPPER_EXTENSION = app;
-			};
-			name = "Ad Hoc";
-		};
-		E373376F1499AE7800A2DA83 /* Ad Hoc */ = {
+		E373376F1499AE7800A2DA83 /* Test Flight */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -1240,27 +1307,29 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
-			name = "Ad Hoc";
+			name = "Test Flight";
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E320955814D259FF00B83CDE /* Build configuration list for PBXNativeTarget "fpcbreader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E320955914D259FF00B83CDE /* Debug */,
+				E320955A14D259FF00B83CDE /* Release */,
+				E320955B14D259FF00B83CDE /* Distribution */,
+				E320955C14D259FF00B83CDE /* Test Flight */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E372ECB1147EB81C008400D3 /* Build configuration list for PBXProject "FPCBReader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E372ECD2147EB81C008400D3 /* Debug */,
 				E372ECD3147EB81C008400D3 /* Release */,
-				E373376D1499AE7800A2DA83 /* Ad Hoc */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E372ECD4147EB81C008400D3 /* Build configuration list for PBXNativeTarget "FPCBReader" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E372ECD5147EB81C008400D3 /* Debug */,
-				E372ECD6147EB81C008400D3 /* Release */,
-				E373376E1499AE7800A2DA83 /* Ad Hoc */,
+				E32094B814D2586600B83CDE /* Distribution */,
+				E373376D1499AE7800A2DA83 /* Test Flight */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1270,7 +1339,8 @@
 			buildConfigurations = (
 				E372ECF9147EB92E008400D3 /* Debug */,
 				E372ECFA147EB92E008400D3 /* Release */,
-				E373376F1499AE7800A2DA83 /* Ad Hoc */,
+				E32094BA14D2586600B83CDE /* Distribution */,
+				E373376F1499AE7800A2DA83 /* Test Flight */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

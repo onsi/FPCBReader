@@ -13,7 +13,7 @@
 		<string>Icon</string>
 	</array>
 	<key>CFBundleIdentifier</key>
-	<string>com.onsijoe.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>org.fpcberkeley.${PRODUCT_NAME:rfc1034identifier}</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
