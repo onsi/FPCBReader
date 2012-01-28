@@ -2,10 +2,10 @@
 <archive type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="8.00">
 	<data>
 		<int key="IBDocument.SystemTarget">1280</int>
-		<string key="IBDocument.SystemVersion">11B26</string>
+		<string key="IBDocument.SystemVersion">11C74</string>
 		<string key="IBDocument.InterfaceBuilderVersion">1938</string>
-		<string key="IBDocument.AppKitVersion">1138</string>
-		<string key="IBDocument.HIToolboxVersion">566.00</string>
+		<string key="IBDocument.AppKitVersion">1138.23</string>
+		<string key="IBDocument.HIToolboxVersion">567.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 			<string key="NS.object.0">933</string>
@@ -44,7 +44,7 @@
 							<object class="IBUILabel" id="71113186">
 								<reference key="NSNextResponder" ref="348085389"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{43, 10}, {273, 24}}</string>
+								<string key="NSFrame">{{52, 10}, {217, 24}}</string>
 								<reference key="NSSuperview" ref="348085389"/>
 								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="909702492"/>
@@ -80,7 +80,7 @@
 							<object class="IBUILabel" id="909702492">
 								<reference key="NSNextResponder" ref="348085389"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{43, 29}, {273, 21}}</string>
+								<string key="NSFrame">{{52, 29}, {224, 21}}</string>
 								<reference key="NSSuperview" ref="348085389"/>
 								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="287943851"/>
@@ -114,7 +114,7 @@
 							<object class="IBUIButton" id="371538323">
 								<reference key="NSNextResponder" ref="348085389"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{4, 11}, {35, 35}}</string>
+								<string key="NSFrameSize">{51, 59}</string>
 								<reference key="NSSuperview" ref="348085389"/>
 								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="71113186"/>
@@ -152,7 +152,6 @@
 								<string key="NSFrame">{{277, 11}, {35, 35}}</string>
 								<reference key="NSSuperview" ref="348085389"/>
 								<reference key="NSWindow"/>
-								<reference key="NSNextKeyView"/>
 								<string key="NSReuseIdentifierKey">_NS:567</string>
 								<bool key="IBUIOpaque">NO</bool>
 								<float key="IBUIAlpha">0.5</float>

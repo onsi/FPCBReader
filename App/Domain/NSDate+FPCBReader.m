@@ -11,7 +11,7 @@
 }
 
 - (NSString *)readerFormat {
-    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    NSDateFormatter *formatter = [[[NSDateFormatter alloc] init] autorelease];
     [formatter setFormatterBehavior:NSDateFormatterBehavior10_4];
     [formatter setDateStyle:NSDateFormatterLongStyle];
     [formatter setTimeStyle:NSDateFormatterNoStyle];
